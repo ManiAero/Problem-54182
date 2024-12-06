@@ -1,0 +1,22 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_8_For_11147_Add_TEST_Param",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_8_For_11148_Instrumentation_vue_suivi",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_8_For_11194_TestSuite_Bug_NTdll_popup_fermeture_Cwork",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_8_For_10929_CAPI_Remplacement_etat_courant",
+    "RunConfig": "TestRun"
+  }
+]

@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<ProjectGuid>{31EA8C6C-0E81-458E-ACA6-D8754E016706}</ProjectGuid>
+		<TargetFrameworkProfile></TargetFrameworkProfile>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		<Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+		<OutputType>Exe</OutputType>
+		<RootNamespace>Sprint9_6_1</RootNamespace>
+		<AssemblyName>Sprint9_6_1</AssemblyName>
+		<NoWarn>1591</NoWarn>
+		<TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+		<RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+		<RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+		<projectdefaultrepository>ce4ac514-b957-481f-a3c0-1b1f29a67097</projectdefaultrepository>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+		<PlatformTarget>x86</PlatformTarget>
+		<Prefer32Bit>True</Prefer32Bit>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+		<OutputPath>bin\Debug\</OutputPath>
+		<DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+		<DebugSymbols>True</DebugSymbols>
+		<DebugType>Full</DebugType>
+		<Optimize>False</Optimize>
+		<CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+		<DefineConstants>DEBUG;TRACE</DefineConstants>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+		<OutputPath>bin\Release\</OutputPath>
+		<DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+		<DebugSymbols>False</DebugSymbols>
+		<DebugType>None</DebugType>
+		<Optimize>True</Optimize>
+		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+		<DefineConstants>TRACE</DefineConstants>
+	</PropertyGroup>
+	<ItemGroup>
+		<Reference Include="Ranorex.Bootstrapper">
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Ranorex.Core">
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Ranorex.Core.Resolver">
+			<Private>True</Private>
+		</Reference>
+		<Reference Include="Ranorex.Plugin.Cef">
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Ranorex.Plugin.ChromeWeb">
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Ranorex.Plugin.Delphi">
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Ranorex.Plugin.FirefoxWeb">
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Ranorex.Plugin.Flex">
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Ranorex.Plugin.Java">
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Ranorex.Plugin.Mobile">
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Ranorex.Plugin.Msaa">
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Ranorex.Plugin.Office">
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Ranorex.Plugin.Qt">
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Ranorex.Plugin.RawText">
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Ranorex.Plugin.Sap">
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Ranorex.Plugin.Uia">
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Ranorex.Plugin.Web">
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Ranorex.Plugin.WebDriver">
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Ranorex.Plugin.Win32">
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Ranorex.Plugin.WinForms">
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Ranorex.Plugin.WinForms.Core">
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Ranorex.Plugin.Wpf">
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Ranorex.Plugin.Wpf.Core">
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="System"></Reference>
+		<Reference Include="System.Core">
+			<RequiredTargetFramework>3.5</RequiredTargetFramework>
+		</Reference>
+		<Reference Include="System.Data"></Reference>
+		<Reference Include="System.Data.DataSetExtensions">
+			<RequiredTargetFramework>3.5</RequiredTargetFramework>
+		</Reference>
+		<Reference Include="System.Drawing"></Reference>
+		<Reference Include="System.Windows.Forms"></Reference>
+		<Reference Include="System.Xml"></Reference>
+		<Reference Include="System.Xml.Linq">
+			<RequiredTargetFramework>3.5</RequiredTargetFramework>
+		</Reference>
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="AplyStateChanged.cs">
+			<BoundTo>37e59873-ed58-4ffd-8de0-88dc252af14c</BoundTo>
+			<DependentUpon>AplyStateChanged.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>d8744d83-3647-47c1-a255-142f60feeab8</id>
+		</Compile>
+		<Compile Include="AplyStateChanged.UserCode.cs">
+			<BoundTo>37e59873-ed58-4ffd-8de0-88dc252af14c</BoundTo>
+			<DependentUpon>AplyStateChanged.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>93909029-356b-446e-b771-62a95e854813</id>
+		</Compile>
+		<Compile Include="ArchivedFile.cs">
+			<BoundTo>a98e65be-2da4-4956-8d47-2d33870e20fa</BoundTo>
+			<DependentUpon>ArchivedFile.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>66ec1a03-61c1-40cc-bf06-0beb6bc481df</id>
+		</Compile>
+		<Compile Include="ArchivedFile.UserCode.cs">
+			<BoundTo>a98e65be-2da4-4956-8d47-2d33870e20fa</BoundTo>
+			<DependentUpon>ArchivedFile.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>d1107a4c-b3b4-4090-95d9-eca4b33265bf</id>
+		</Compile>
+		<Compile Include="AssemblyInfo.cs">
+			<id>2b05fe03-9b21-4d4d-9b7b-3538d199822d</id>
+		</Compile>
+		<Compile Include="CompFile.cs">
+			<BoundTo>2d9b6d0d-0a98-498f-ab01-4148af9f79e8</BoundTo>
+			<DependentUpon>CompFile.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>3c2dd414-5687-4597-9323-3f8793f06d82</id>
+		</Compile>
+		<Compile Include="CompFile.UserCode.cs">
+			<BoundTo>2d9b6d0d-0a98-498f-ab01-4148af9f79e8</BoundTo>
+			<DependentUpon>CompFile.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>d0d17ce9-7b30-48cb-80a1-ebd073327938</id>
+		</Compile>
+		<Compile Include="CompFiles.cs">
+			<BoundTo>cc9cd047-e0cd-46c8-9986-926b0c343be2</BoundTo>
+			<DependentUpon>CompFiles.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>ce0639aa-d9f2-4709-9842-5d1e5326424e</id>
+		</Compile>
+		<Compile Include="CompFiles.UserCode.cs">
+			<BoundTo>cc9cd047-e0cd-46c8-9986-926b0c343be2</BoundTo>
+			<DependentUpon>CompFiles.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>94832b34-e84d-4bc2-9996-8958bb592632</id>
+		</Compile>
+		<Compile Include="ConfigAdminSMS.cs">
+			<BoundTo>60b7086a-b84e-4c0a-a770-a13922292ef9</BoundTo>
+			<DependentUpon>ConfigAdminSMS.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>34635a85-e8ba-4f3f-81ab-b7362c0f1592</id>
+		</Compile>
+		<Compile Include="ConfigAdminSMS.UserCode.cs">
+			<BoundTo>60b7086a-b84e-4c0a-a770-a13922292ef9</BoundTo>
+			<DependentUpon>ConfigAdminSMS.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>81a5f5d0-bd6a-46d6-ab53-41e4be24fb2a</id>
+		</Compile>
+		<Compile Include="ConfigSendSMSsStateChange.cs">
+			<BoundTo>ce08d757-67a4-4e9c-ae09-60e36a0f96e0</BoundTo>
+			<DependentUpon>ConfigSendSMSsStateChange.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>b66456d7-59d1-4d2c-a0b9-208b4bb60526</id>
+		</Compile>
+		<Compile Include="ConfigSendSMSsStateChange.UserCode.cs">
+			<BoundTo>ce08d757-67a4-4e9c-ae09-60e36a0f96e0</BoundTo>
+			<DependentUpon>ConfigSendSMSsStateChange.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>30f92500-44e2-489e-95ab-49ba1ae1eb74</id>
+		</Compile>
+		<Compile Include="EnvoieSMSdepuisPref.cs">
+			<BoundTo>0d1df120-86f4-46f7-9fc8-9778365ea0bf</BoundTo>
+			<DependentUpon>EnvoieSMSdepuisPref.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>a70e49c7-e02b-482f-8ac2-4f3400df61bb</id>
+		</Compile>
+		<Compile Include="EnvoieSMSdepuisPref.UserCode.cs">
+			<BoundTo>0d1df120-86f4-46f7-9fc8-9778365ea0bf</BoundTo>
+			<DependentUpon>EnvoieSMSdepuisPref.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>e9c395d3-abb0-4acd-b411-d8fc7931a303</id>
+		</Compile>
+		<Compile Include="CreateAlias.cs">
+			<BoundTo>03672e67-b9de-42b7-83cd-a40eb7bfa51e</BoundTo>
+			<DependentUpon>CreateAlias.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>f41820a1-7cec-405c-bb57-a7c7a5d5d18a</id>
+		</Compile>
+		<Compile Include="CreateAlias.UserCode.cs">
+			<BoundTo>03672e67-b9de-42b7-83cd-a40eb7bfa51e</BoundTo>
+			<DependentUpon>CreateAlias.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>0b4cf794-f50a-438c-851f-5429f581ad12</id>
+		</Compile>
+		<Compile Include="CheckModificationStates.cs">
+			<BoundTo>2fed9553-b291-419c-b8c1-136c80b9f25e</BoundTo>
+			<DependentUpon>CheckModificationStates.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>6dad848b-7528-49e0-86a5-f3eef4f7563a</id>
+		</Compile>
+		<Compile Include="CheckModificationStates.UserCode.cs">
+			<BoundTo>2fed9553-b291-419c-b8c1-136c80b9f25e</BoundTo>
+			<DependentUpon>CheckModificationStates.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>c5d82e17-ab8c-49d2-9715-a6accb56c16a</id>
+		</Compile>
+		<Compile Include="TryDeleteArchivedFiles.cs">
+			<BoundTo>6e44b460-19a2-44fd-9c24-a84f8c6df022</BoundTo>
+			<DependentUpon>TryDeleteArchivedFiles.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>c113b36f-29bc-474a-91a0-85416f696a81</id>
+		</Compile>
+		<Compile Include="TryDeleteArchivedFiles.UserCode.cs">
+			<BoundTo>6e44b460-19a2-44fd-9c24-a84f8c6df022</BoundTo>
+			<DependentUpon>TryDeleteArchivedFiles.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>0a39e055-d415-434e-9978-adb9b6d99557</id>
+		</Compile>
+		<Compile Include="TryDeleteFiles.cs">
+			<BoundTo>4326b936-4cf5-4ca3-b97a-740638c31db1</BoundTo>
+			<DependentUpon>TryDeleteFiles.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>237832e2-8297-4e05-9d42-2b1a89b5621d</id>
+		</Compile>
+		<Compile Include="TryDeleteFiles.UserCode.cs">
+			<BoundTo>4326b936-4cf5-4ca3-b97a-740638c31db1</BoundTo>
+			<DependentUpon>TryDeleteFiles.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>76946f56-8346-4e79-b7dd-300d52927584</id>
+		</Compile>
+		<Compile Include="ModifyCurentState.cs">
+			<BoundTo>5f740e9d-9d53-4694-a377-406e41add9d9</BoundTo>
+			<DependentUpon>ModifyCurentState.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>e248c9a5-e67b-4902-bfdd-9cd4dc02f292</id>
+		</Compile>
+		<Compile Include="ModifyCurentState.UserCode.cs">
+			<BoundTo>5f740e9d-9d53-4694-a377-406e41add9d9</BoundTo>
+			<DependentUpon>ModifyCurentState.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>77a5d8ee-f152-4c7d-a929-9691dda66a58</id>
+		</Compile>
+		<Compile Include="ModifyStateBeforCurent.cs">
+			<BoundTo>849f4480-bcc2-4b88-8bc2-706926c154cf</BoundTo>
+			<DependentUpon>ModifyStateBeforCurent.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>81152291-14f4-496a-bfd6-04295375c627</id>
+		</Compile>
+		<Compile Include="ModifyStateBeforCurent.UserCode.cs">
+			<BoundTo>849f4480-bcc2-4b88-8bc2-706926c154cf</BoundTo>
+			<DependentUpon>ModifyStateBeforCurent.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>9273959b-6c06-4672-a051-0280b6799957</id>
+		</Compile>
+		<Compile Include="ModifyYesterdaySecondState.cs">
+			<BoundTo>7010d713-f279-4bdf-92ac-d203a46abff3</BoundTo>
+			<DependentUpon>ModifyYesterdaySecondState.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>69295c21-573e-43ed-965b-6fc7b976fb20</id>
+		</Compile>
+		<Compile Include="ModifyYesterdaySecondState.UserCode.cs">
+			<BoundTo>7010d713-f279-4bdf-92ac-d203a46abff3</BoundTo>
+			<DependentUpon>ModifyYesterdaySecondState.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>8255112e-bcfe-4a60-9072-43bf94942bc9</id>
+		</Compile>
+		<Compile Include="Program.cs">
+			<id>9cc76124-3952-44f5-ae85-6776109a3e6a</id>
+		</Compile>
+		<Compile Include="ProtectFile.cs">
+			<BoundTo>401f1f96-2a72-4a85-b68e-e823fd7cef58</BoundTo>
+			<DependentUpon>ProtectFile.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>48786a6d-aa2a-4f4a-9f10-26a4be0a94b9</id>
+		</Compile>
+		<Compile Include="ProtectFile.UserCode.cs">
+			<BoundTo>401f1f96-2a72-4a85-b68e-e823fd7cef58</BoundTo>
+			<DependentUpon>ProtectFile.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>531b880f-f6fe-465b-9204-d468d045c795</id>
+		</Compile>
+		<Compile Include="RemoveNotificationSendSMS.cs">
+			<BoundTo>f204c669-ff5a-4d27-bd59-930950bf350d</BoundTo>
+			<DependentUpon>RemoveNotificationSendSMS.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>5f936a58-0969-4e21-958c-0ff3fad22fc4</id>
+		</Compile>
+		<Compile Include="RemoveNotificationSendSMS.UserCode.cs">
+			<BoundTo>f204c669-ff5a-4d27-bd59-930950bf350d</BoundTo>
+			<DependentUpon>RemoveNotificationSendSMS.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>c71dcbda-4de0-4b38-ad69-f2febb6b0ae2</id>
+		</Compile>
+		<Compile Include="StopCprod.cs">
+			<BoundTo>11b4d404-794e-45f9-b8f9-a21fd7c7b164</BoundTo>
+			<DependentUpon>StopCprod.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>d5860313-e479-40f6-916f-e6ce59e7995f</id>
+		</Compile>
+		<Compile Include="StopCprod.UserCode.cs">
+			<BoundTo>11b4d404-794e-45f9-b8f9-a21fd7c7b164</BoundTo>
+			<DependentUpon>StopCprod.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>e9f5d20f-e813-412d-9f66-53956836aed0</id>
+		</Compile>
+		<Compile Include="VerifyWorkerLogMessageDoesntExists.cs">
+			<BoundTo>50f5d080-0350-4eca-8b1b-8bed21ab79ac</BoundTo>
+			<DependentUpon>VerifyWorkerLogMessageDoesntExists.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>f48f7f08-d4a3-4dd7-82f8-8485b224faf5</id>
+		</Compile>
+		<Compile Include="VerifyWorkerLogMessageDoesntExists.UserCode.cs">
+			<BoundTo>50f5d080-0350-4eca-8b1b-8bed21ab79ac</BoundTo>
+			<DependentUpon>VerifyWorkerLogMessageDoesntExists.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>0b5d34bd-776e-4e49-8d15-0089c1d6b370</id>
+		</Compile>
+		<Compile Include="VerifyWorkerLogMessageExists.cs">
+			<BoundTo>67b0e964-a053-4aed-865e-22f5de20cc8e</BoundTo>
+			<DependentUpon>VerifyWorkerLogMessageExists.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>fb9fade5-ce94-461a-ab51-f346de8dd90f</id>
+		</Compile>
+		<Compile Include="VerifyWorkerLogMessageExists.UserCode.cs">
+			<BoundTo>67b0e964-a053-4aed-865e-22f5de20cc8e</BoundTo>
+			<DependentUpon>VerifyWorkerLogMessageExists.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>e4ddcd4b-8daf-4dfe-9455-7bf3b74b417a</id>
+		</Compile>
+		<Compile Include="VerifyWorkerWrongSMSsLog.cs">
+			<BoundTo>2e40c8fc-e1ad-423f-a6bd-51acb5c33cb0</BoundTo>
+			<DependentUpon>VerifyWorkerWrongSMSsLog.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>c84675f6-c259-478c-8322-e720173e1e18</id>
+		</Compile>
+		<Compile Include="VerifyWorkerWrongSMSsLog.UserCode.cs">
+			<BoundTo>2e40c8fc-e1ad-423f-a6bd-51acb5c33cb0</BoundTo>
+			<DependentUpon>VerifyWorkerWrongSMSsLog.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>3c918ec9-f644-48bc-92e6-42f8e562eb21</id>
+		</Compile>
+		<Compile Include="WrongAdminSMSConfig.cs">
+			<BoundTo>d2016afc-dd50-4dc1-a0c6-3d62e7031f6b</BoundTo>
+			<DependentUpon>WrongAdminSMSConfig.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>7aa5ee08-503c-4818-b89c-1e4de3a2bc23</id>
+		</Compile>
+		<Compile Include="WrongAdminSMSConfig.UserCode.cs">
+			<BoundTo>d2016afc-dd50-4dc1-a0c6-3d62e7031f6b</BoundTo>
+			<DependentUpon>WrongAdminSMSConfig.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>4d0a6713-f487-4c1e-9181-16106231db26</id>
+		</Compile>
+		<Compile Include="WrongSMSfromPref.cs">
+			<BoundTo>3178cf62-7c8d-495f-a05b-330cfef9852b</BoundTo>
+			<DependentUpon>WrongSMSfromPref.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>6c10949c-7a84-4322-b1c7-1d8aa36c96b2</id>
+		</Compile>
+		<Compile Include="WrongSMSfromPref.UserCode.cs">
+			<BoundTo>3178cf62-7c8d-495f-a05b-330cfef9852b</BoundTo>
+			<DependentUpon>WrongSMSfromPref.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>269295a0-cc94-452b-b0ba-7a477b35951f</id>
+		</Compile>
+		<Compile Include="SetWrongSmtpPort.cs">
+			<BoundTo>0a55f59f-5687-4788-a998-07b41d3d55db</BoundTo>
+			<DependentUpon>SetWrongSmtpPort.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>12acce86-7fa7-4c6d-abeb-d64d6efdc5b4</id>
+		</Compile>
+		<Compile Include="SetWrongSmtpPort.UserCode.cs">
+			<BoundTo>0a55f59f-5687-4788-a998-07b41d3d55db</BoundTo>
+			<DependentUpon>SetWrongSmtpPort.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>4ef6b60b-bc8d-4b2c-afa3-1f66d5852ae1</id>
+		</Compile>
+		<Compile Include="VerifyEmailErrorLogExist.cs">
+			<BoundTo>8f9e9888-d12c-452c-b1c8-2fd49a133095</BoundTo>
+			<DependentUpon>VerifyEmailErrorLogExist.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>0180a37a-4c2d-435b-8d93-6e3cdeade7be</id>
+		</Compile>
+		<Compile Include="VerifyEmailErrorLogExist.UserCode.cs">
+			<BoundTo>8f9e9888-d12c-452c-b1c8-2fd49a133095</BoundTo>
+			<DependentUpon>VerifyEmailErrorLogExist.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>406369eb-ae97-4790-b67b-4ace39aa01f7</id>
+		</Compile>
+		<Compile Include="VerifyEmailMessageDetailInWorkerLog.cs">
+			<BoundTo>8f6e482e-b397-45fa-89cf-f132fe19f369</BoundTo>
+			<DependentUpon>VerifyEmailMessageDetailInWorkerLog.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>52f829cc-9867-4b4a-9086-e721343cf3a9</id>
+		</Compile>
+		<Compile Include="VerifyEmailMessageDetailInWorkerLog.UserCode.cs">
+			<BoundTo>8f6e482e-b397-45fa-89cf-f132fe19f369</BoundTo>
+			<DependentUpon>VerifyEmailMessageDetailInWorkerLog.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>9a4f3a3a-63db-41dc-9f31-4394bcea678f</id>
+		</Compile>
+		<Compile Include="VerifyEmailMessageLogExists.cs">
+			<BoundTo>275f17a2-7ebc-4308-b234-4934e47e2c50</BoundTo>
+			<DependentUpon>VerifyEmailMessageLogExists.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>e9fa90ea-9258-4300-9ed9-7065bef63695</id>
+		</Compile>
+		<Compile Include="VerifyEmailMessageLogExists.UserCode.cs">
+			<BoundTo>275f17a2-7ebc-4308-b234-4934e47e2c50</BoundTo>
+			<DependentUpon>VerifyEmailMessageLogExists.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>9943db9e-b225-4855-b89a-2bbde2e96a2c</id>
+		</Compile>
+		<Compile Include="VerifyEmailMessageLogNotExists.cs">
+			<BoundTo>ae723759-12e9-4aa9-8bce-2c00d90035f0</BoundTo>
+			<DependentUpon>VerifyEmailMessageLogNotExists.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>3c5d6386-c262-4f0e-86ea-619dda6aff7e</id>
+		</Compile>
+		<Compile Include="VerifyEmailMessageLogNotExists.UserCode.cs">
+			<BoundTo>ae723759-12e9-4aa9-8bce-2c00d90035f0</BoundTo>
+			<DependentUpon>VerifyEmailMessageLogNotExists.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>fb89b638-2a3d-44ec-aea4-90c7abc5b1f5</id>
+		</Compile>
+		<Compile Include="SendAliasFromIportFAOFolder.cs">
+			<BoundTo>c0539259-f6e2-45af-84da-d3f5a17c16c9</BoundTo>
+			<DependentUpon>SendAliasFromIportFAOFolder.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>cb9dbcdb-2295-4665-9869-193400ad1a35</id>
+		</Compile>
+		<Compile Include="SendAliasFromIportFAOFolder.UserCode.cs">
+			<BoundTo>c0539259-f6e2-45af-84da-d3f5a17c16c9</BoundTo>
+			<DependentUpon>SendAliasFromIportFAOFolder.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>3b096c53-8e50-4924-9975-b6f07fedd76c</id>
+		</Compile>
+		<Compile Include="SendAliasFromRootFolder.cs">
+			<BoundTo>32595d7b-cfaa-460a-90ff-6cb495ff915c</BoundTo>
+			<DependentUpon>SendAliasFromRootFolder.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>cd9804f0-073b-4c43-a767-d7a014116402</id>
+		</Compile>
+		<Compile Include="SendAliasFromRootFolder.UserCode.cs">
+			<BoundTo>32595d7b-cfaa-460a-90ff-6cb495ff915c</BoundTo>
+			<DependentUpon>SendAliasFromRootFolder.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>049e0bfe-1b0f-4bf0-9e7b-5c24aacae48f</id>
+		</Compile>
+		<Compile Include="SendAliasPointingAnotherCNC.cs">
+			<BoundTo>49705c38-d5fb-4d61-a965-740e824d9074</BoundTo>
+			<DependentUpon>SendAliasPointingAnotherCNC.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>c44129cd-7d8b-404f-9716-68127931b3ba</id>
+		</Compile>
+		<Compile Include="SendAliasPointingAnotherCNC.UserCode.cs">
+			<BoundTo>49705c38-d5fb-4d61-a965-740e824d9074</BoundTo>
+			<DependentUpon>SendAliasPointingAnotherCNC.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>47ccf16c-3241-4330-ac41-bce7e5a700d1</id>
+		</Compile>
+		<Compile Include="SendPrgFromAnotherCnc.cs">
+			<BoundTo>2141aba7-ae49-4821-8969-35895f61875e</BoundTo>
+			<DependentUpon>SendPrgFromAnotherCnc.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>65699e25-21d1-468d-a7d7-6b5ae4fa9fd8</id>
+		</Compile>
+		<Compile Include="SendPrgFromAnotherCnc.UserCode.cs">
+			<BoundTo>2141aba7-ae49-4821-8969-35895f61875e</BoundTo>
+			<DependentUpon>SendPrgFromAnotherCnc.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>9abad832-6586-4336-b99d-a90b0338f8b8</id>
+		</Compile>
+		<Compile Include="UnarchivedFiles.cs">
+			<BoundTo>b1dc6023-ff4a-48aa-9436-293922752b9a</BoundTo>
+			<DependentUpon>UnarchivedFiles.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>eaaeaa9b-dbf8-4f8c-9848-01e34bc946a0</id>
+		</Compile>
+		<Compile Include="UnarchivedFiles.UserCode.cs">
+			<BoundTo>b1dc6023-ff4a-48aa-9436-293922752b9a</BoundTo>
+			<DependentUpon>UnarchivedFiles.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>4a6f3beb-f0ad-450e-ae1e-b323ff338ae5</id>
+		</Compile>
+		<Compile Include="UnportectFiles.cs">
+			<BoundTo>6260d5a3-1d35-48f4-9f73-d538facb2216</BoundTo>
+			<DependentUpon>UnportectFiles.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>99f9519a-006e-4880-b113-868848126278</id>
+		</Compile>
+		<Compile Include="UnportectFiles.UserCode.cs">
+			<BoundTo>6260d5a3-1d35-48f4-9f73-d538facb2216</BoundTo>
+			<DependentUpon>UnportectFiles.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>63faa221-f766-4d72-a71c-609c804798af</id>
+		</Compile>
+		<Compile Include="VerifyHeidComTab.cs">
+			<BoundTo>cbeff6aa-728a-49eb-9938-45fc74f941d3</BoundTo>
+			<DependentUpon>VerifyHeidComTab.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>96560441-2ab2-4a48-9aca-43bb14d09718</id>
+		</Compile>
+		<Compile Include="VerifyHeidComTab.UserCode.cs">
+			<BoundTo>cbeff6aa-728a-49eb-9938-45fc74f941d3</BoundTo>
+			<DependentUpon>VerifyHeidComTab.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>8a5e7b20-a266-4263-9d0a-69302325754b</id>
+		</Compile>
+		<Compile Include="Sprint9_6_1Repository.cs">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<DependentUpon>Sprint9_6_1Repository.rxrep</DependentUpon>
+			<RepositoryCode>true</RepositoryCode>
+			<id>82f1bc55-3d14-45d9-bb4b-aada0f6df34e</id>
+		</Compile>
+		<Compile Include="VerifySMSMessageLogExists.cs">
+			<BoundTo>f43f61d0-513c-4428-83fc-4c45dfda1ef3</BoundTo>
+			<DependentUpon>VerifySMSMessageLogExists.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>820d3c76-0621-4791-85e9-6d14e56a1d35</id>
+		</Compile>
+		<Compile Include="VerifySMSMessageLogExists.UserCode.cs">
+			<BoundTo>f43f61d0-513c-4428-83fc-4c45dfda1ef3</BoundTo>
+			<DependentUpon>VerifySMSMessageLogExists.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>1dcf20f2-7ffc-433c-8ba0-7423bee373e1</id>
+		</Compile>
+		<Compile Include="VerifySMSMessageLogNotExist.cs">
+			<BoundTo>e70b67e9-0124-4dbf-a169-b10c1a2af340</BoundTo>
+			<DependentUpon>VerifySMSMessageLogNotExist.rxrec</DependentUpon>
+			<RecorderCode>true</RecorderCode>
+			<id>aff0e215-6947-48d7-8c43-7cb4b13483ba</id>
+		</Compile>
+		<Compile Include="VerifySMSMessageLogNotExist.UserCode.cs">
+			<BoundTo>e70b67e9-0124-4dbf-a169-b10c1a2af340</BoundTo>
+			<DependentUpon>VerifySMSMessageLogNotExist.rxrec</DependentUpon>
+			<UserCode>true</UserCode>
+			<id>f03ed62f-7aaf-4ee3-80f0-6d7cc1990755</id>
+		</Compile>
+	</ItemGroup>
+	<ItemGroup>
+		<Content Include="Sprint9_6_1_For_8866_CompDocArchived.rxtst">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+			<id>b20ac2c8-e036-4a11-ac5c-8712dfbaa856</id>
+		</Content>
+		<Content Include="Sprint9_6_1_For_8692_Mode_log_verbeux.rxtst">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+			<id>8fe3c931-4edf-48cf-8982-fe7b89d8969f</id>
+		</Content>
+		<Content Include="Sprint9_6_1_For_8742_chargement_alias_SMB.rxtst">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+			<id>3b444384-60c0-4649-a8f2-d4ccda35bf36</id>
+		</Content>
+		<Content Include="Sprint9_6_1_For_8844_Histo_etat.rxtst">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+			<id>244a30bf-5053-4436-8b17-5f941fa0e4d1</id>
+		</Content>
+		<None Include="AplyStateChanged.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>37e59873-ed58-4ffd-8de0-88dc252af14c</id>
+			<recordtableid>f231f3dc-6623-4fa2-aee5-6eddb7db9608</recordtableid>
+		</None>
+		<None Include="app.config">
+			<id>9df9e81f-5d00-4f7b-9536-19efe48f5585</id>
+		</None>
+		<Content Include="Sprint9_6_1.rxsqc">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+			<id>696bdc8e-018e-4ea9-8f18-a3607abc40c0</id>
+		</Content>
+		<None Include="ConfigAdminSMS.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>60b7086a-b84e-4c0a-a770-a13922292ef9</id>
+			<recordtableid>2de89a68-6978-4127-8273-eccf18b3aa6c</recordtableid>
+		</None>
+		<None Include="ConfigSendSMSsStateChange.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>ce08d757-67a4-4e9c-ae09-60e36a0f96e0</id>
+			<recordtableid>b9f90801-7275-4baa-a4f6-48a9aa2f00a9</recordtableid>
+		</None>
+		<None Include="EnvoieSMSdepuisPref.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>0d1df120-86f4-46f7-9fc8-9778365ea0bf</id>
+			<recordtableid>9c09dc89-223a-47ff-9860-1378e01c687b</recordtableid>
+		</None>
+		<Content Include="TestSendSmsFromWorkerOkay_DataSource1.csv">
+			<Link>TestSendSmsFromWorkerOkay_DataSource1.csv</Link>
+			<BoundTo>8fe3c931-4edf-48cf-8982-fe7b89d8969f</BoundTo>
+			<DependentUpon>Sprint9_6_1_For_8692_Mode_log_verbeux.rxtst</DependentUpon>
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<id>44d5de3b-4460-4918-917b-d68a33d82b74</id>
+		</Content>
+		<None Include="RemoveNotificationSendSMS.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>f204c669-ff5a-4d27-bd59-930950bf350d</id>
+			<recordtableid>2c35b7c8-aff6-4b2c-87c3-418e8283a2c1</recordtableid>
+		</None>
+		<None Include="StopCprod.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>11b4d404-794e-45f9-b8f9-a21fd7c7b164</id>
+			<recordtableid>3347e124-3ff8-4046-8364-c4d95252398f</recordtableid>
+		</None>
+		<None Include="VerifyWorkerLogMessageDoesntExists.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>50f5d080-0350-4eca-8b1b-8bed21ab79ac</id>
+			<recordtableid>8d68a599-b91a-40d0-90ac-c1a879b338fc</recordtableid>
+		</None>
+		<None Include="VerifyWorkerLogMessageExists.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>67b0e964-a053-4aed-865e-22f5de20cc8e</id>
+			<recordtableid>1d9cfc46-20ec-4502-85da-c3a80298ac4f</recordtableid>
+		</None>
+		<None Include="VerifyWorkerWrongSMSsLog.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>2e40c8fc-e1ad-423f-a6bd-51acb5c33cb0</id>
+			<recordtableid>6e5860d3-c0cc-4787-a784-9f75bce1817f</recordtableid>
+		</None>
+		<None Include="WrongAdminSMSConfig.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>d2016afc-dd50-4dc1-a0c6-3d62e7031f6b</id>
+			<recordtableid>fa64f214-769c-4854-b6f4-66b4e7df083c</recordtableid>
+		</None>
+		<None Include="WrongSMSfromPref.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>3178cf62-7c8d-495f-a05b-330cfef9852b</id>
+			<recordtableid>e772b7bf-b7ae-4a40-b621-992757c0bdb0</recordtableid>
+		</None>
+		<None Include="SetWrongSmtpPort.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>0a55f59f-5687-4788-a998-07b41d3d55db</id>
+			<recordtableid>70b9ae96-6bcc-4a1f-ac1c-af9ee28b460e</recordtableid>
+		</None>
+		<None Include="VerifyEmailErrorLogExist.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>8f9e9888-d12c-452c-b1c8-2fd49a133095</id>
+			<recordtableid>4059dd35-80b1-4f9d-9351-cf76a180ffa3</recordtableid>
+		</None>
+		<None Include="VerifyEmailMessageDetailInWorkerLog.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>8f6e482e-b397-45fa-89cf-f132fe19f369</id>
+			<recordtableid>18dd09d2-fbd1-4133-b8c2-7a46cd6ff5e4</recordtableid>
+		</None>
+		<None Include="VerifyEmailMessageLogExists.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>275f17a2-7ebc-4308-b234-4934e47e2c50</id>
+			<recordtableid>313f6596-ca3a-4908-97ce-4e7c052793b7</recordtableid>
+		</None>
+		<None Include="VerifyEmailMessageLogNotExists.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>ae723759-12e9-4aa9-8bce-2c00d90035f0</id>
+			<recordtableid>1a186d6f-dd3a-4714-bc5f-3f987c31b5b2</recordtableid>
+		</None>
+		<Content Include="Sprint9_6_1.rxsqc">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+			<id>216acceb-251e-488b-b60f-5703bde49281</id>
+		</Content>
+		<None Include="ArchivedFile.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>a98e65be-2da4-4956-8d47-2d33870e20fa</id>
+			<recordtableid>b34ee33e-62f1-4704-b755-68e1a865ec1c</recordtableid>
+		</None>
+		<None Include="CompFile.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>2d9b6d0d-0a98-498f-ab01-4148af9f79e8</id>
+			<recordtableid>917b8257-db08-408a-b837-b98a8bf2af6c</recordtableid>
+		</None>
+		<None Include="CompFiles.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>cc9cd047-e0cd-46c8-9986-926b0c343be2</id>
+			<recordtableid>40b2f68d-f3be-49db-84b1-4eb1a0ff714f</recordtableid>
+		</None>
+		<None Include="CreateAlias.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>03672e67-b9de-42b7-83cd-a40eb7bfa51e</id>
+			<recordtableid>0c12aaf3-fdd9-4e10-9d78-9b29d11347c5</recordtableid>
+		</None>
+		<None Include="TryDeleteArchivedFiles.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>6e44b460-19a2-44fd-9c24-a84f8c6df022</id>
+			<recordtableid>11b4b0e9-011d-4d10-a3d8-6cd2a5a8179f</recordtableid>
+		</None>
+		<None Include="TryDeleteFiles.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>4326b936-4cf5-4ca3-b97a-740638c31db1</id>
+			<recordtableid>ff804ce2-7520-46e5-90f4-79ab61e56227</recordtableid>
+		</None>
+		<None Include="ProtectFile.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>401f1f96-2a72-4a85-b68e-e823fd7cef58</id>
+			<recordtableid>585fcc67-260f-4dfe-b43b-0a15a37a5e7b</recordtableid>
+		</None>
+		<None Include="SendAliasFromIportFAOFolder.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>c0539259-f6e2-45af-84da-d3f5a17c16c9</id>
+			<recordtableid>8af34027-df3d-4a70-a7a4-9d50dc43734c</recordtableid>
+		</None>
+		<None Include="SendAliasFromRootFolder.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>32595d7b-cfaa-460a-90ff-6cb495ff915c</id>
+			<recordtableid>f2dabb3f-fc5a-4336-84d0-b9a845048ac7</recordtableid>
+		</None>
+		<None Include="SendAliasPointingAnotherCNC.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>49705c38-d5fb-4d61-a965-740e824d9074</id>
+			<recordtableid>da1bb728-52c0-464c-92c6-dad9dfa5e6db</recordtableid>
+		</None>
+		<None Include="SendPrgFromAnotherCnc.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>2141aba7-ae49-4821-8969-35895f61875e</id>
+			<recordtableid>0fa893d3-486b-4852-8155-4f564e9dfa1a</recordtableid>
+		</None>
+		<Content Include="Sprint9_6_1.rxsqc">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+			<id>712c11f3-1337-4931-bf36-b1110cff6564</id>
+		</Content>
+		<None Include="CheckModificationStates.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>2fed9553-b291-419c-b8c1-136c80b9f25e</id>
+			<recordtableid>48d23487-4a00-4517-8a03-4dca84c79bd0</recordtableid>
+		</None>
+		<None Include="ModifyCurentState.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>5f740e9d-9d53-4694-a377-406e41add9d9</id>
+			<recordtableid>cae2485d-6685-4953-a614-976be7222fc6</recordtableid>
+		</None>
+		<None Include="ModifyStateBeforCurent.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>849f4480-bcc2-4b88-8bc2-706926c154cf</id>
+			<recordtableid>1e4ebf5e-388e-4fcf-852a-f52c26a98296</recordtableid>
+		</None>
+		<None Include="ModifyYesterdaySecondState.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>7010d713-f279-4bdf-92ac-d203a46abff3</id>
+			<recordtableid>031517e0-c544-4001-8aa5-edea4f36e275</recordtableid>
+		</None>
+		<None Include="UnarchivedFiles.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>b1dc6023-ff4a-48aa-9436-293922752b9a</id>
+			<recordtableid>ee0800b0-5daf-433e-a93a-634db7b348b2</recordtableid>
+		</None>
+		<None Include="UnportectFiles.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>6260d5a3-1d35-48f4-9f73-d538facb2216</id>
+			<recordtableid>c5b6c709-4734-4fa0-b368-d82e8ec39758</recordtableid>
+		</None>
+		<None Include="VerifyHeidComTab.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>cbeff6aa-728a-49eb-9938-45fc74f941d3</id>
+			<recordtableid>7dc3bf07-5ce3-4c59-ab9a-110dc2007106</recordtableid>
+		</None>
+		<None Include="Sprint9_6_1Repository.rximg">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<DependentUpon>Sprint9_6_1Repository.rxrep</DependentUpon>
+			<imageblob>true</imageblob>
+			<id>26e0b4f3-337d-466d-bb34-f1daa28587ff</id>
+		</None>
+		<None Include="Sprint9_6_1Repository.rxrep">
+			<id>ce4ac514-b957-481f-a3c0-1b1f29a67097</id>
+			<repoid>be49b059-a4d6-497c-ae2c-81de81bd8d3d</repoid>
+			<reporootid>b3c4c1d1-e37f-4c03-bc32-d53dce96a77e</reporootid>
+		</None>
+		<None Include="VerifySMSMessageLogExists.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>f43f61d0-513c-4428-83fc-4c45dfda1ef3</id>
+			<recordtableid>733b62dc-5321-4cd3-a434-858306490eb8</recordtableid>
+		</None>
+		<None Include="VerifySMSMessageLogNotExist.rxrec">
+			<BoundTo>ce4ac514-b957-481f-a3c0-1b1f29a67097</BoundTo>
+			<id>e70b67e9-0124-4dbf-a169-b10c1a2af340</id>
+			<recordtableid>848d0352-3add-4dad-96bc-5402ae6ab52c</recordtableid>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+		<Content Include="Sprint9_6_1.rxtmg">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+			<id>b901b5b5-becf-49c8-8148-7e0baa444314</id>
+		</Content>
+		<Content Include="Sprint9_6_1_For_8844_Visu_Expr_HeidCom.rxtst">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+			<id>2a755558-5722-4bda-b111-7b1f0e11c216</id>
+		</Content>
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\CworkTestLib\CworkTestLib.csproj">
+			<Project>{93D91CDA-52E2-48B8-AAD9-2F8D8C06E6C9}</Project>
+			<Name>CworkTestLib</Name>
+		</ProjectReference>
+		<ProjectReference Include="..\RanorexAutomationHelpers\Ranorex Automation Helpers.csproj">
+			<Project>{A9AAE559-26C9-478A-A34D-8C4384D8F606}</Project>
+			<Name>Ranorex Automation Helpers</Name>
+		</ProjectReference>
+	</ItemGroup>
+	<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"></Import>
+	<Import Condition="Exists('$(RanorexTargetsPath)')" Project="$(RanorexTargetsPath)"></Import>
+</Project>

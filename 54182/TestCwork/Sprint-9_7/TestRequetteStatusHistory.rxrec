@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="dea9ba69-7fa9-4ca0-87d1-480452bcbdd3"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="TestRequetteStatusHistory"
+	namespace="Sprint_9_7">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="TestRequetteStatusHistory"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="SendPostStatusHistory"
+		namespace="Sprint_9_7"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="bec4b5d8-a4b6-4310-95cb-9734075c366f">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="62898c3e-09c8-4b7f-8db1-4eb3f1e2cc5d"
+	name="Sprint_9_7Repository"
+	relativepath="Sprint_9_7Repository.rxrep">
+		<codegen
+		classname="Sprint_9_7Repository"
+		namespace="Sprint_9_7">
+		</codegen>
+		<rootfolder
+		id="e3df5413-01bf-4ab2-9e44-2f66dc278740"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		TestRequetteStatusHistory.UserCode.cs
+	</usercodefile>
+	<references>
+		<reference>
+			..\CworkTestLib\bin\Debug\CworkTestLib.exe
+		</reference>
+		<reference>
+			..\Sprint-9.6\bin\Debug\Sprint-9.6.exe
+		</reference>
+	</references>
+</recordtable>

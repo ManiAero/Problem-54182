@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="017148b4-eab4-4fd5-b447-4a44ccd1beeb"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseCworkById"
+	namespace="CworkTestLib">
+	</codegen>
+	<variables>
+		<var
+		id="13fdd3d9-09bb-4afe-b1ff-d8232c4431dd"
+		name="CloseCworkProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="2e99727b-c66d-442d-b2d7-495839140aa7">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseCworkProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="4defa8f8-b87a-4da4-8b47-42d9f5012dc5"
+	name="CworkTestLibRepository"
+	relativepath="CworkTestLibRepository.rxrep">
+		<codegen
+		classname="CworkTestLibRepository"
+		namespace="CworkTestLib">
+		</codegen>
+		<rootfolder
+		id="6ae78c2c-f64a-4086-b13e-6bdb1dd6c92e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseCworkById.UserCode.cs
+	</usercodefile>
+	<references>
+		<reference>
+			..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll
+		</reference>
+		<reference>
+			..\packages\RestSharp.106.15.0\lib\net452\RestSharp.dll
+		</reference>
+		<reference>
+			..\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll
+		</reference>
+	</references>
+</recordtable>

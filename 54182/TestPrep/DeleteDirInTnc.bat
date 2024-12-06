@@ -1,0 +1,7 @@
+set TNCcmdPlus="C:\Program Files (x86)\HEIDENHAIN\TNCremo\TNCcmdPlus.exe"
+%TNCcmdPlus% -I10.1.0.187 "DELETE TestCworkAuto/RootForTest/TestCworkAuto/PRG1.CNC"
+%TNCcmdPlus% -I10.1.0.187 "RMDIR TestCworkAuto/RootForTest/TestCworkAuto"
+%TNCcmdPlus% -I10.1.0.187 "DELETE TestCworkAuto/RootForTest/PRG1.CNC"
+%TNCcmdPlus% -I10.1.0.187 "RMDIR TestCworkAuto/RootForTest"
+%TNCcmdPlus% -I10.1.0.187 "DELETE TestCworkAuto/PRG1.CNC"
+%TNCcmdPlus% -I10.1.0.187 "RMDIR TestCworkAuto"

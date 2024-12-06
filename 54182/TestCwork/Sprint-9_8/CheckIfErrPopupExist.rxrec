@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="fa5954e1-050b-4064-a03f-be3641c46ac8"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CheckIfErrPopupExist"
+	namespace="Sprint_9_8">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="NotExists"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="0658e164-534d-43fa-9492-ebc315e4d589"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a5d30a57-50de-4411-80fd-4c189ab728c3"
+			sourcename="ElementTree">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="10"
+				prefcap="text"
+				rect="843,528,284,28"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="backgroundcolor"
+					type="System.String">
+						Violation d'accès à l'adresse 772E1D80 dans le module 'ntdll.dll'. Lecture de l'adresse 00380030.
+					</attribute>
+					<attribute
+					name="caption"
+					type="System.String">
+						Violation d'accès à l'adresse 772E1D80 dans le module 'ntdll.dll'. Lecture de l'adresse 00380030.
+					</attribute>
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Violation d'accès à l'adresse 772E1D80 dans le module 'ntdll.dll'. Lecture de l'adresse 00380030.
+					</attribute>
+					<attribute
+					name="textcolor"
+					type="System.String">
+						Violation d'accès à l'adresse 772E1D80 dans le module 'ntdll.dll'. Lecture de l'adresse 00380030.
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Static
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						65535
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						4655958
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						1
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						13524
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						Cwork
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, NoParentNotify
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, Group, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						Violation d'accès à l'adresse 772E1D80 dans le module 'ntdll.dll'. Lecture de l'adresse 00380030.
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+						Violation d'accès à l'adresse 772E1D80 dans le module 'ntdll.dll'. Lecture de l'adresse 00380030.
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						StaticText
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						ReadOnly
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Cwork2024-9.8 DEV']/text[@controlid='65535']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="f26c9240-2b35-4506-8242-85762d700866">
+				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
+L8ucdOPbvmgCGfUobeCOWZWTzMkKWXOPXrj8j3qW4lk/dJAUDSnhmBIAxnOMjNMFgqpGI5ZEdCxD
+rtydxyeMY/SpZ4BMF+d0ZDlXXGR27gigCmL6dozIojCxKDKCCdxyQcc8dPepHupo5plJjYLGzKCh
+j5HQZJww56jpT/sEeV2vIqgAMoIw+DkZ4+vTFK1msjMZpZJMgqA2AFB9MAfrQBBFd3EgEamPzGfA
+Zo2UAYzyhOfbr70gvp2jMiiMLEoMoIJ3HJBxzx096n+wj7xnmMuciX5dw4xjGMYwT270fYI8rteR
+VAAZQRh8HIzx9emKAI5LuWKaYNsdVQso2FDnIwMk/MOeo6VPbSSmSSKcozpg7kUgEH2JPoaa1msj
+OZpZJQylQGwAoPXGAKdHbbCGM0rvu3FiQC3GMHAAxQBPRRRQAUUUUAFFFFABRRRQAVmeIP8AjxT/
+AK6D+RrTrM8Qf8eKf9dB/I1M/hZE/hZp0UUVRYVFa/8AHpD/ALi/yqWorX/j0h/3F/lQBLRRRQAU
+UUUARW3+qP8Avv8A+hGpaitv9Uf99/8A0I1LQAUUUUAFFFFABUF5aR3kQjkLABt3yn/PrU9FDVxN
+XMz+wrX/AJ6TfmP8KP7Ctf8AnpN+Y/wrToqeSPYnkj2Mz+wrX/npN+Y/wo/sK1/56TfmP8K06KOS
+PYOSPYzP7Ctf+ek35j/Cj+wrX/npN+Y/wrToo5I9g5I9jM/sK1/56TfmP8KP7Ctf+ek35j/CtOij
+kj2Dkj2Mz+wrX/npN+Y/wo/sK1/56TfmP8K06KOSPYOSPYzP7Ctf+ek35j/Cj+wrX/npN+Y/wrTo
+o5I9g5I9jM/sK1/56TfmP8KP7Ctf+ek35j/CtOijkj2Dkj2Mz+wrX/npN+Y/wo/sK1/56TfmP8K0
+6KOSPYOSPYzP7Ctf+ek35j/Cj+wrX/npN+Y/wrToo5I9g5I9jM/sK1/56TfmP8KP7Ctf+ek35j/C
+tOijkj2Dkj2Mz+wrX/npN+Y/wo/sK1/56TfmP8K06KOSPYOSPYzP7Ctf+ek35j/Cj+wrX/npN+Y/
+wrToo5I9g5I9jM/sK1/56TfmP8KP7Ctf+ek35j/CtOijkj2Dkj2Mz+wrX/npN+Y/wo/sK1/56Tfm
+P8K06KOSPYOSPYzP7Ctf+ek35j/Cj+wrX/npN+Y/wrToo5I9g5I9jM/sK1/56TfmP8KP7Ctf+ek3
+5j/CtOijkj2Dkj2Mz+wrX/npN+Y/wo/sK1/56TfmP8K06KOSPYOSPYzP7Ctf+ek35j/Cj+wrX/np
+N+Y/wrToo5I9g5I9goooqiwqK1/49If9xf5VLUVr/wAekP8AuL/KgCWiiigAooooAitiPLPP8b/+
+hGpcj1qvB9xv99//AEI1JQBJketGR61HRQBJketGR61HRQBJketGR61HRQBJketGR61HRQBJketG
+R61HRQBJketGR61HRQBJketGR61HRQBJketGR61HRQBJketGR61HRQBJketGR61HRQBJketGR61H
+RQBJketGR61HRQBJketGR61HRQBJketGR61HRQBJketGR61HRQBJketGR61HRQBJketGR61HRQBJ
+ketGR61HRQBJketGR61HRQBJketGR61HRQBJketGR61HRQBJketGR61HRQBJketRWv8Ax6Q/7i/y
+paS1/wCPSH/cX+VAEtFFFABRRRQBXg+43++//oRqSo4PuN/vv/6EakoAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAI7hilvK6nDK
+hIP4VUiW7kiR/teNyg48sVau/wDj0m/65t/Ko7b/AI9Yv9wfyq07RIavIj8q7/5/P/IQo8q7/wCf
+z/yEKs0Uud/0kPkX9Nlbyrv/AJ/P/IQo8q7/AOfz/wAhCrNZzktb3FwZpFljZgoDnC4PA29Dnjr6
+0c7/AKSDkX9Nljyrv/n8/wDIQo8q7/5/P/IQqCKV31KSKRmVAwKjPBO0fL/XHf8ACtCnzP8ApIOV
+f02VvKu/+fz/AMhCjyrv/n8/8hCrNFLnf9JByL+mylcm7ggaX7Xu2448sDvWjVHUv+PGT8P5ir1N
+u8UxJWk0FJa/8ekP+4v8qWktf+PSH/cX+VQWS0UUUAFFFFAFeD7jf77/APoRqSo4PuN/vv8A+hGp
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigCK5Ba1lABJKEAD6VUhuWjhRDbXGVUA4jrQoqk1azJad7opfaz/wA+tz/37o+1n/n1
+uf8Av3V2ii8ewWl3KX2s/wDPrc/9+6jaSJpRK1hKZB0cwjI/GtGii8ewWl3M8zoTk2U5JIb/AFXc
+dDT/ALWf+fW5/wC/dXaKLx7BaXcpfaz/AM+tz/37o+1n/n1uf+/dXaKLx7BaXczLuZ57Z41trgE4
+6x+9adFFDd1ZAlZ3YUlr/wAekP8AuL/KlpLX/j0h/wBxf5VJRLRRRQAUUUUARfZo8k/OMkniRh/W
+j7NH6yf9/W/xqWigCL7NH6yf9/W/xo+zR+sn/f1v8alooAi+zR+sn/f1v8aPs0frJ/39b/GpaKAI
+vs0frJ/39b/Gj7NH6yf9/W/xqWigCL7NH6yf9/W/xo+zR+sn/f1v8alooAi+zR+sn/f1v8aPs0fr
+J/39b/GpaKAIvs0frJ/39b/Gj7NH6yf9/W/xqWigCL7NH6yf9/W/xo+zR+sn/f1v8alooAi+zR+s
+n/f1v8aPs0frJ/39b/GpaKAIvs0frJ/39b/Gj7NH6yf9/W/xqWigCL7NH6yf9/W/xo+zR+sn/f1v
+8alooAi+zR+sn/f1v8aPs0frJ/39b/GpaKAIvs0frJ/39b/Gj7NH6yf9/W/xqWigCL7NH6yf9/W/
+xo+zR+sn/f1v8alooAi+zR+sn/f1v8aPs0frJ/39b/GpaKAIvs0frJ/39b/Gj7NH6yf9/W/xqWig
+CL7NH6yf9/W/xo+zR+sn/f1v8alooAi+zR+sn/f1v8aPs0frJ/39b/GpaKAIvs0frJ/39b/Gj7NH
+6yf9/W/xqWigCL7NH6yf9/W/xo+zR+sn/f1v8alooAi+zR+sn/f1v8aPs0frJ/39b/GpaKAIvs0f
+rJ/39b/Gj7NH6yf9/W/xqWigCL7NH6yf9/W/xo+zR+sn/f1v8alooAi+zR+sn/f1v8akRQiBVGFU
+YApaKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/
+2Q==
+			</helperscreenshot>
+			<matchname>
+			</matchname>
+			<matchvalue>
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="d9c7b692-36a4-45ff-a595-1f184791d93e"
+	name="Sprint_9_8Repository"
+	relativepath="Sprint_9_8Repository.rxrep">
+		<codegen
+		classname="Sprint_9_8Repository"
+		namespace="Sprint_9_8">
+		</codegen>
+		<rootfolder
+		id="4c3edf52-9327-43fb-8414-8f3a19ad5d48"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CheckIfErrPopupExist.UserCode.cs
+	</usercodefile>
+	<references>
+		<reference>
+			..\CworkTestLib\bin\Debug\CworkTestLib.exe
+		</reference>
+	</references>
+</recordtable>

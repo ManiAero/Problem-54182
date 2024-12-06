@@ -1,0 +1,84 @@
+﻿<repository
+id="3a5b1bb5-089c-4b03-979f-f7e6c767d36b"
+name="Sprint_9_8_1Repository">
+	<codegen
+	classname="Sprint_9_8_1Repository"
+	namespace="Sprint_9_8_3">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="74aea7b9-0d15-43ac-89d3-6f7692f7821e"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="529ffb29-3690-4487-b73e-efe566806338"
+		isrooted="True"
+		name="FormTEDSCDemonstrationSoftwareV"
+		refpath="/form[@name='FormMain']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<folder
+			capname="container"
+			id="5304babf-cfbe-428e-b741-a2da23662c6a"
+			isrooted="True"
+			name="ContainerDNC"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,rawtext"
+				capname="rawtext"
+				id="f246e46f-0e71-4c0d-aba2-7155d74c7688"
+				name="IĊĆĂĜIGA"
+				refimgid="b067fdf1-80fc-41e0-a8be-3f4c8ab095d9"
+				refpath="/form[@name='FormMain']/tabpagelist[@name='PC']/container[@name='CWork']/container/text[@name='Memo1']/rawtext[@rawtext='ÌĊĆĂĜÍGÅ']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@name='FormMain']/tabpagelist[@name='PC']/container[@name='CWork']//rawtext[@rawtext='ÌĊĆĂĜÍGÅ']
+				</item>
+				<item
+				addcaps="unknown,rawtext"
+				capname="rawtext"
+				id="771c5e4a-2f8a-4ae8-994c-55446456b9cd"
+				name="RawTextIĈ"
+				refimgid="c46a7833-2853-4b91-8c45-f7e8a529ecd5"
+				refpath="/form[@name='FormMain']/tabpagelist[@name='PC']/container[@name='CWork']/container[@name='Panel2']/text[@name='Memo1']/rawtext[@rawtext='ÎĈ']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@name='FormMain']/tabpagelist[@name='PC']/container[@name='CWork']//rawtext[@rawtext='ÎĈ']
+				</item>
+				<item
+				addcaps="unknown,rawtext"
+				capname="rawtext"
+				id="49615363-d617-4547-9846-f7ddb08bf252"
+				name="ĂŐǾŊĈA"
+				refimgid="3274f773-1808-42bf-b7c6-ae2aa7952e5b"
+				refpath="/form[@name='FormMain']/tabpagelist[@name='PC']/container[@name='CWork']/container[@name='Panel2']/text[@name='Memo1']/rawtext[@rawtext='ĂŐǾŊĈÅ']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@name='FormMain']/tabpagelist[@name='PC']/container[@name='CWork']//rawtext[@rawtext='ĂŐǾŊĈÅ']
+				</item>
+				<basepath>
+					/form[@name='FormMain']/tabpagelist[@name='PC']/container[@name='CWork']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@name='FormMain']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACOSURBVDhPrVKBDYAwCON0TttnSBnqZIzMaJMm
+pmsrTEmI5C154D8FrTV5QLWMzOyGDuT6BBEhmHoUV0Fs3gkD9wSZyfVpPUD1/BIjgmZlqk2XeDJ9
+2wj3LQvAssQ9ZYFxBT0bw+8LFJ8LAKwJ4vPT9A8EVHeCs7LAwjoRRs2KygLocV+j6giCeKbUtE2S
+A3Uryd4anOh4AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

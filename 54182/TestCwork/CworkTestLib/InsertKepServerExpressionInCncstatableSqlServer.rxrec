@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="2d6e3286-677b-4643-9766-383d1c0bc746"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="InsertKepServerExpressionInCncstatableSqlServer"
+	namespace="CworkTestLib">
+	</codegen>
+	<variables>
+		<var
+		id="846916a1-748a-4750-8a2f-9cc6f52dec7b"
+		name="CncId">
+			1
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="InsertKepServerExpressionInCncstatableSqlServer"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="InsertKepServerExpressionSqlServer"
+		namespace="CworkTestLib"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="34ba18cf-8f71-4d83-bb9d-60affd11e2e5">
+				<argument
+				argname="CncId"
+				id="c76cc57f-9ca1-4a5f-a0e3-3e619ae02e7a"
+				variable="CncId">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						0
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="4defa8f8-b87a-4da4-8b47-42d9f5012dc5"
+	name="CworkTestLibRepository"
+	relativepath="CworkTestLibRepository.rxrep">
+		<codegen
+		classname="CworkTestLibRepository"
+		namespace="CworkTestLib">
+		</codegen>
+		<rootfolder
+		id="6ae78c2c-f64a-4086-b13e-6bdb1dd6c92e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		InsertKepServerExpressionInCncstatableSqlServer.UserCode.cs
+	</usercodefile>
+	<references>
+		<reference>
+			..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll
+		</reference>
+		<reference>
+			..\packages\RestSharp.106.15.0\lib\net452\RestSharp.dll
+		</reference>
+		<reference>
+			..\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll
+		</reference>
+	</references>
+</recordtable>

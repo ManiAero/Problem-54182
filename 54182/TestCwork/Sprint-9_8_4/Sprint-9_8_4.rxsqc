@@ -1,0 +1,12 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_8_4_For_12026_CreateMultipleDocs_SETUP_ONLY",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_8_4_For_11884_FOCAS_Macro_Delete_Blocage",
+    "RunConfig": "TestRun"
+  }
+]

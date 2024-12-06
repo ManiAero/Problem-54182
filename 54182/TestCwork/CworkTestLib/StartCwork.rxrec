@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="438821e3-ebd5-48c1-b943-4176032bb042"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartCwork"
+	namespace="CworkTestLib">
+	</codegen>
+	<variables>
+		<var
+		id="cedec09d-c754-4917-8e01-c7004855587d"
+		name="AppToRun">
+			C:\Program Files (x86)\Smcom Software\Cwork\bin\Cwork.exe
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="FileName"
+				variable="AppToRun">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Program Files (x86)\Smcom Software\Cwork\bin\Cwork.exe
+			</filename>
+			<args>
+				/TEST
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="4defa8f8-b87a-4da4-8b47-42d9f5012dc5"
+	name="CworkTestLibRepository"
+	relativepath="CworkTestLibRepository.rxrep">
+		<codegen
+		classname="CworkTestLibRepository"
+		namespace="CworkTestLib">
+		</codegen>
+		<rootfolder
+		id="6ae78c2c-f64a-4086-b13e-6bdb1dd6c92e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartCwork.UserCode.cs
+	</usercodefile>
+	<references>
+		<reference>
+			..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll
+		</reference>
+		<reference>
+			..\packages\RestSharp.106.15.0\lib\net452\RestSharp.dll
+		</reference>
+		<reference>
+			..\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll
+		</reference>
+	</references>
+</recordtable>

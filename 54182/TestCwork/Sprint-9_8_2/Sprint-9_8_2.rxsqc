@@ -1,0 +1,22 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_8_2_For_11550_API_Send_And_Source_Folder_LSV2",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_8_2_For_11550_API_Send_And_Source_Folder_Focas",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_8_2_For_11393_API_Certification",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_8_2_For_11629_Chargement_FOCAS_Retourner_un_code_de_bon_demarrage",
+    "RunConfig": "TestRun"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_7_2_StartCwork",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint9_7_2_For_9026_Probleme_de_visualisation_etat",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint9_7_2_For_10130_CompteurdecyclesReinitialisationviaAPI",
+    "RunConfig": "TestRun"
+  }
+]

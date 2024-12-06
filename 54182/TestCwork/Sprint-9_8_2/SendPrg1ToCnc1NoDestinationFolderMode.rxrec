@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="095fe6d8-672d-4d75-8cd1-b8e3b6b2f417"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SendPrg1ToCnc1NoDestinationFolderMode"
+	namespace="Sprint_9_8_2">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="789fab1e-ad93-43c1-b4f4-d1dccfb996c3"
+	name="Sprint_9_8_2Repository"
+	relativepath="Sprint_9_8_2Repository.rxrep">
+		<codegen
+		classname="Sprint_9_8_2Repository"
+		namespace="Sprint_9_8_2">
+		</codegen>
+		<rootfolder
+		id="9073299b-9ca7-4dc9-8107-20e17a9ddc93"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SendPrg1ToCnc1NoDestinationFolderMode.UserCode.cs
+	</usercodefile>
+	<references>
+		<reference>
+			..\CworkTestLib\bin\Debug\CworkTestLib.exe
+		</reference>
+	</references>
+</recordtable>

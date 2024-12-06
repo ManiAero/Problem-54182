@@ -1,0 +1,22 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_5_3_StartStopCwork",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "TestFix9_5_3_For_8525_Probleme_affichage_nbr_jours",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "TestFix9_5_3_For_8486_Heidcom_config",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "TestFix9_5_3_For_8221_Export_Pdf",
+    "RunConfig": "TestRun"
+  }
+]

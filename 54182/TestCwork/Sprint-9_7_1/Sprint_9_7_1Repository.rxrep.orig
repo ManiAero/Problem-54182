@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="Sprint-9_7_1Repository"
+id="6237b1b1-ec91-4040-a404-1d20bf0905a6">
+  <codegen
+  classname="Sprint-9_7_1Repository"
+  namespace="Sprint_9_7_1"/>
+  <rootfolder
+  name="Root"
+  id="673018e4-25df-4f1d-874c-09c0cc7ca981"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

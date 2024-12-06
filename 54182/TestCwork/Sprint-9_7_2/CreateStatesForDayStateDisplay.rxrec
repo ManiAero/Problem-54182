@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b27b5228-e1bd-412b-ad86-20dda151e5f5"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CreateStatesForDayStateDisplay"
+	namespace="Sprint_9_7_2">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="CreateStatesForDayStateDisplay"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="InserStatesForDayStateDisplay"
+		namespace="Sprint_9_7_2"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="1085792b-d0be-4bab-9dd5-8743f3e4e2e9">
+				<argument
+				argname="cnc"
+				id="e27a602a-2ae3-4ae0-becc-fdb10a74807c">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						1
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="1210891f-795f-49df-975a-b09f69167f05"
+	name="Sprint_9_7_2Repository"
+	relativepath="Sprint_9_7_2Repository.rxrep">
+		<codegen
+		classname="Sprint_9_7_2Repository"
+		namespace="Sprint_9_7_2">
+		</codegen>
+		<rootfolder
+		id="652b32e5-8a8e-4597-937e-2fc217123020"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CreateStatesForDayStateDisplay.UserCode.cs
+	</usercodefile>
+	<references>
+		<reference>
+			..\CworkTestLib\bin\Debug\CworkTestLib.exe
+		</reference>
+	</references>
+</recordtable>

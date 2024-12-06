@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{39BE7DE7-17BD-436F-9936-DBEFAE49CD11}</ProjectGuid>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Sprint9_5_2</RootNamespace>
+    <AssemblyName>Sprint-9.5.3</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>82bb52ff-7bed-4890-a8e5-9f8e4de344e1</projectdefaultrepository>
+    <NoWin32Manifest>False</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing">
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+    </Reference>
+    <Reference Include="System.Xml">
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>072449d0-5548-4c0a-b0d7-96f1362470d8</id>
+    </Compile>
+    <Compile Include="CloseAUT.cs">
+      <BoundTo>7fb215ef-8e1e-4bac-bdb4-6bff999c827a</BoundTo>
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>556da76d-0b67-457c-9284-48032d390d3f</id>
+    </Compile>
+    <Compile Include="CloseAUT.UserCode.cs">
+      <BoundTo>7fb215ef-8e1e-4bac-bdb4-6bff999c827a</BoundTo>
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>31df3aea-949f-456c-aa8b-88a9b8400c6f</id>
+    </Compile>
+    <Compile Include="Create_HeidCom_Connection.cs">
+      <BoundTo>20c59521-3e96-40dd-97c7-13a8433e2640</BoundTo>
+      <DependentUpon>Create_HeidCom_Connection.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9ce934a6-986e-4eef-bd8e-e7f091b4ef4c</id>
+    </Compile>
+    <Compile Include="Create_HeidCom_Connection.UserCode.cs">
+      <BoundTo>20c59521-3e96-40dd-97c7-13a8433e2640</BoundTo>
+      <DependentUpon>Create_HeidCom_Connection.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b0588582-fe24-40b1-8b85-73cb77f12b2b</id>
+    </Compile>
+    <Compile Include="Delete_HeidCom_Connection.cs">
+      <BoundTo>aabc7cb5-8cdd-4373-8f5c-a10a3613ef25</BoundTo>
+      <DependentUpon>Delete_HeidCom_Connection.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>af488df8-abae-4a56-b7f2-13eb2ca0aa85</id>
+    </Compile>
+    <Compile Include="Delete_HeidCom_Connection.UserCode.cs">
+      <BoundTo>aabc7cb5-8cdd-4373-8f5c-a10a3613ef25</BoundTo>
+      <DependentUpon>Delete_HeidCom_Connection.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e246b765-2240-4e46-b0da-3aed0a048c39</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>86128994-01ad-4552-b1da-f9a67f8996f1</id>
+    </Compile>
+    <Compile Include="Set_Alarm_Collection_Heidcom.cs">
+      <BoundTo>795ffd5b-db8c-4981-ad04-e9f84c7c9644</BoundTo>
+      <DependentUpon>Set_Alarm_Collection_Heidcom.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>be782469-b854-4b21-a400-59a113b7a615</id>
+    </Compile>
+    <Compile Include="Set_Alarm_Collection_Heidcom.UserCode.cs">
+      <BoundTo>795ffd5b-db8c-4981-ad04-e9f84c7c9644</BoundTo>
+      <DependentUpon>Set_Alarm_Collection_Heidcom.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>477f73d4-4c3e-470e-9c2e-bbdec998ac31</id>
+    </Compile>
+    <Compile Include="Set_ProgNum_Collection_Heidcom.cs">
+      <BoundTo>cf2c5945-6f93-4d09-9421-2a2a1d605c37</BoundTo>
+      <DependentUpon>Set_ProgNum_Collection_Heidcom.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>63cb2f9b-e758-46ff-b05e-aa75626b18d0</id>
+    </Compile>
+    <Compile Include="Set_ProgNum_Collection_Heidcom.UserCode.cs">
+      <BoundTo>cf2c5945-6f93-4d09-9421-2a2a1d605c37</BoundTo>
+      <DependentUpon>Set_ProgNum_Collection_Heidcom.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7565c044-0da7-43f9-877d-f6a6d8b694da</id>
+    </Compile>
+    <Compile Include="Select_3days_TimeSart_Higther_TimeEnd.cs">
+      <BoundTo>fef18ef0-ac4d-4fcd-9e83-822c944c866b</BoundTo>
+      <DependentUpon>Select_3days_TimeSart_Higther_TimeEnd.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3ff4ae6a-d023-44b4-89ef-c43e30fe289c</id>
+    </Compile>
+    <Compile Include="Select_3days_TimeSart_Higther_TimeEnd.UserCode.cs">
+      <BoundTo>fef18ef0-ac4d-4fcd-9e83-822c944c866b</BoundTo>
+      <DependentUpon>Select_3days_TimeSart_Higther_TimeEnd.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ace83455-e130-4eca-8b38-c6a96b5f7726</id>
+    </Compile>
+    <Compile Include="Sprint_9.5.3Repository.cs">
+      <BoundTo>82bb52ff-7bed-4890-a8e5-9f8e4de344e1</BoundTo>
+      <DependentUpon>Sprint_9.5.3Repository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>9d59c520-44e4-49be-a911-c7417a9157ef</id>
+    </Compile>
+    <Compile Include="StartAUT.cs">
+      <BoundTo>25f87962-531f-4a78-9e11-7e7d0d620993</BoundTo>
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2eb418b3-5077-43cd-9e60-105beb386874</id>
+    </Compile>
+    <Compile Include="StartAUT.UserCode.cs">
+      <BoundTo>25f87962-531f-4a78-9e11-7e7d0d620993</BoundTo>
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9ddc4273-43d9-4328-a40b-1343daaed8ff</id>
+    </Compile>
+    <Compile Include="Verify_Alarm_collection_Heidcom_IsSet_InDB.cs">
+      <BoundTo>7723ab5a-0f20-423b-bf98-dbe89d35c5a1</BoundTo>
+      <DependentUpon>Verify_Alarm_collection_Heidcom_IsSet_InDB.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f9423bc3-dcbe-4e9a-a469-96e9e5a8b78c</id>
+    </Compile>
+    <Compile Include="Verify_Alarm_collection_Heidcom_IsSet_InDB.UserCode.cs">
+      <BoundTo>7723ab5a-0f20-423b-bf98-dbe89d35c5a1</BoundTo>
+      <DependentUpon>Verify_Alarm_collection_Heidcom_IsSet_InDB.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ae2efd91-c2bb-4a32-91b1-7c247c026237</id>
+    </Compile>
+    <Compile Include="Verify_ProgramNum_collection_Heidcom_IsSet_InDB.cs">
+      <BoundTo>6eda4699-606b-465c-91d0-fade0c03bff9</BoundTo>
+      <DependentUpon>Verify_ProgramNum_collection_Heidcom_IsSet_InDB.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1125a8ef-0160-4423-ada0-4a1cd19880b3</id>
+    </Compile>
+    <Compile Include="Verify_ProgramNum_collection_Heidcom_IsSet_InDB.UserCode.cs">
+      <BoundTo>6eda4699-606b-465c-91d0-fade0c03bff9</BoundTo>
+      <DependentUpon>Verify_ProgramNum_collection_Heidcom_IsSet_InDB.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c9a9182c-9d2f-4e83-8b3f-a9fc6d55cccb</id>
+    </Compile>
+    <Compile Include="Verify_Days3_Displayed.cs">
+      <BoundTo>869826db-8080-4add-ae35-24c3de7b0071</BoundTo>
+      <DependentUpon>Verify_Days3_Displayed.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bc653797-1562-426e-b17e-641ef6edbc0f</id>
+    </Compile>
+    <Compile Include="Verify_Days3_Displayed.UserCode.cs">
+      <BoundTo>869826db-8080-4add-ae35-24c3de7b0071</BoundTo>
+      <DependentUpon>Verify_Days3_Displayed.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>80716f26-0101-4d76-885d-a7a28d4923aa</id>
+    </Compile>
+    <Compile Include="Export_Pdf.cs">
+      <BoundTo>78b116b5-1d3b-4b20-bc3f-7558b01a794a</BoundTo>
+      <DependentUpon>Export_Pdf.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4c054dd9-42e8-4b18-bdf0-68f2d043641a</id>
+    </Compile>
+    <Compile Include="Export_Pdf.UserCode.cs">
+      <BoundTo>78b116b5-1d3b-4b20-bc3f-7558b01a794a</BoundTo>
+      <DependentUpon>Export_Pdf.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dd880c57-09d8-4153-8611-0d4ac58f5a99</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TestFix9_5_3_For_8486_Heidcom_config.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>7e82fee2-cfa7-4ee0-afe2-017349c9c7ba</id>
+    </Content>
+    <Content Include="TestFix9_5_3_For_8525_Probleme_affichage_nbr_jours.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>e6edf38b-3678-42a0-b2d9-8c44024503f4</id>
+    </Content>
+    <Content Include="TestFix9_5_3_For_8221_Export_Pdf.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>d22565d0-70c7-4024-90aa-52ecad15fdc5</id>
+    </Content>
+    <None Include="app.config">
+      <id>b1394af7-322c-401f-9299-cf9f7d2f0953</id>
+    </None>
+    <None Include="CloseAUT.rxrec">
+      <BoundTo>82bb52ff-7bed-4890-a8e5-9f8e4de344e1</BoundTo>
+      <id>7fb215ef-8e1e-4bac-bdb4-6bff999c827a</id>
+      <recordtableid>3aa435a2-7df1-4db4-a871-b5c59e98bd55</recordtableid>
+    </None>
+    <Content Include="Sprint-9.5.3.rxsqc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>3eff6c80-52cf-4e60-b1b1-19c80104b95a</id>
+    </Content>
+    <None Include="Create_HeidCom_Connection.rxrec">
+      <BoundTo>82bb52ff-7bed-4890-a8e5-9f8e4de344e1</BoundTo>
+      <id>20c59521-3e96-40dd-97c7-13a8433e2640</id>
+      <recordtableid>16fc420c-ae38-4186-a4e0-3ffa3789c438</recordtableid>
+    </None>
+    <None Include="Delete_HeidCom_Connection.rxrec">
+      <BoundTo>82bb52ff-7bed-4890-a8e5-9f8e4de344e1</BoundTo>
+      <id>aabc7cb5-8cdd-4373-8f5c-a10a3613ef25</id>
+      <recordtableid>580889b7-636b-48d2-a6b7-5d059ad9cb1e</recordtableid>
+    </None>
+    <None Include="Set_Alarm_Collection_Heidcom.rxrec">
+      <BoundTo>82bb52ff-7bed-4890-a8e5-9f8e4de344e1</BoundTo>
+      <id>795ffd5b-db8c-4981-ad04-e9f84c7c9644</id>
+      <recordtableid>c94a744f-1b67-468c-9e5f-70c7b63753a4</recordtableid>
+    </None>
+    <None Include="Set_ProgNum_Collection_Heidcom.rxrec">
+      <BoundTo>82bb52ff-7bed-4890-a8e5-9f8e4de344e1</BoundTo>
+      <id>cf2c5945-6f93-4d09-9421-2a2a1d605c37</id>
+      <recordtableid>100fab39-3fd4-421e-bf82-2e6ada0535d0</recordtableid>
+    </None>
+    <Content Include="Sprint-9.5.3.rxsqc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>0c4d47c3-8fcf-43c4-9157-31e349fe67bf</id>
+    </Content>
+    <None Include="Select_3days_TimeSart_Higther_TimeEnd.rxrec">
+      <BoundTo>82bb52ff-7bed-4890-a8e5-9f8e4de344e1</BoundTo>
+      <id>fef18ef0-ac4d-4fcd-9e83-822c944c866b</id>
+      <recordtableid>f6e13ec5-4c35-4b04-b610-780933290ed1</recordtableid>
+    </None>
+    <Content Include="Sprint-9.5.3.rxsqc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>71a19462-62ab-43b0-889a-beda08ab658a</id>
+    </Content>
+    <None Include="Sprint_9.5.3Repository.rximg">
+      <BoundTo>82bb52ff-7bed-4890-a8e5-9f8e4de344e1</BoundTo>
+      <DependentUpon>Sprint_9.5.3Repository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>dccd2de1-2e81-436f-897e-d0e1e731028e</id>
+    </None>
+    <None Include="Sprint_9.5.3Repository.rxrep">
+      <id>82bb52ff-7bed-4890-a8e5-9f8e4de344e1</id>
+      <repoid>0b82655c-86d8-4ee9-a333-d25ff8f8d98c</repoid>
+      <reporootid>65bead2c-0c63-4c59-9c12-630ae995fddc</reporootid>
+    </None>
+    <None Include="StartAUT.rxrec">
+      <BoundTo>82bb52ff-7bed-4890-a8e5-9f8e4de344e1</BoundTo>
+      <id>25f87962-531f-4a78-9e11-7e7d0d620993</id>
+      <recordtableid>d1cb6b16-5863-4aad-8d2c-f281461f95bb</recordtableid>
+    </None>
+    <None Include="Verify_Alarm_collection_Heidcom_IsSet_InDB.rxrec">
+      <BoundTo>82bb52ff-7bed-4890-a8e5-9f8e4de344e1</BoundTo>
+      <id>7723ab5a-0f20-423b-bf98-dbe89d35c5a1</id>
+      <recordtableid>90d23e5b-5418-4dfe-b39d-516bdc3e2ae0</recordtableid>
+    </None>
+    <None Include="Verify_ProgramNum_collection_Heidcom_IsSet_InDB.rxrec">
+      <BoundTo>82bb52ff-7bed-4890-a8e5-9f8e4de344e1</BoundTo>
+      <id>6eda4699-606b-465c-91d0-fade0c03bff9</id>
+      <recordtableid>afcf77c7-b388-453a-a78e-4055ac1176a0</recordtableid>
+    </None>
+    <None Include="Verify_Days3_Displayed.rxrec">
+      <BoundTo>82bb52ff-7bed-4890-a8e5-9f8e4de344e1</BoundTo>
+      <id>869826db-8080-4add-ae35-24c3de7b0071</id>
+      <recordtableid>57163f77-be11-4ae8-b1f5-34dddc1435d5</recordtableid>
+    </None>
+    <None Include="Export_Pdf.rxrec">
+      <BoundTo>82bb52ff-7bed-4890-a8e5-9f8e4de344e1</BoundTo>
+      <id>78b116b5-1d3b-4b20-bc3f-7558b01a794a</id>
+      <recordtableid>a965f061-cf8a-4d55-ab67-486154eac641</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Sprint_9.5.3.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>075576bb-f643-4ac5-b443-00d003e74f42</id>
+    </Content>
+    <Content Include="Sprint_9_5_3_StartStopCwork.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>14662b90-bdaa-4349-bf51-1120e5c8ab9e</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CworkTestLib\CworkTestLib.csproj">
+      <Project>{93D91CDA-52E2-48B8-AAD9-2F8D8C06E6C9}</Project>
+      <Name>CworkTestLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RanorexAutomationHelpers\Ranorex Automation Helpers.csproj">
+      <Project>{A9AAE559-26C9-478A-A34D-8C4384D8F606}</Project>
+      <Name>Ranorex Automation Helpers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets">
+  </Import>
+  <Import Condition="Exists('$(RanorexTargetsPath)')" Project="$(RanorexTargetsPath)">
+  </Import>
+</Project>

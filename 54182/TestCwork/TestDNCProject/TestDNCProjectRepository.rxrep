@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="TestDNCProjectRepository"
+id="f5784fdd-9fc4-40df-bc14-3839b8a5f272">
+  <codegen
+  classname="TestDNCProjectRepository"
+  namespace="TestDNCProject"/>
+  <rootfolder
+  name="Root"
+  id="75c556a9-ec0a-4d42-b239-cb64b72aa0b2"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

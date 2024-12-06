@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="858b9f8d-a014-4617-9da3-6bb1b2cc066e"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="VerifyStateChanged"
+	namespace="Sprint_9_6_3">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		gracePeriod="30000ms"
+		optional="False"
+		searchpropertyid="cbfc1f76-f425-49a6-9c98-f3fcd723988d"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3846cf1d-6f42-47d3-86a9-679835273b8c"
+			sourcename="ElementTree">
+				<element
+				capabilities="rawtext"
+				dontcache="False"
+				enabled="True"
+				flavor="rawtext"
+				hasfocus="False"
+				index="1"
+				prefcap="rawtext"
+				rect="325,192,47,18"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="column"
+					type="System.Int32">
+						1
+					</attribute>
+					<attribute
+					name="fontname"
+					type="System.String">
+						Tahoma
+					</attribute>
+					<attribute
+					name="fontsize"
+					type="System.Int32">
+						10
+					</attribute>
+					<attribute
+					name="fontstyle"
+					type="System.String">
+						Bold
+					</attribute>
+					<attribute
+					name="origin"
+					type="System.String">
+						GdiPlus
+					</attribute>
+					<attribute
+					name="rawtext"
+					type="System.String">
+						Panne
+					</attribute>
+					<attribute
+					name="row"
+					type="System.Int32">
+						1
+					</attribute>
+					<attribute
+					name="textcolor"
+					type="System.String">
+						#FFFFFF
+					</attribute>
+				</element>
+				<path>
+					/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='CncViewForm']/?/?/rawtext[@rawtext='Panne']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="8ec28e5c-f465-426f-9147-1d453734c842">
+				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
+			</helperscreenshot>
+			<matchname>
+				RawText
+			</matchname>
+			<matchvalue>
+				Panne
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="dcf49eec-ba28-4878-8d40-9488724bdaf8"
+	name="Sprint_9_6_3Repository"
+	relativepath="Sprint_9_6_3Repository.rxrep">
+		<codegen
+		classname="Sprint_9_6_3Repository"
+		namespace="Sprint_9_6_3">
+		</codegen>
+		<rootfolder
+		id="21f4cd8a-09dd-4a1a-b96c-1635ba85a85d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		VerifyStatechanged.UserCode.cs
+	</usercodefile>
+	<references>
+		<reference>
+			..\CworkTestLib\bin\Debug\CworkTestLib.exe
+		</reference>
+		<reference>
+			..\DevAutomatisation\bin\Debug\DevAutomatisation.exe
+		</reference>
+		<reference>
+			..\packages\Ranorex.ReportToPDF.1.0.17\lib\net40\Ranorex.ReportToPDF.exe
+		</reference>
+		<reference>
+			..\Sprint-9_6_2\bin\Debug\Sprint-9_6_2.exe
+		</reference>
+		<reference>
+			..\Sprint-9_7_2\bin\Debug\Sprint-9_7_2.exe
+		</reference>
+		<reference>
+			..\Sprint-9-5-2\bin\Debug\Sprint-9.5.2.exe
+		</reference>
+	</references>
+</recordtable>

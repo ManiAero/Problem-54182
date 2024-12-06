@@ -1,0 +1,17 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_7_1_for_10004_Doublon_simulateur_Commande",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_7_1_For_10065_Export_Multi_Mazacam",
+    "RunConfig": "TestRun"
+  },  
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_7_1_for_10175_Ftpclient",
+    "RunConfig": "TestRun"
+  }
+]

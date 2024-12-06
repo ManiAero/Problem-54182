@@ -1,0 +1,22 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_8_3_For_11912_erreur_en_cas_mauvais_parametre_asynchronousMode",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_8_3_For_11902_API_send_CNC_non_joignable_mal_geree",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_8_3_For_11758_Alias_requetes",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_8_3_For_11756_MultiSend",
+    "RunConfig": "TestRun"
+  }
+]

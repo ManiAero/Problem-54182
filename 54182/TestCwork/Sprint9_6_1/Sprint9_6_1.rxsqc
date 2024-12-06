@@ -1,0 +1,27 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint9_6_1_For_8692_Mode_log_verbeux",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint9_6_1_For_8844_Visu_Expr_HeidCom",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint9_6_1_For_8844_Histo_etat",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint9_6_1_For_8742_chargement_alias_SMB",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint9_6_1_For_8866_CompDocArchived",
+    "RunConfig": "TestRun"
+  }
+]

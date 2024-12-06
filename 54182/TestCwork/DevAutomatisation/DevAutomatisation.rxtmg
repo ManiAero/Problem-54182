@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="DevAutomatisation"
+      id="502790de-fe34-433b-a1b3-332a3b92de22"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="DevAutomatisation"
+      id="502790de-fe34-433b-a1b3-332a3b92de22"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

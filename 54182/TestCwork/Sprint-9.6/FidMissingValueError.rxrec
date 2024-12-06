@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c88f9969-841f-413f-aaf1-779d3f34506d"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="FidMissingValueError"
+	namespace="Sprint9_6">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		duration="30000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<validationitem
+		action="ContainsImage"
+		codegenpropertyname="HistoryView1_Screenshot1"
+		duration="100ms"
+		enabled="True"
+		imagerect="0,0,1266,22"
+		optional="False"
+		screenshotguid="a0656045-27f7-427b-8795-bc87e0392dda"
+		screenshotname="Screenshot1"
+		searchpropertyid="7f3693c1-8c82-4502-b99f-c85eaa082d0a"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c86df83e-2cc5-4481-a8e7-fb008395275f"
+			sourcename="ElementTree">
+				<element
+				capabilities="delphielement"
+				dontcache="False"
+				enabled="True"
+				flavor="delphi"
+				hasfocus="False"
+				index="2"
+				prefcap="cell"
+				rect="413,765,1266,22"
+				role="cell"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="columnindex"
+					type="System.Int32">
+						2
+					</attribute>
+					<attribute
+					name="isheader"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="rowindex"
+					type="System.Int32">
+						3
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						AdvGrid.TAdvStringGrid
+					</attribute>
+					<attribute
+					name="fulltypelineage"
+					type="System.String[]">
+						System.TObject;System.Classes.TPersistent;System.Classes.TComponent;Vcl.Controls.TControl;Vcl.Controls.TWinControl;Vcl.Controls.TCustomControl;Vcl.Grids.TCustomGrid;Vcl.Grids.TCustomDrawGrid;Vcl.Grids.TDrawGrid;Vcl.Grids.TStringGrid;AdvObj.TObjStringGrid;BaseGrid.TBaseGrid;AdvGrid.TAdvStringGrid;
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						HistoryView
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						TAdvStringGrid
+					</attribute>
+				</element>
+				<path>
+					/form[@controlname='CworkMainForm']//row[@index='3']/cell[@columnindex='2']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="b8684c24-0c55-472d-be94-23f1ea1de2e7">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCADwAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDfoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKj8l/+fmX8l/wo8l/+fmX8l/woAkoqPyX/AOfmX8l/
+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
+/SgB1FNwf7x/SjB/vH9KAHUU3B/vH9KMH+8f0oAdRTcH+8f0owf7x/SgB1FNwf7x/SjB/vH9KAHU
+U3B/vH9KMH+8f0oAdRTcH+8f0owf7x/SgB1FNwf7x/SjB/vH9KAHUU3B/vH9KMH+8f0oAdRTcH+8
+f0owf7x/SgB1FNwf7x/SjB/vH9KAHUU3B/vH9KMH+8f0oAdRTcH+8f0owf7x/SgB1FNwf7x/SjB/
+vH9KAHUU3B/vH9KMH+8f0oAdRTcH+8f0owf7x/SgB1FNwf7x/SjB/vH9KAHUU3B/vH9KMH+8f0oA
+dRTcH+8f0owf7x/SgB1FNwf7x/SjB/vH9KAHUU3B/vH9KMH+8f0oAdRTcH+8f0owf7x/SgB1FNwf
+7x/SjB/vH9KAHUU3B/vH9KMH+8f0oAdRTcH+8f0owf7x/SgB1FNwf7x/SjB/vH9KAHUU3B/vH9KM
+H+8f0oAdRTcH+8f0owf7x/SgB1FNwf7x/SjB/vH9KAHUU3B/vH9KMH+8f0oAdRTcH+8f0ooAdRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAf/9k=
+			</helperscreenshot>
+			<matchname>
+			</matchname>
+			<matchvalue>
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="18520bf6-b53a-4be8-b1f1-b379b562ef07"
+	name="Sprint_9_6Repository"
+	relativepath="Sprint_9.6Repository.rxrep">
+		<codegen
+		classname="Sprint_9_6Repository"
+		namespace="Sprint9_6">
+		</codegen>
+		<rootfolder
+		id="e8375099-4b47-4618-a98d-f9a5fad8977c"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		FidMissingValueError.UserCode.cs
+	</usercodefile>
+	<references>
+		<reference>
+			..\CworkTestLib\bin\Debug\CworkTestLib.exe
+		</reference>
+		<reference>
+			..\packages\Ranorex.ReportToPDF.1.0.17\lib\net40\Ranorex.ReportToPDF.exe
+		</reference>
+		<reference>
+			..\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.dll
+		</reference>
+	</references>
+</recordtable>

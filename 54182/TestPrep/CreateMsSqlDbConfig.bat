@@ -1,0 +1,1 @@
+sqlcmd -S localhost\sqlexpress -E -i ..\..\TestPrep\RanorexTestCworkDb.sql -b

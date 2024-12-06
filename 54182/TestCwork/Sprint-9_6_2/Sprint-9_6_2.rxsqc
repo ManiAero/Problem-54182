@@ -1,0 +1,17 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_6_2_For_9134_raccourci_clavier_import",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_6_2_For_9181_tracabilite_import_fichier",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_6_2_For_affichage_Comptabilisation_temps_par_semaine",
+    "RunConfig": "TestRun"
+  }
+]

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="10.5">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroups
+<<<<<<< HEAD
+			id="c75fda5b-9474-494e-ae7a-65303cfa27f6"
+=======
+			id="5cfbe56f-c21e-4297-b27a-e26b0e3175f2"
+>>>>>>> feature/#10065_Export_multiple_Mazacam
+			name="Sprint_9_7_1">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+<<<<<<< HEAD
+			id="c75fda5b-9474-494e-ae7a-65303cfa27f6"
+=======
+			id="5cfbe56f-c21e-4297-b27a-e26b0e3175f2"
+>>>>>>> feature/#10065_Export_multiple_Mazacam
+			name="Sprint_9_7_1">
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>

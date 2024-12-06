@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{E5493139-C4F5-4C09-80AC-144F889CDD29}</ProjectGuid>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DevAutomatisation</RootNamespace>
+    <AssemblyName>DevAutomatisation</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>29365ec0-fa03-4828-94c3-8b66c387deb2</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing">
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+    </Reference>
+    <Reference Include="System.Xml">
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddProdEventProgram.cs">
+      <BoundTo>17e9cbcf-7ccd-46c2-b5eb-9d1d704e8534</BoundTo>
+      <DependentUpon>AddProdEventProgram.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ddc33fb4-1562-4b71-ab06-00a510812e3a</id>
+    </Compile>
+    <Compile Include="AddProdEventProgram.UserCode.cs">
+      <BoundTo>17e9cbcf-7ccd-46c2-b5eb-9d1d704e8534</BoundTo>
+      <DependentUpon>AddProdEventProgram.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>acea5f97-0e9c-4de3-92c2-545ced845978</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>b3ac4122-1148-4e8b-a325-6ce0fff46764</id>
+    </Compile>
+    <Compile Include="ConfigLsv2AlarmAndPrgEvents.cs">
+      <BoundTo>7a5b5e77-2b0a-41f0-900b-d6d3e36ad221</BoundTo>
+      <DependentUpon>ConfigLsv2AlarmAndPrgEvents.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c0818eb3-4548-4d5a-9991-88939d9f112b</id>
+    </Compile>
+    <Compile Include="ConfigLsv2AlarmAndPrgEvents.UserCode.cs">
+      <BoundTo>7a5b5e77-2b0a-41f0-900b-d6d3e36ad221</BoundTo>
+      <DependentUpon>ConfigLsv2AlarmAndPrgEvents.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7438ce8f-716f-4326-9da7-0498b8339aab</id>
+    </Compile>
+    <Compile Include="DevAutomatisationRepository.cs">
+      <BoundTo>29365ec0-fa03-4828-94c3-8b66c387deb2</BoundTo>
+      <DependentUpon>DevAutomatisationRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>e5909384-3126-48ee-b7c9-43a802e43049</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>bac1bd1c-3c4d-4236-a566-19af4513108d</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>6d68b706-b68f-4828-bc8c-1c95687e6333</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>40bc3646-628a-4fc0-917e-97bedfb9c41c</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>6d68b706-b68f-4828-bc8c-1c95687e6333</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4690563a-cd45-476f-8335-3c0e639d6139</id>
+    </Compile>
+    <Compile Include="SelectPreviousDay.cs">
+      <BoundTo>fbea2f5f-a75c-4473-8b2c-c9a57ffc12df</BoundTo>
+      <DependentUpon>SelectPreviousDay.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>92b689ab-8e52-4263-a3e9-2dfbc067e034</id>
+    </Compile>
+    <Compile Include="SelectPreviousDay.UserCode.cs">
+      <BoundTo>fbea2f5f-a75c-4473-8b2c-c9a57ffc12df</BoundTo>
+      <DependentUpon>SelectPreviousDay.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e0e7728c-42ab-4850-8e1b-15574cb22e4e</id>
+    </Compile>
+    <Compile Include="SetCncIdRec.cs">
+      <BoundTo>1f6a473f-673b-4c05-ad63-0c6c226340e7</BoundTo>
+      <DependentUpon>SetCncIdRec.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b85983eb-d5a9-4654-9c2a-d3ad04e3eca7</id>
+    </Compile>
+    <Compile Include="SetCncIdRec.UserCode.cs">
+      <BoundTo>1f6a473f-673b-4c05-ad63-0c6c226340e7</BoundTo>
+      <DependentUpon>SetCncIdRec.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7d772bf8-62f0-4bfc-b3ed-8cadb488bd5f</id>
+    </Compile>
+    <Compile Include="SetCncNameInLoopRec.cs">
+      <BoundTo>81fc7c34-cefb-4fb9-bdd2-eea4c243297f</BoundTo>
+      <DependentUpon>SetCncNameInLoopRec.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c93fae4f-bd7d-46aa-96c2-febbca99b81a</id>
+    </Compile>
+    <Compile Include="SetCncNameInLoopRec.UserCode.cs">
+      <BoundTo>81fc7c34-cefb-4fb9-bdd2-eea4c243297f</BoundTo>
+      <DependentUpon>SetCncNameInLoopRec.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2644c9ad-185b-496b-ba48-68f4fa79e907</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AddProdEventProgram.rxrec">
+      <BoundTo>29365ec0-fa03-4828-94c3-8b66c387deb2</BoundTo>
+      <id>17e9cbcf-7ccd-46c2-b5eb-9d1d704e8534</id>
+      <recordtableid>2f4d5273-d467-4ad4-972b-303659c20f9a</recordtableid>
+    </None>
+    <None Include="app.config">
+      <id>d625b48c-cce9-45d3-9b5f-cdcb491a871d</id>
+    </None>
+    <None Include="ConfigLsv2AlarmAndPrgEvents.rxrec">
+      <BoundTo>29365ec0-fa03-4828-94c3-8b66c387deb2</BoundTo>
+      <id>7a5b5e77-2b0a-41f0-900b-d6d3e36ad221</id>
+      <recordtableid>6af666ee-5d9e-4052-a91d-1e4aa8366b5a</recordtableid>
+    </None>
+    <None Include="DevAutomatisationRepository.rximg">
+      <BoundTo>29365ec0-fa03-4828-94c3-8b66c387deb2</BoundTo>
+      <DependentUpon>DevAutomatisationRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>9f2dc228-c45f-45f0-840e-5030c1380ec0</id>
+    </None>
+    <None Include="DevAutomatisationRepository.rxrep">
+      <id>29365ec0-fa03-4828-94c3-8b66c387deb2</id>
+      <repoid>ed4a0870-ceac-4a7a-91c9-1f8f3cfbb3cd</repoid>
+      <reporootid>3587eb24-6de6-41eb-9a3f-e5c3802ace63</reporootid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>29365ec0-fa03-4828-94c3-8b66c387deb2</BoundTo>
+      <id>6d68b706-b68f-4828-bc8c-1c95687e6333</id>
+      <recordtableid>1632dede-81b9-4c21-bcb1-1225081a0f0b</recordtableid>
+    </None>
+    <None Include="SelectPreviousDay.rxrec">
+      <BoundTo>29365ec0-fa03-4828-94c3-8b66c387deb2</BoundTo>
+      <id>fbea2f5f-a75c-4473-8b2c-c9a57ffc12df</id>
+      <recordtableid>16eab4d6-b18c-4c8c-b1a3-1421e4466943</recordtableid>
+    </None>
+    <None Include="SetCncIdRec.rxrec">
+      <BoundTo>29365ec0-fa03-4828-94c3-8b66c387deb2</BoundTo>
+      <id>1f6a473f-673b-4c05-ad63-0c6c226340e7</id>
+      <recordtableid>59200e7c-ce31-48ef-8fcf-3c35937ee0bb</recordtableid>
+    </None>
+    <None Include="SetCncNameInLoopRec.rxrec">
+      <BoundTo>29365ec0-fa03-4828-94c3-8b66c387deb2</BoundTo>
+      <id>81fc7c34-cefb-4fb9-bdd2-eea4c243297f</id>
+      <recordtableid>255d91f7-5934-4148-bf08-c949cca2162c</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevAutomatisation.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>df45274d-0fee-41aa-8694-211147002776</id>
+    </Content>
+    <Content Include="DevAutomatisation.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>f3376154-cf5c-45ae-8a14-f0dccbb9b134</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CworkTestLib\CworkTestLib.csproj">
+      <Project>{93D91CDA-52E2-48B8-AAD9-2F8D8C06E6C9}</Project>
+      <Name>CworkTestLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sprint-9-5-2\Sprint-9.5.2.csproj">
+      <Project>{B9D4C68F-F406-400A-B0A6-3D8BAE2802CB}</Project>
+      <Name>Sprint-9.5.2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sprint9_6_1\Sprint9_6_1.csproj">
+      <Project>{31EA8C6C-0E81-458E-ACA6-D8754E016706}</Project>
+      <Name>Sprint9_6_1</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets">
+  </Import>
+  <Import Condition="Exists('$(RanorexTargetsPath)')" Project="$(RanorexTargetsPath)">
+  </Import>
+</Project>

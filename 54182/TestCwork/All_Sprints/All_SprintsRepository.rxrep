@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="All_SprintsRepository"
+id="0793ff16-4d1a-4538-8d5e-ab6ee5373dd2">
+  <codegen
+  classname="All_SprintsRepository"
+  namespace="All_Sprints"/>
+  <rootfolder
+  name="Root"
+  id="f2d24594-5a02-44ee-9304-69f2120ee158"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

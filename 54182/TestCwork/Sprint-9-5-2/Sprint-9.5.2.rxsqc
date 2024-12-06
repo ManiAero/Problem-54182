@@ -1,0 +1,42 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "TestFix9_5_2_For_7786",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "TestFix9_5_2_For_8442",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "TestFix9_5_2_For_8015_Code_partnaire",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "TestFix9_5_2_For_8443and8444",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "TestFix9_5_2_For_8371_lenteur",
+    "RunConfig": "TestRun"
+  },  
+  {
+    "Enabled": "True",
+    "TestSuite": "TestFix9_5_2_For_8311_Ralentissements_After_KB",
+    "RunConfig": "TestRun"
+  },
+    {
+    "Enabled": "True",
+    "TestSuite": "TestFix9_5_2_For_8294_ArboMaster",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "TestFix9_5_2_For_8295_MasterCompareWidth",
+    "RunConfig": "TestRun"
+   }
+]

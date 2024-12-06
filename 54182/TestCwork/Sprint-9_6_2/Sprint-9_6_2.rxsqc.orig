@@ -1,0 +1,16 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_6_2_For_9134_raccourci_clavier_import",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+<<<<<<< HEAD
+    "TestSuite": "TestSuite1",
+=======
+    "TestSuite": "Sprint_9_6_2_For_9181_tracabilite_import_fichier",
+>>>>>>> develop
+    "RunConfig": "TestRun"
+  }
+]

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a5c758ca-860a-47dc-905c-6c75e21729ca"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CreateStatesForWeekStateDisplay"
+	namespace="Sprint_9_7_2">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="CreateStatesForWeekStateDisplay"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="InserStatesForWeekStateDisplay"
+		namespace="Sprint_9_7_2"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="1717ef2e-1562-4fd0-be47-8e71ce7e69ef">
+				<argument
+				argname="cnc"
+				id="c693dc2d-f6cd-4d73-9e65-c02b0ccf1119">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						1
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="1210891f-795f-49df-975a-b09f69167f05"
+	name="Sprint_9_7_2Repository"
+	relativepath="Sprint_9_7_2Repository.rxrep">
+		<codegen
+		classname="Sprint_9_7_2Repository"
+		namespace="Sprint_9_7_2">
+		</codegen>
+		<rootfolder
+		id="652b32e5-8a8e-4597-937e-2fc217123020"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CreateStatesForWeekStateDisplay.UserCode.cs
+	</usercodefile>
+	<references>
+		<reference>
+			..\CworkTestLib\bin\Debug\CworkTestLib.exe
+		</reference>
+	</references>
+</recordtable>

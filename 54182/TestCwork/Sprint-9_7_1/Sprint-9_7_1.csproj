@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{10E22A8C-E539-4E67-B65A-BAA4F12D3E99}</ProjectGuid>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Sprint_9_7_1</RootNamespace>
+    <AssemblyName>Sprint-9_7_1</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>d08de377-c012-4bfd-b105-065e116f6e19</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing">
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+    </Reference>
+    <Reference Include="System.Xml">
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>ecea407c-4349-4587-be36-765441ae48cd</id>
+    </Compile>
+    <Compile Include="Clean71Directory.cs">
+      <BoundTo>76ebebdd-58ed-48e8-a445-d591c6a2ebf9</BoundTo>
+      <DependentUpon>Clean71Directory.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b3b6801a-fa53-4756-9fe2-d5342d8edc55</id>
+    </Compile>
+    <Compile Include="Clean71Directory.UserCode.cs">
+      <BoundTo>76ebebdd-58ed-48e8-a445-d591c6a2ebf9</BoundTo>
+      <DependentUpon>Clean71Directory.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6f9a18b7-2a5c-42d7-991d-5a3b21ac44ad</id>
+    </Compile>
+    <Compile Include="CompareExportFilesCheckSum.cs">
+      <BoundTo>77cec05f-25a0-4571-8a69-c95bf29f6de9</BoundTo>
+      <DependentUpon>CompareExportFilesCheckSum.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a0fa81a8-ab1c-4f18-abba-7c4e52e3c851</id>
+    </Compile>
+    <Compile Include="CompareExportFilesCheckSum.UserCode.cs">
+      <BoundTo>77cec05f-25a0-4571-8a69-c95bf29f6de9</BoundTo>
+      <DependentUpon>CompareExportFilesCheckSum.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>86a7f7ec-0e02-42ba-a642-0d13d5d03a91</id>
+    </Compile>
+    <Compile Include="CompareExportFilesCheckSumMazacam.cs">
+      <BoundTo>0da3182a-2eed-45bd-94ef-f7a0d0e2542b</BoundTo>
+      <DependentUpon>CompareExportFilesCheckSumMazacam.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9b73678b-04ee-4ce1-9264-5f7508443737</id>
+    </Compile>
+    <Compile Include="CompareExportFilesCheckSumMazacam.UserCode.cs">
+      <BoundTo>0da3182a-2eed-45bd-94ef-f7a0d0e2542b</BoundTo>
+      <DependentUpon>CompareExportFilesCheckSumMazacam.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4f6ca2aa-edff-4976-b614-23718154b9da</id>
+    </Compile>
+    <Compile Include="DeleteAllCNProg.cs">
+      <BoundTo>e2b41920-08c2-4d57-b971-d66f50ab0663</BoundTo>
+      <DependentUpon>DeleteAllCNProg.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>075de052-9abf-4aac-bac1-e5c5cad50e06</id>
+    </Compile>
+    <Compile Include="DeleteAllCNProg.UserCode.cs">
+      <BoundTo>e2b41920-08c2-4d57-b971-d66f50ab0663</BoundTo>
+      <DependentUpon>DeleteAllCNProg.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>651fdcd0-359f-4d41-96ec-8b8e67ebee9c</id>
+    </Compile>
+    <Compile Include="DeleteFaoImportFiles.cs">
+      <BoundTo>a3947823-c894-4aa7-b90a-9ac4979250b9</BoundTo>
+      <DependentUpon>DeleteFaoImportFiles.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>eb09ada2-01e8-4a67-b298-f35abffdc4e9</id>
+    </Compile>
+    <Compile Include="DeleteFaoImportFiles.UserCode.cs">
+      <BoundTo>a3947823-c894-4aa7-b90a-9ac4979250b9</BoundTo>
+      <DependentUpon>DeleteFaoImportFiles.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bd992657-830f-4daa-9bf2-0b627ef00d2e</id>
+    </Compile>
+    <Compile Include="ExportFilesChecksumCamlink.cs">
+      <BoundTo>fd5b710b-d735-4b33-8e35-0e0af4600f24</BoundTo>
+      <DependentUpon>ExportFilesChecksumCamlink.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b0c0868f-bfc7-4be6-a6ed-eee430878e8d</id>
+    </Compile>
+    <Compile Include="ExportFilesChecksumCamlink.UserCode.cs">
+      <BoundTo>fd5b710b-d735-4b33-8e35-0e0af4600f24</BoundTo>
+      <DependentUpon>ExportFilesChecksumCamlink.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e817acb2-29d1-4ff7-9a78-f18e3e6709e6</id>
+    </Compile>
+    <Compile Include="ExporToCamlink.cs">
+      <BoundTo>89867cc7-4576-4864-864b-279bded8f16d</BoundTo>
+      <DependentUpon>ExporToCamlink.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c2cb1fdc-0097-4c82-9b89-cc60cbc5ce60</id>
+    </Compile>
+    <Compile Include="ExporToCamlink.UserCode.cs">
+      <BoundTo>89867cc7-4576-4864-864b-279bded8f16d</BoundTo>
+      <DependentUpon>ExporToCamlink.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e3aa37ec-18d1-44af-a0db-ccbeb143b51c</id>
+    </Compile>
+    <Compile Include="ExportToCamware.cs">
+      <BoundTo>d045f381-ceef-44f3-b465-373766c69b77</BoundTo>
+      <DependentUpon>ExportToCamware.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fc4ccb56-e6c6-49c6-9041-bad96e9428a5</id>
+    </Compile>
+    <Compile Include="ExportToCamware.UserCode.cs">
+      <BoundTo>d045f381-ceef-44f3-b465-373766c69b77</BoundTo>
+      <DependentUpon>ExportToCamware.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d2167f19-849c-4078-8a7b-10000d0f7da1</id>
+    </Compile>
+    <Compile Include="ExportToMazacam.cs">
+      <BoundTo>3abd7224-80e3-468b-8d32-d99ac69b126d</BoundTo>
+      <DependentUpon>ExportToMazacam.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7e0444a3-f366-4923-9395-baaf01be202c</id>
+    </Compile>
+    <Compile Include="ExportToMazacam.UserCode.cs">
+      <BoundTo>3abd7224-80e3-468b-8d32-d99ac69b126d</BoundTo>
+      <DependentUpon>ExportToMazacam.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0f48367c-a9c6-422b-a980-d44f6ef3401c</id>
+    </Compile>
+    <Compile Include="ManualExportToCamlink.cs">
+      <BoundTo>3ada8bfb-b85d-4049-99bc-8632f6b89b7d</BoundTo>
+      <DependentUpon>ManualExportToCamlink.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a6a84873-4962-4abc-bce4-d011121ab7ff</id>
+    </Compile>
+    <Compile Include="ManualExportToCamlink.UserCode.cs">
+      <BoundTo>3ada8bfb-b85d-4049-99bc-8632f6b89b7d</BoundTo>
+      <DependentUpon>ManualExportToCamlink.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3da79476-51aa-4f18-9abe-4de4af64eab7</id>
+    </Compile>
+    <Compile Include="ManualExportToMazacam.cs">
+      <BoundTo>5cf0ac3c-5969-4293-b537-3001f2d0af53</BoundTo>
+      <DependentUpon>ManualExportToMazacam.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>839b702f-6e5a-4283-88d5-8b2c96f38306</id>
+    </Compile>
+    <Compile Include="ManualExportToMazacam.UserCode.cs">
+      <BoundTo>5cf0ac3c-5969-4293-b537-3001f2d0af53</BoundTo>
+      <DependentUpon>ManualExportToMazacam.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>08571124-cfd1-4542-bff2-bd3090b3903b</id>
+    </Compile>
+    <Compile Include="ManualExportToCamware.cs">
+      <BoundTo>834189b4-2b08-4d19-92e7-54a334c727e8</BoundTo>
+      <DependentUpon>ManualExportToCamware.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>584ca2ae-f2a8-4329-8051-d19888afc262</id>
+    </Compile>
+    <Compile Include="ManualExportToCamware.UserCode.cs">
+      <BoundTo>834189b4-2b08-4d19-92e7-54a334c727e8</BoundTo>
+      <DependentUpon>ManualExportToCamware.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b4e525c0-32ce-482b-9e3a-17aafb8e53e4</id>
+    </Compile>
+    <Compile Include="OpenCNC1.cs">
+      <BoundTo>76dcbf1c-c2b9-4577-a656-ee81aa1e16b0</BoundTo>
+      <DependentUpon>OpenCNC1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>95a201ff-6892-4394-ad4b-53b61492fc0b</id>
+    </Compile>
+    <Compile Include="OpenCNC1.UserCode.cs">
+      <BoundTo>76dcbf1c-c2b9-4577-a656-ee81aa1e16b0</BoundTo>
+      <DependentUpon>OpenCNC1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>73f8d793-3acf-46bd-88ed-89e14a29d5ff</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>0d216016-725d-4cd2-929e-3bdb8e703694</id>
+    </Compile>
+    <Compile Include="DeleteImportFaoAndCopyBin.cs">
+      <BoundTo>37e5a91e-ecf9-4835-88bd-b1bcb43ce914</BoundTo>
+      <DependentUpon>DeleteImportFaoAndCopyBin.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7feec58e-dca6-4308-a674-7446941ec282</id>
+    </Compile>
+    <Compile Include="DeleteImportFaoAndCopyBin.UserCode.cs">
+      <BoundTo>37e5a91e-ecf9-4835-88bd-b1bcb43ce914</BoundTo>
+      <DependentUpon>DeleteImportFaoAndCopyBin.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5ad84ca9-f245-478e-91e8-3283046bfdb4</id>
+    </Compile>
+    <Compile Include="Sprint_9_7_1Repository.cs">
+      <BoundTo>d08de377-c012-4bfd-b105-065e116f6e19</BoundTo>
+      <DependentUpon>Sprint_9_7_1Repository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>224fbe37-e9db-40c6-a2f1-ea9d8f6e5a1b</id>
+    </Compile>
+    <Compile Include="ChargementFtp.cs">
+      <BoundTo>4e1939ae-08d8-4ba2-9651-be964f2f72fb</BoundTo>
+      <DependentUpon>ChargementFtp.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8a9cc4ca-b93f-45be-9ffe-f7d67b3e07a9</id>
+    </Compile>
+    <Compile Include="ChargementFtp.UserCode.cs">
+      <BoundTo>4e1939ae-08d8-4ba2-9651-be964f2f72fb</BoundTo>
+      <DependentUpon>ChargementFtp.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7870debc-2211-47a1-aa01-5fa240514d5d</id>
+    </Compile>
+    <Compile Include="DechargementFtp.cs">
+      <BoundTo>0afa8464-0d0c-4920-b6b4-c86645c5872b</BoundTo>
+      <DependentUpon>DechargementFtp.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a463fcbe-e00d-476f-bde7-aca2014613e0</id>
+    </Compile>
+    <Compile Include="DechargementFtp.UserCode.cs">
+      <BoundTo>0afa8464-0d0c-4920-b6b4-c86645c5872b</BoundTo>
+      <DependentUpon>DechargementFtp.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6c7bcce3-d914-48e8-a91f-4cddb6153413</id>
+    </Compile>
+    <Compile Include="ListFtpFolder.cs">
+      <BoundTo>b72eb457-8aa1-45c2-8f6a-7524d27dea02</BoundTo>
+      <DependentUpon>ListFtpFolder.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>30560e2d-8b0c-479b-b0e3-7028090a418d</id>
+    </Compile>
+    <Compile Include="ListFtpFolder.UserCode.cs">
+      <BoundTo>b72eb457-8aa1-45c2-8f6a-7524d27dea02</BoundTo>
+      <DependentUpon>ListFtpFolder.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>79d01621-bc50-4c5d-a977-f50ed8373c01</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>9e43acea-f608-4bd2-ab13-4b62897de268</id>
+    </None>
+    <None Include="Clean71Directory.rxrec">
+      <BoundTo>d08de377-c012-4bfd-b105-065e116f6e19</BoundTo>
+      <id>76ebebdd-58ed-48e8-a445-d591c6a2ebf9</id>
+      <recordtableid>ea841446-3243-4065-936e-e5be0fa449b0</recordtableid>
+    </None>
+    <None Include="CompareExportFilesCheckSum.rxrec">
+      <BoundTo>d08de377-c012-4bfd-b105-065e116f6e19</BoundTo>
+      <id>77cec05f-25a0-4571-8a69-c95bf29f6de9</id>
+      <recordtableid>693d025b-0c3e-4b8d-a8b1-249f5a5ad35c</recordtableid>
+    </None>
+    <None Include="CompareExportFilesCheckSumMazacam.rxrec">
+      <BoundTo>d08de377-c012-4bfd-b105-065e116f6e19</BoundTo>
+      <id>0da3182a-2eed-45bd-94ef-f7a0d0e2542b</id>
+      <recordtableid>ac06b093-f049-4062-8cd7-71c6d3a0a72d</recordtableid>
+    </None>
+    <None Include="DeleteAllCNProg.rxrec">
+      <BoundTo>d08de377-c012-4bfd-b105-065e116f6e19</BoundTo>
+      <id>e2b41920-08c2-4d57-b971-d66f50ab0663</id>
+      <recordtableid>37135091-b585-462c-b8d0-80da58ab8ed5</recordtableid>
+    </None>
+    <None Include="DeleteFaoImportFiles.rxrec">
+      <BoundTo>d08de377-c012-4bfd-b105-065e116f6e19</BoundTo>
+      <id>a3947823-c894-4aa7-b90a-9ac4979250b9</id>
+      <recordtableid>deb63958-27dc-4bcc-ae9d-5edfe2ac260e</recordtableid>
+    </None>
+    <None Include="DeleteImportFaoAndCopyBin.rxrec">
+      <BoundTo>d08de377-c012-4bfd-b105-065e116f6e19</BoundTo>
+      <id>37e5a91e-ecf9-4835-88bd-b1bcb43ce914</id>
+      <recordtableid>47dc4514-d358-414e-81ef-4ba8b32578b8</recordtableid>
+    </None>
+    <None Include="ExportFilesChecksumCamlink.rxrec">
+      <BoundTo>d08de377-c012-4bfd-b105-065e116f6e19</BoundTo>
+      <id>fd5b710b-d735-4b33-8e35-0e0af4600f24</id>
+      <recordtableid>34e56a78-04e6-4288-93fc-13846dc7165b</recordtableid>
+    </None>
+    <None Include="ExporToCamlink.rxrec">
+      <BoundTo>d08de377-c012-4bfd-b105-065e116f6e19</BoundTo>
+      <id>89867cc7-4576-4864-864b-279bded8f16d</id>
+      <recordtableid>ec6f725d-5d45-4eb2-8766-a7b377231e4c</recordtableid>
+    </None>
+    <None Include="ExportToCamware.rxrec">
+      <BoundTo>d08de377-c012-4bfd-b105-065e116f6e19</BoundTo>
+      <id>d045f381-ceef-44f3-b465-373766c69b77</id>
+      <recordtableid>7df04a27-18b7-4e09-9cce-f009b7e66bed</recordtableid>
+    </None>
+    <None Include="ExportToMazacam.rxrec">
+      <BoundTo>d08de377-c012-4bfd-b105-065e116f6e19</BoundTo>
+      <id>3abd7224-80e3-468b-8d32-d99ac69b126d</id>
+      <recordtableid>5ee6e729-4ad1-4d34-9abc-b6f3ce52aee1</recordtableid>
+    </None>
+    <None Include="ManualExportToCamlink.rxrec">
+      <BoundTo>d08de377-c012-4bfd-b105-065e116f6e19</BoundTo>
+      <id>3ada8bfb-b85d-4049-99bc-8632f6b89b7d</id>
+      <recordtableid>25cc833e-9120-420c-9136-3d7bf92a051e</recordtableid>
+    </None>
+    <None Include="ManualExportToMazacam.rxrec">
+      <BoundTo>d08de377-c012-4bfd-b105-065e116f6e19</BoundTo>
+      <id>5cf0ac3c-5969-4293-b537-3001f2d0af53</id>
+      <recordtableid>6e13263f-7a21-4548-a5bd-d33c3288d719</recordtableid>
+    </None>
+    <None Include="ManualExportToCamware.rxrec">
+      <id>834189b4-2b08-4d19-92e7-54a334c727e8</id>
+      <recordtableid>54d8afe1-3c6e-4af1-b3ab-5085499b5a46</recordtableid>
+      <BoundTo>d08de377-c012-4bfd-b105-065e116f6e19</BoundTo>
+    </None>
+    <None Include="OpenCNC1.rxrec">
+      <BoundTo>d08de377-c012-4bfd-b105-065e116f6e19</BoundTo>
+      <id>76dcbf1c-c2b9-4577-a656-ee81aa1e16b0</id>
+      <recordtableid>accff7b1-3856-4a2b-9990-435aeca52671</recordtableid>
+    </None>
+    <Content Include="Sprint-9_7_1.rxsqc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>4968d43a-631d-4d64-9772-f56c79ea1ffb</id>
+    </Content>
+    <None Include="Sprint_9_7_1Repository.rximg">
+      <BoundTo>d08de377-c012-4bfd-b105-065e116f6e19</BoundTo>
+      <DependentUpon>Sprint_9_7_1Repository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>8484129f-82c5-4ecb-a0d8-520378a91d9f</id>
+    </None>
+    <None Include="Sprint_9_7_1Repository.rxrep">
+      <id>d08de377-c012-4bfd-b105-065e116f6e19</id>
+      <repoid>a7bc69c6-4691-4490-bfde-e2c3417e230d</repoid>
+      <reporootid>290c9685-3b25-4107-b5cc-ff8614bd3974</reporootid>
+    </None>
+    <Content Include="Sprint_9_7_1_for_10175_Ftpclient.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>72a4c461-0031-4902-86db-732aeaa56c78</id>
+    </Content>
+    <None Include="ChargementFtp.rxrec">
+      <BoundTo>d08de377-c012-4bfd-b105-065e116f6e19</BoundTo>
+      <id>4e1939ae-08d8-4ba2-9651-be964f2f72fb</id>
+      <recordtableid>bba5a0fd-1d1a-476f-9247-1f402703861c</recordtableid>
+    </None>
+    <None Include="DechargementFtp.rxrec">
+      <BoundTo>d08de377-c012-4bfd-b105-065e116f6e19</BoundTo>
+      <id>0afa8464-0d0c-4920-b6b4-c86645c5872b</id>
+      <recordtableid>a18b8b76-4380-4b03-b219-e5b1ca293fac</recordtableid>
+    </None>
+    <None Include="ListFtpFolder.rxrec">
+      <BoundTo>d08de377-c012-4bfd-b105-065e116f6e19</BoundTo>
+      <id>b72eb457-8aa1-45c2-8f6a-7524d27dea02</id>
+      <recordtableid>19bbec55-ebf0-4d1b-b02f-e5db397dbcd4</recordtableid>
+    </None>
+    <Content Include="Sprint-9_7_1.rxsqc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>a5787766-2856-46ae-b79b-9724c09d5334</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Sprint_9_7_1.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>718ad2e8-42b9-4945-aa66-955050fed311</id>
+    </Content>
+    <Content Include="Sprint_9_7_1_For_10065_Export_Multi_Mazacam.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>c6fd8106-51d5-436e-8d43-d37053f9c52d</id>
+    </Content>
+    <Content Include="Sprint_9_7_1_for_10004_Doublon_simulateur_Commande.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>48b47981-681e-4cef-9e54-4a4c6d0475b4</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CworkTestLib\CworkTestLib.csproj">
+      <Project>{93D91CDA-52E2-48B8-AAD9-2F8D8C06E6C9}</Project>
+      <Name>CworkTestLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sprint-9.6\Sprint-9.6.csproj">
+      <Project>{4EED4FFB-EB39-4342-96F2-6C375532B03F}</Project>
+      <Name>Sprint-9.6</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sprint-9_7\Sprint-9_7.csproj">
+      <Project>{9BBBC50B-A85C-432A-8D56-B2D77E2CA237}</Project>
+      <Name>Sprint-9_7</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets">
+  </Import>
+  <Import Condition="Exists('$(RanorexTargetsPath)')" Project="$(RanorexTargetsPath)">
+  </Import>
+</Project>

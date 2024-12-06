@@ -1,0 +1,27 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_8_1_For_11174_API_Chargement_RS232",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_8_1_For_11423_API_Retour_Prog",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_8_1_For_11389_API_Chargement_SMB",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_8_1_For_11411_API_Listage_document_groupe",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_8_1_For_11467_API_Charger_plusieurs_prg_RS232",
+    "RunConfig": "TestRun"
+  }
+]

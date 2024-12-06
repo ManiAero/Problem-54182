@@ -1,0 +1,17 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_7_for_9551_recherche_par_contenu",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_7_For_9698_timeout_post_status_history",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_7_for_10004_Doublon_simulateur_Commande",
+    "RunConfig": "TestRun"
+  }
+]

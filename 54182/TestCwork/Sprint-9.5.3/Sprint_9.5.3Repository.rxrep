@@ -1,0 +1,1110 @@
+﻿<repository
+id="0b82655c-86d8-4ee9-a333-d25ff8f8d98c"
+name="Sprint_9_5_3Repository">
+	<codegen
+	classname="Sprint_9_5_3Repository"
+	namespace="Sprint9_5_2">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="65bead2c-0c63-4c59-9c12-630ae995fddc"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="4ca955be-f314-4b5a-8c37-17773175b419"
+		isrooted="True"
+		name="CworkMainForm1"
+		refpath="/form[@controlname='CworkMainForm']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,rawtext"
+			capname="rawtext"
+			id="d1195cd2-39d4-4069-85c5-f2961c0255da"
+			name="Cnc1"
+			refimgid="02d5cc85-9978-4807-b421-1c8432a19d84"
+			refpath="/form[@controlname='CworkMainForm']/element[@controlname='pages']/element[@class='TAdvOfficePage' and @instance='0']/element[@controlname='CncViewForm']/element[@controlname='StationsTiles']/rawtext[@rawtext='Cnc-1']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='CworkMainForm']/element[@controlname='pages']//element[@controlname='StationsTiles']/rawtext[@rawtext='Cnc-1']
+			</item>
+			<basepath>
+				/form[@controlname='CworkMainForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAfpJREFUOE+NUk1IVFEYvRMootUm0ZW7Nu6iTUR7QVq0E6xlbpxFzn3j
+H0RMQSGmBLUxcJELdSEpiBBUyLiYe5+NP/2MYU42OkY5MTZS42iIzum79743jOMzOnA4zPd957zv
+3jvsGPzh08yS/YyLTdIDxuUyaQtj8DkT/4AlRmgY3hR50hvOpAe4XD1u8iCXfY6jCFwMew6fxIC8
+4jgJHZEzqujjAqEXCTxfTKHx6Qf1JW+zYdZxE9RKZP6a2YVC/MeO1uahjxQiDJWpVG/ZtU6A2Dx3
+e1abxt+mwNoENn7mMPk+hV+7+/i2vYdrgzHdL28XWis6KCAgm0wAPVV9z7xu9L5eN+kUwgICPa/W
+dH36U1praCqOdPaPOR4XfhNA71zZJfWA+JIhcwT5/CFmExm4mynMr29r7Z5cNR8JRBrcgJsqcTj6
+XQ+4OH9/Tm+xt3+ARDoH/9iKrp/ttk1AUFw1AQr6ciRq77zBpUeLKAvSb1Ujqlo1bVLWLlF3L1qo
+62NYtmUCuLxeaJzAi30LSG7lcOHhAvh4nI7y2fQK4KK31FTMurtRtIwug0/E0TjwDg9erpneEbRF
+LlMxW2x0+TicRDL9G83PYngyk0R4ZQsVnaUBLoKiRr+zZbfq26YLU8OVXTbK6T9QRaro4zLmOP4D
+QclLtlpiIZz6C5eE90AGvwLkAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<folder
+		capname="host"
+		id="4de63147-de44-4a47-b172-941b96d2e18f"
+		isrooted="False"
+		name="CworkMainForm"
+		searchtimeout="0ms">
+			<appfolder
+			capname="form"
+			id="2cc2deee-b518-4a8f-b116-2b82192a7b58"
+			isrooted="True"
+			name="CWork202195"
+			refpath="/form[@name='CworkMainForm']"
+			searchtimeout="30000ms"
+			usecache="True">
+				<item
+				addcaps="unknown,delphielement"
+				capname="unknown"
+				id="e08a8b15-3ec7-425c-9a9f-48bb0478af59"
+				name="BProperty"
+				refimgid="2c631067-e5f4-477a-8ab1-f3b2e8ab05c2"
+				refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@class='TAdvOfficePage' and @instance='0']/form/element[@name='AdvDockPanel1']/element/element[@name='bProperty']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='CncViewForm']//element[@name='bProperty']
+				</item>
+				<basepath>
+					/form[@name='CworkMainForm']
+				</basepath>
+				<icon>
+					iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAfpJREFUOE+NUk1IVFEYvRMootUm0ZW7Nu6iTUR7QVq0E6xlbpxFzn3j
+H0RMQSGmBLUxcJELdSEpiBBUyLiYe5+NP/2MYU42OkY5MTZS42iIzum79743jOMzOnA4zPd957zv
+3jvsGPzh08yS/YyLTdIDxuUyaQtj8DkT/4AlRmgY3hR50hvOpAe4XD1u8iCXfY6jCFwMew6fxIC8
+4jgJHZEzqujjAqEXCTxfTKHx6Qf1JW+zYdZxE9RKZP6a2YVC/MeO1uahjxQiDJWpVG/ZtU6A2Dx3
+e1abxt+mwNoENn7mMPk+hV+7+/i2vYdrgzHdL28XWis6KCAgm0wAPVV9z7xu9L5eN+kUwgICPa/W
+dH36U1praCqOdPaPOR4XfhNA71zZJfWA+JIhcwT5/CFmExm4mynMr29r7Z5cNR8JRBrcgJsqcTj6
+XQ+4OH9/Tm+xt3+ARDoH/9iKrp/ttk1AUFw1AQr6ciRq77zBpUeLKAvSb1Ujqlo1bVLWLlF3L1qo
+62NYtmUCuLxeaJzAi30LSG7lcOHhAvh4nI7y2fQK4KK31FTMurtRtIwug0/E0TjwDg9erpneEbRF
+LlMxW2x0+TicRDL9G83PYngyk0R4ZQsVnaUBLoKiRr+zZbfq26YLU8OVXTbK6T9QRaro4zLmOP4D
+QclLtlpiIZz6C5eE90AGvwLkAAAAAElFTkSuQmCC
+				</icon>
+			</appfolder>
+		</folder>
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="49817afb-eac2-41eb-a714-e2c9d8ceb817"
+		isrooted="True"
+		name="ProprietesPourCnc1"
+		refpath="/form[@name='CncOptionsForm']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="treeitem,delphielement"
+			capname="treeitem"
+			id="81b12305-d9d6-4841-bb5e-6cc127adabdb"
+			name="HEIDCOM"
+			refimgid="5d4d2736-ecb7-4c8e-beb9-d820f665fde8"
+			refpath="/form[@name='CncOptionsForm']/container[@name='LeftPanel']/tree/treeitem[@text='PRODUCTION']/treeitem[@text='HEID COM']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CncOptionsForm']/?/?/tree[@name='tvCategory']/?/?/treeitem[@text='HEID COM']
+			</item>
+			<item
+			addcaps="treeitem,delphielement"
+			capname="treeitem"
+			id="4e819e40-ec14-4ff1-85ff-769a9f0b6e6c"
+			name="CollecteDevenements"
+			refimgid="3ae66b8b-d4bf-4e7c-af4e-b8c4ad734171"
+			refpath="/form[@name='CncOptionsForm']/container[@name='LeftPanel']/tree/treeitem[@text='PRODUCTION']/treeitem[@text='Collecte d''événements']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CncOptionsForm']/?/?/tree[@name='tvCategory']/?/?/treeitem[@text='Collecte d''événements']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow,delphielement"
+			capname="checkbox"
+			id="70f9a69a-fc19-48da-89fb-e4497c0c1671"
+			name="ActiverLaCollecteDesAlarmes"
+			refimgid="8aa07361-5ced-4a99-8295-26dac087c2ad"
+			refpath="/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/tabpagelist/container[@name='TabSheet11']/container/tabpagelist/container[@name='TabSheet8']/checkbox[@name='ckEnableAlarmCollect']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/?/?/container[@name='TabSheet11']//container[@name='TabSheet8']/checkbox[@name='ckEnableAlarmCollect']
+			</item>
+			<item
+			addcaps="button"
+			capname="button"
+			id="2feb6e56-62b2-43e3-bf38-09cfc39b3113"
+			name="SomeButton"
+			refimgid="07c529f5-4731-468b-bf7a-9a6e54ac7a14"
+			refpath="/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/tabpagelist/container[@name='TabSheet11']/container/tabpagelist/container[@name='TabSheet8']/combobox[@name='cbAlarmMode']/button[@text='>']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CncOptionsForm']//container[@name='TabSheet11']//container[@name='TabSheet8']/combobox[@name='cbAlarmMode']/button[@text='&gt;']
+			</item>
+			<item
+			addcaps="combobox,nativewindow,delphielement"
+			capname="combobox"
+			id="8e392a0e-d79b-433b-8cfe-1bca09961842"
+			name="CbAlarmMode"
+			refimgid="9478268e-af56-48fa-b0fd-4b535eb27f70"
+			refpath="/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/tabpagelist[@name='Pages']/container[@name='TabSheet11']/container[@name='TFrameStationStatesOptions1']/tabpagelist[@name='Pages']/container[@name='TabSheet8']/combobox[@name='cbAlarmMode']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/?/?/container[@name='TabSheet11']//container[@name='TabSheet8']/combobox[@name='cbAlarmMode']
+			</item>
+			<item
+			addcaps="button,nativewindow,delphielement"
+			capname="button"
+			id="63a8b059-2598-4c1b-9f99-86d896a26242"
+			name="ButtonAppliquer"
+			refimgid="d887a2f2-965b-4772-b21f-6f07cac8ea80"
+			refpath="/form[@name='CncOptionsForm']/container[@name='FooterPanel']/button[@name='bOK']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CncOptionsForm']/?/?/button[@name='bOK']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow,delphielement"
+			capname="checkbox"
+			id="7cbf1785-984d-481e-aad5-4d8c18325c02"
+			name="ActiverLaCollecteDesProgrammesCoura"
+			refimgid="12d04120-eaf1-40f1-aef3-5db717982f8f"
+			refpath="/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/tabpagelist/container[@name='TabSheet11']/container/tabpagelist/container[@name='TabSheet8']/checkbox[@name='ckEnableProgCollect']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/?/?/container[@name='TabSheet11']//container[@name='TabSheet8']/checkbox[@name='ckEnableProgCollect']
+			</item>
+			<item
+			addcaps="button"
+			capname="button"
+			id="5ba80e9d-fb2c-4d4b-8a2a-0073d9bf94bd"
+			name="SomeButton1"
+			refimgid="7700db76-0cf6-4b40-b55a-b9f5600c29aa"
+			refpath="/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/tabpagelist/container[@name='TabSheet11']/container/tabpagelist/container[@name='TabSheet8']/combobox[@name='cbProgMode']/button[@text='>']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CncOptionsForm']//container[@name='TabSheet11']//container[@name='TabSheet8']/combobox[@name='cbProgMode']/button[@text='&gt;']
+			</item>
+			<item
+			addcaps="combobox,nativewindow,delphielement"
+			capname="combobox"
+			id="a8f1a9a5-eb71-400d-a887-a0bd9e1fca15"
+			name="CbProgMode"
+			refimgid="e0a53c66-9d1d-4782-90b1-667466ae1743"
+			refpath="/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/tabpagelist[@name='Pages']/container[@name='TabSheet11']/container[@name='TFrameStationStatesOptions1']/tabpagelist[@name='Pages']/container[@name='TabSheet8']/combobox[@name='cbProgMode']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/?/?/container[@name='TabSheet11']//container[@name='TabSheet8']/combobox[@name='cbProgMode']
+			</item>
+			<item
+			addcaps="button,nativewindow,delphielement"
+			capname="button"
+			id="ba259c9f-1c72-4063-825e-b1c00ac06d60"
+			name="Configurer"
+			refimgid="4181384a-c205-4888-89c7-ed9703487a20"
+			refpath="/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/tabpagelist/container[@name='TabSheet11']/container/tabpagelist/container[@name='TabSheet10']/button[@name='btnHeidComConfig']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/?/?/container[@name='TabSheet11']//container[@name='TabSheet10']/button[@name='btnHeidComConfig']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow,delphielement"
+			capname="checkbox"
+			id="30ced6fe-6d08-4b8b-b9cf-94d334593ca5"
+			name="ActiverLaCollecteDesProgrammesEnCo"
+			refimgid="9985e48f-317d-4b55-9c73-9e51c3e9f2cf"
+			refpath="/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/tabpagelist/container[@name='TabSheet11']/container/tabpagelist/container[@name='TabSheet8']/checkbox[@name>'ckEnableRunningProgCollec']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/?/?/container[@name='TabSheet11']//container[@name='TabSheet8']/checkbox[@name&gt;'ckEnableRunningProgCollec']
+			</item>
+			<item
+			addcaps="button"
+			capname="button"
+			id="5a60efe3-8f5f-401f-8ef3-95a86b5b0049"
+			name="SomeButton2"
+			refimgid="4dd74b56-dbe4-497e-8076-0600ea78f26f"
+			refpath="/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/tabpagelist/container[@name='TabSheet11']/container/tabpagelist/container[@name='TabSheet8']/combobox[@name='cbRunningPrgMode']/button[@text='>']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CncOptionsForm']//container[@name='TabSheet11']//container[@name='TabSheet8']/combobox[@name='cbRunningPrgMode']/button[@text='&gt;']
+			</item>
+			<item
+			addcaps="combobox,nativewindow,delphielement"
+			capname="combobox"
+			id="fb3a6c72-25e7-42a7-91b7-fda9aad231ea"
+			name="CbRunningPrgMode"
+			refimgid="11153290-c565-4b53-a4de-d796f88bca50"
+			refpath="/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/tabpagelist[@name='Pages']/container[@name='TabSheet11']/container[@name='TFrameStationStatesOptions1']/tabpagelist[@name='Pages']/container[@name='TabSheet8']/combobox[@name='cbRunningPrgMode']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/?/?/container[@name='TabSheet11']//container[@name='TabSheet8']/combobox[@name='cbRunningPrgMode']
+			</item>
+			<basepath>
+				/form[@name='CncOptionsForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH6SURBVDhPjVJNSFRRGL0TKKLVJtGVuzbuok1E
+e0FatBOsZW6cRc594x9ETEEhpgS1MXCRC3UhKYgQVMi4mHufjT/9jGFONjpGOTE2UuNoiM7pu/e+
+N4zjMzpwOMz3fee879477Bj84dPMkv2Mi03SA8blMmkLY/A5E/+AJUZoGN4UedIbzqQHuFw9bvIg
+l32OowhcDHsOn8SAvOI4CR2RM6ro4wKhFwk8X0yh8ekH9SVvs2HWcRPUSmT+mtmFQvzHjtbmoY8U
+IgyVqVRv2bVOgNg8d3tWm8bfpsDaBDZ+5jD5PoVfu/v4tr2Ha4Mx3S9vF1orOiggIJtMAD1Vfc+8
+bvS+XjfpFMICAj2v1nR9+lNaa2gqjnT2jzkeF34TQO9c2SX1gPiSIXME+fwhZhMZuJspzK9va+2e
+XDUfCUQa3ICbKnE4+l0PuDh/f05vsbd/gEQ6B//Yiq6f7bZNQFBcNQEK+nIkau+8waVHiygL0m9V
+I6paNW1S1i5Rdy9aqOtjWLZlAri8XmicwIt9C0hu5XDh4QL4eJyO8tn0CuCit9RUzLq7UbSMLoNP
+xNE48A4PXq6Z3hG0RS5TMVtsdPk4nEQy/RvNz2J4MpNEeGULFZ2lAS6Coka/s2W36tumC1PDlV02
+yuk/UEWq6OMy5jj+A0HJS7ZaYiGc+guXhPdABr8C5AAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="list,nativewindow"
+		capname="list"
+		id="322cb909-7998-4a84-9eaa-49f05469273b"
+		isrooted="True"
+		name="List1000"
+		refpath="/list[@controlid='1000']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="listitem,nativeitem,checkable"
+			capname="listitem"
+			id="1134fc9a-d373-4db2-9e8b-3353701f6deb"
+			name="ViaHeidCOM"
+			refimgid="4f63ae70-1e2c-4307-bd90-d5e716037765"
+			refpath="/list[@controlid='1000']/listitem[@text='Via Heid COM']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text='Via Heid COM']
+			</item>
+			<item
+			addcaps="listitem,nativeitem,checkable"
+			capname="listitem"
+			id="97493730-1a96-4d72-8e26-ce2edfbdbd26"
+			name="TNC6xx"
+			refimgid="c4bab108-3ece-4b64-a67a-e5629c241fab"
+			refpath="/list[@controlid='1000']/listitem[@text='TNC 6xx']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text='TNC 6xx']
+			</item>
+			<basepath>
+				/list[@controlid='1000']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="97e5b2d8-dfd0-4917-8e69-1d0529cc29a8"
+		isrooted="True"
+		name="HEIDENHAINDNCConnectionsRWPermiss"
+		refpath="/form[@title='HEIDENHAIN DNC Connections  - RW permission on HKLM']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="c087b8fa-3b54-480f-9f6b-c3fea603adef"
+			name="ButtonAdd"
+			refimgid="92a501a9-88eb-485f-8608-7f66c65be413"
+			refpath="/form[@title>'HEIDENHAIN DNC Connections']/button[@text='&amp;Add...']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title&gt;'HEIDENHAIN DNC Connections']/button[@text='&amp;Add...']
+			</item>
+			<item
+			addcaps="cell"
+			capname="cell"
+			id="4dbaa00c-7a9d-4691-9da2-b197a8550a93"
+			name="CellCW1"
+			refimgid="7f29f254-cd99-4341-86ba-7e3557f5f9f0"
+			refpath="/form[@title='HEIDENHAIN DNC Connections  - RW permission on HKLM']/table[@controlid='301']/row[@index='0']/cell[@text='CW1']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title&gt;'HEIDENHAIN DNC Connections']/table[@controlid='301']/?/?/cell[@text='CW1']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="abce4403-e6c0-4fab-b674-e7525342fba8"
+			name="Close"
+			refimgid="778ce16e-0db5-464b-ac0e-08826de5a4d3"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title&gt;'HEIDENHAIN DNC Connections']/?/?/button[@accessiblename='Fermer']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="77d4772c-7ee3-4b0b-b521-3fcc1bdc0063"
+			name="ButtonRemove"
+			refimgid="2b6ae46d-8214-4d72-bb8f-e819b8abc2d3"
+			refpath="/form[@title>'HEIDENHAIN DNC Connections']/button[@text='&amp;Remove...']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title&gt;'HEIDENHAIN DNC Connections']/button[@text='&amp;Remove...']
+			</item>
+			<basepath>
+				/form[@title&gt;'HEIDENHAIN DNC Connections']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKpSURBVDhPhVJbSFNxHD55ywukgQ+REBVF1ENB
+b11finqpBwujXgrCt6CdbW6mpsuighC6QdKFYg9FTkwoA8kHI8//nG15d9OV6Zw5nbLccs2pI79+
+/3MO5CXog4/fufy/7/+7CctgUHYKJrmG6CPOCSa2IBjZKEW7IEqHhCJHqn5yBWxIIUERHewnLtIz
+VtHIJgSjbCFm6aol0MThVaKVNLJ5MqgSbK1pupJgdu6iH14iskoV5BDXGP8h/ssIXXZcVxOo5jQz
+Wzz/8gs+DkbAhqMwNg4h06JAMDC6lUScov7Mo0l2CDZPhmZgkAYOPujBdHwBn75FUN81hdhcEhdf
++XDyqRfbb7Zj951OHH7Yiw1Vbhx51IdsqxIQxLatugFLlDf5wXHWPoACmxvWt8M4Z+/HcHgWj1kQ
+Dd1T8IzHUPZuCO+9YW4QozL2awaitFDdHCD5IgqfeZFZImNvTRcKrrlR1zmJ8WgC/nAcEcrQN8FN
+/FSGFFfHqsLAAoXP+zGf/A27O4TrzSOY/jWP0/TtAvWFo2UgjN5gDDOJJPbd6+EGIXVnVIjMnlPq
+xO2WUQR+JDAWSVDa48grd2Eb1d8x+hOX6gdxt/U7mjxh5JY5eTOpBMVEkXaCpyLKwXRKffONdlW0
+lk+AOp5qlrGResJHu6n6M/ZQM1Po2/oKF3KsSpzOWLQtVDdMXRJtVEvnTu/cXHwziIauSZx54cXr
+jhCO0jSEy5JfK4OnYmKVZBJdJtbJbz3xpA+OjgkcuN+N2rYxnKIe8QFoBhx8PUXpGAkcxACRjypO
+DGWXKjO10hgau3kGHtRRBrc+jGDdFcWnq5eAb5jZuUWdM++PQdqRVqKY8ipcs/mVbuSWO8Fj/lXX
+dLpFLtZV/wEvUWQlFAPEJJX6lRpfLNg8GX8A2ckOfl3okjIAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="3ffdd1b6-d0f4-4e72-b587-f143d4537673"
+		isrooted="True"
+		name="WelcomeToTheAddConnectionWizard"
+		refpath="/form[@title='Welcome to the Add Connection Wizard']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="5bb1fa00-95b5-41fc-ba94-c490641988f1"
+			name="ButtonNext"
+			refimgid="01ad4c64-4dd9-4d40-96bf-a0e163d95872"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title&gt;'Welcome to the Add Connection']/button[@text='&amp;Suivant &gt;']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="b6120b62-27e4-4885-bf30-51412c8909bd"
+			name="Text354"
+			refimgid="a640dd02-3fb2-4013-bd4e-b0dbc7d6a29e"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title&gt;'Welcome to the Add Connection']/?/?/text[@controlid='354']
+			</item>
+			<basepath>
+				/form[@title&gt;'Welcome to the Add Connection']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKpSURBVDhPhVJbSFNxHD55ywukgQ+REBVF1ENB
+b11finqpBwujXgrCt6CdbW6mpsuighC6QdKFYg9FTkwoA8kHI8//nG15d9OV6Zw5nbLccs2pI79+
+/3MO5CXog4/fufy/7/+7CctgUHYKJrmG6CPOCSa2IBjZKEW7IEqHhCJHqn5yBWxIIUERHewnLtIz
+VtHIJgSjbCFm6aol0MThVaKVNLJ5MqgSbK1pupJgdu6iH14iskoV5BDXGP8h/ssIXXZcVxOo5jQz
+Wzz/8gs+DkbAhqMwNg4h06JAMDC6lUScov7Mo0l2CDZPhmZgkAYOPujBdHwBn75FUN81hdhcEhdf
++XDyqRfbb7Zj951OHH7Yiw1Vbhx51IdsqxIQxLatugFLlDf5wXHWPoACmxvWt8M4Z+/HcHgWj1kQ
+Dd1T8IzHUPZuCO+9YW4QozL2awaitFDdHCD5IgqfeZFZImNvTRcKrrlR1zmJ8WgC/nAcEcrQN8FN
+/FSGFFfHqsLAAoXP+zGf/A27O4TrzSOY/jWP0/TtAvWFo2UgjN5gDDOJJPbd6+EGIXVnVIjMnlPq
+xO2WUQR+JDAWSVDa48grd2Eb1d8x+hOX6gdxt/U7mjxh5JY5eTOpBMVEkXaCpyLKwXRKffONdlW0
+lk+AOp5qlrGResJHu6n6M/ZQM1Po2/oKF3KsSpzOWLQtVDdMXRJtVEvnTu/cXHwziIauSZx54cXr
+jhCO0jSEy5JfK4OnYmKVZBJdJtbJbz3xpA+OjgkcuN+N2rYxnKIe8QFoBhx8PUXpGAkcxACRjypO
+DGWXKjO10hgau3kGHtRRBrc+jGDdFcWnq5eAb5jZuUWdM++PQdqRVqKY8ipcs/mVbuSWO8Fj/lXX
+dLpFLtZV/wEvUWQlFAPEJJX6lRpfLNg8GX8A2ckOfl3okjIAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="e3c646d3-8a97-428b-a6ab-b8e6e46fdd91"
+		isrooted="True"
+		name="DeleteConnectionWizard"
+		refpath="/form[@title='Delete Connection Wizard']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="7e756c80-1b11-4eca-9f60-41534a233039"
+			name="ButtonOK"
+			refimgid="4d1542eb-5fdf-4cda-a847-7822146da48b"
+			refpath="/form[@title='Delete Connection Wizard']/button[@text='OK']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title='Delete Connection Wizard']/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='Delete Connection Wizard']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKpSURBVDhPhVJbSFNxHD55ywukgQ+REBVF1ENB
+b11finqpBwujXgrCt6CdbW6mpsuighC6QdKFYg9FTkwoA8kHI8//nG15d9OV6Zw5nbLccs2pI79+
+/3MO5CXog4/fufy/7/+7CctgUHYKJrmG6CPOCSa2IBjZKEW7IEqHhCJHqn5yBWxIIUERHewnLtIz
+VtHIJgSjbCFm6aol0MThVaKVNLJ5MqgSbK1pupJgdu6iH14iskoV5BDXGP8h/ssIXXZcVxOo5jQz
+Wzz/8gs+DkbAhqMwNg4h06JAMDC6lUScov7Mo0l2CDZPhmZgkAYOPujBdHwBn75FUN81hdhcEhdf
++XDyqRfbb7Zj951OHH7Yiw1Vbhx51IdsqxIQxLatugFLlDf5wXHWPoACmxvWt8M4Z+/HcHgWj1kQ
+Dd1T8IzHUPZuCO+9YW4QozL2awaitFDdHCD5IgqfeZFZImNvTRcKrrlR1zmJ8WgC/nAcEcrQN8FN
+/FSGFFfHqsLAAoXP+zGf/A27O4TrzSOY/jWP0/TtAvWFo2UgjN5gDDOJJPbd6+EGIXVnVIjMnlPq
+xO2WUQR+JDAWSVDa48grd2Eb1d8x+hOX6gdxt/U7mjxh5JY5eTOpBMVEkXaCpyLKwXRKffONdlW0
+lk+AOp5qlrGResJHu6n6M/ZQM1Po2/oKF3KsSpzOWLQtVDdMXRJtVEvnTu/cXHwziIauSZx54cXr
+jhCO0jSEy5JfK4OnYmKVZBJdJtbJbz3xpA+OjgkcuN+N2rYxnKIe8QFoBhx8PUXpGAkcxACRjypO
+DGWXKjO10hgau3kGHtRRBrc+jGDdFcWnq5eAb5jZuUWdM++PQdqRVqKY8ipcs/mVbuSWO8Fj/lXX
+dLpFLtZV/wEvUWQlFAPEJJX6lRpfLNg8GX8A2ckOfl3okjIAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="8c6a408d-e546-477d-96fc-e5ac34fde5c2"
+		isrooted="True"
+		name="Name"
+		refpath="/form[@title='Name']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="6b325e26-78e6-4441-9238-5e6cfb69a84b"
+			name="Text354"
+			refimgid="7c17445c-341a-4ed0-9bb9-05afd456151f"
+			refpath="/form[@title='Name']/container[@caption='Name']/text[@controlid='354']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title='Name']/?/?/text[@controlid='354']
+			</item>
+			<basepath>
+				/form[@title='Name']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKpSURBVDhPhVJbSFNxHD55ywukgQ+REBVF1ENB
+b11finqpBwujXgrCt6CdbW6mpsuighC6QdKFYg9FTkwoA8kHI8//nG15d9OV6Zw5nbLccs2pI79+
+/3MO5CXog4/fufy/7/+7CctgUHYKJrmG6CPOCSa2IBjZKEW7IEqHhCJHqn5yBWxIIUERHewnLtIz
+VtHIJgSjbCFm6aol0MThVaKVNLJ5MqgSbK1pupJgdu6iH14iskoV5BDXGP8h/ssIXXZcVxOo5jQz
+Wzz/8gs+DkbAhqMwNg4h06JAMDC6lUScov7Mo0l2CDZPhmZgkAYOPujBdHwBn75FUN81hdhcEhdf
++XDyqRfbb7Zj951OHH7Yiw1Vbhx51IdsqxIQxLatugFLlDf5wXHWPoACmxvWt8M4Z+/HcHgWj1kQ
+Dd1T8IzHUPZuCO+9YW4QozL2awaitFDdHCD5IgqfeZFZImNvTRcKrrlR1zmJ8WgC/nAcEcrQN8FN
+/FSGFFfHqsLAAoXP+zGf/A27O4TrzSOY/jWP0/TtAvWFo2UgjN5gDDOJJPbd6+EGIXVnVIjMnlPq
+xO2WUQR+JDAWSVDa48grd2Eb1d8x+hOX6gdxt/U7mjxh5JY5eTOpBMVEkXaCpyLKwXRKffONdlW0
+lk+AOp5qlrGResJHu6n6M/ZQM1Po2/oKF3KsSpzOWLQtVDdMXRJtVEvnTu/cXHwziIauSZx54cXr
+jhCO0jSEy5JfK4OnYmKVZBJdJtbJbz3xpA+OjgkcuN+N2rYxnKIe8QFoBhx8PUXpGAkcxACRjypO
+DGWXKjO10hgau3kGHtRRBrc+jGDdFcWnq5eAb5jZuUWdM++PQdqRVqKY8ipcs/mVbuSWO8Fj/lXX
+dLpFLtZV/wEvUWQlFAPEJJX6lRpfLNg8GX8A2ckOfl3okjIAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="84dd922b-05a8-4d64-9c99-855d64d482f1"
+		isrooted="True"
+		name="CNCType"
+		refpath="/form[@title='CNC Type']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button"
+			capname="button"
+			id="cb937858-b807-43ca-a265-7d73c9fedc5a"
+			name="SomeButton"
+			refimgid="e04f2bf2-4b97-4b52-acde-16b069d1af26"
+			refpath="/form[@title='CNC Type']/container[@caption='CNC Type']/combobox/button[@text='>']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title='CNC Type']/?/?/combobox[@controlid='347']/button[@text='&gt;']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="884234cf-462a-4548-976d-bc6f3c5b46b3"
+			name="ButtonNext"
+			refimgid="22fd870b-8988-4f21-962b-0b7fa27995ca"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title='CNC Type']/button[@text='&amp;Suivant &gt;']
+			</item>
+			<basepath>
+				/form[@title='CNC Type']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKpSURBVDhPhVJbSFNxHD55ywukgQ+REBVF1ENB
+b11finqpBwujXgrCt6CdbW6mpsuighC6QdKFYg9FTkwoA8kHI8//nG15d9OV6Zw5nbLccs2pI79+
+/3MO5CXog4/fufy/7/+7CctgUHYKJrmG6CPOCSa2IBjZKEW7IEqHhCJHqn5yBWxIIUERHewnLtIz
+VtHIJgSjbCFm6aol0MThVaKVNLJ5MqgSbK1pupJgdu6iH14iskoV5BDXGP8h/ssIXXZcVxOo5jQz
+Wzz/8gs+DkbAhqMwNg4h06JAMDC6lUScov7Mo0l2CDZPhmZgkAYOPujBdHwBn75FUN81hdhcEhdf
++XDyqRfbb7Zj951OHH7Yiw1Vbhx51IdsqxIQxLatugFLlDf5wXHWPoACmxvWt8M4Z+/HcHgWj1kQ
+Dd1T8IzHUPZuCO+9YW4QozL2awaitFDdHCD5IgqfeZFZImNvTRcKrrlR1zmJ8WgC/nAcEcrQN8FN
+/FSGFFfHqsLAAoXP+zGf/A27O4TrzSOY/jWP0/TtAvWFo2UgjN5gDDOJJPbd6+EGIXVnVIjMnlPq
+xO2WUQR+JDAWSVDa48grd2Eb1d8x+hOX6gdxt/U7mjxh5JY5eTOpBMVEkXaCpyLKwXRKffONdlW0
+lk+AOp5qlrGResJHu6n6M/ZQM1Po2/oKF3KsSpzOWLQtVDdMXRJtVEvnTu/cXHwziIauSZx54cXr
+jhCO0jSEy5JfK4OnYmKVZBJdJtbJbz3xpA+OjgkcuN+N2rYxnKIe8QFoBhx8PUXpGAkcxACRjypO
+DGWXKjO10hgau3kGHtRRBrc+jGDdFcWnq5eAb5jZuUWdM++PQdqRVqKY8ipcs/mVbuSWO8Fj/lXX
+dLpFLtZV/wEvUWQlFAPEJJX6lRpfLNg8GX8A2ckOfl3okjIAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="1fade144-1d48-4779-8875-a46104964742"
+		isrooted="True"
+		name="CWork2021953DEV"
+		refimgid="e431ca8e-96b5-46d9-863d-b005f447166b"
+		refpath="/form[@name='CworkMainForm']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,rawtext"
+			capname="rawtext"
+			id="0e3f4814-80be-4c90-8f02-cdeef46f3ad4"
+			name="Cnc1"
+			refimgid="936e5c7d-8995-4f16-819b-4d96932c777a"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@class='TAdvOfficePage' and @instance='0']/form/element[@name='StationsTiles']/rawtext[@rawtext='Cnc-1']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='CncViewForm']/?/?/rawtext[@rawtext='Cnc-1']
+			</item>
+			<item
+			addcaps="unknown,delphielement"
+			capname="unknown"
+			id="ba5c2bab-a53b-40c3-a59c-8f9b25840eab"
+			name="BShowProgram"
+			refimgid="1d59713d-6bdd-4f3d-8de7-40d72c588ebe"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@class='TAdvOfficePage' and @instance='0']/form/element[@name='AdvDockPanel1']/element/element[@name='bShowProgram']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='CncViewForm']//element[@name='bShowProgram']
+			</item>
+			<item
+			addcaps="cell,delphielement"
+			capname="cell"
+			id="98b76f62-1d64-4c34-a70c-bffc55d5fd86"
+			name="Png1"
+			refimgid="50718841-b519-4f29-971d-dfcc363b7c42"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@class='TAdvOfficePage' and @instance='0']/form/container[@name='PartsViewFrame']/list/row[@name='png1']/cell[@name='png1']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']//form[@name='DBViewForm']/?/?/list[@name='PartsView']/row[@name='png1']/cell[@name='png1']
+			</item>
+			<item
+			addcaps="cell,delphielement"
+			capname="cell"
+			id="b3cf4a1f-7951-4041-b208-ecac8671aded"
+			name="Png2"
+			refimgid="dbc592f4-422d-4717-99d5-71db40572e3c"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@class='TAdvOfficePage' and @instance='0']/form/container[@name='PartsViewFrame']/list/row[@name='png2']/cell[@name='png2']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']//form[@name='DBViewForm']/?/?/list[@name='PartsView']/row[@name='png2']/cell[@name='png2']
+			</item>
+			<item
+			addcaps="unknown,delphielement"
+			capname="unknown"
+			id="78d70af3-51d4-4592-b1ff-1f491df0ea4c"
+			name="BCompare"
+			refimgid="fd55c09b-0f51-4c2d-ae1f-62063e2a25a3"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@class='TAdvOfficePage' and @instance='0']/form/element[@name='BarPanel']/element[@name='RecordToolBar']/element[@name='bCompare']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='DBViewForm']//element[@name='bCompare']
+			</item>
+			<item
+			addcaps="unknown,delphielement"
+			capname="unknown"
+			id="84144686-d3a2-49cd-8d33-9994a170c787"
+			name="BPdf"
+			refimgid="bd59b277-c505-456a-89f0-97330c82737a"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@class='TAdvOfficePage' and @instance='0']/form/element[@name='BarPanelMain']/element/element[@name='bPdf']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='DBCompareForm']//element[@name='bPdf']
+			</item>
+			<item
+			addcaps="menuitem,delphielement"
+			capname="menuitem"
+			id="3250fd3f-c8f0-4d5a-8cda-155d335fe0d0"
+			name="MenuItemFichier"
+			refimgid="5aeb07a1-ec99-49a9-8ba6-a20967694e05"
+			refpath="/form[@name='CworkMainForm']/menubar[@name='MainMenu']/menuitem[@name='mnFile']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/?/?/menuitem[@name='mnFile']
+			</item>
+			<item
+			addcaps="unknown,delphielement"
+			capname="unknown"
+			id="1ddef188-987f-4551-8067-3ca8b1b3cb3f"
+			name="BClose"
+			refimgid="cf53d529-1d99-410c-8c9f-b2065e48a440"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@class='TAdvOfficePage' and @instance='0']/form/element[@name='BarPanelMain']/element/element[@name='bClose']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='DBCompareForm']//element[@name='bClose']
+			</item>
+			<item
+			addcaps="unknown,delphielement"
+			capname="unknown"
+			id="c25510b8-52d9-4a58-8114-5d9cd00f6971"
+			name="BSingleSelect"
+			refimgid="1eaf8b74-a2c0-4a37-abc6-dc6ec8877b98"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@class='TAdvOfficePage' and @instance='0']/form/element[@name='BarPanel']/element[@name='SelectToolBar']/element[@name='bSingleSelect']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='DBViewForm']//element[@name='bSingleSelect']
+			</item>
+			<item
+			addcaps="unknown,nativewindow,delphielement"
+			capname="rawtext"
+			id="fb684719-2858-4ff8-8eda-3690fdf67f00"
+			name="CalendarDay1"
+			refimgid="83ffe89c-90a2-4734-92cf-eca78fc64ce5"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='StationHistoryForm']/container[@name='toolPanelDateSelect']/?/?/rawtext[@rawtext='1']
+			</item>
+			<item
+			addcaps="unknown,nativewindow,delphielement"
+			capname="rawtext"
+			id="a98a9260-1b60-4834-909b-ee36863d008e"
+			name="CalendarDay3"
+			refimgid="83ffe89c-90a2-4734-92cf-eca78fc64ce5"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='StationHistoryForm']/container[@name='toolPanelDateSelect']/?/?/rawtext[@rawtext='3']
+			</item>
+			<folder
+			capname="container"
+			id="f7e060ef-1a2a-448d-8c4d-b8c2f58c0c9d"
+			isrooted="True"
+			name="ChoixDate"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="datetime,nativewindow,delphielement"
+				capname="datetime"
+				id="40e12f6e-e324-4d17-bc7b-c898abdca999"
+				name="DtpFrom"
+				refimgid="11a7a21b-e69d-40ad-9f3b-32678368f3f7"
+				refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@class='TAdvOfficePage' and @instance='0']/form/container[@name='toolPanelDateSelect']/container[@name='pnlCustomOptions']/datetime[@name='dtpFrom']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@name='CworkMainForm']//form[@name='StationHistoryForm']/container[@name='toolPanelDateSelect']/?/?/datetime[@name='dtpFrom']
+				</item>
+				<item
+				addcaps="datetime,nativewindow,delphielement"
+				capname="datetime"
+				id="1294b7bf-c366-488a-9d6a-71523e5f31d2"
+				name="DtpTo"
+				refimgid="9b510b50-1659-4576-818f-549ea0685a36"
+				refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@class='TAdvOfficePage' and @instance='0']/form/container[@name='toolPanelDateSelect']/container[@name='pnlCustomOptions']/datetime[@name='dtpTo']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@name='CworkMainForm']//form[@name='StationHistoryForm']/container[@name='toolPanelDateSelect']/?/?/datetime[@name='dtpTo']
+				</item>
+				<item
+				addcaps="unknown,nativewindow,delphielement"
+				capname="unknown"
+				id="bc05ed0b-5db1-40a6-987f-e643d8534d13"
+				name="BValideCustom"
+				refimgid="79c8d0c3-33db-4cf5-842b-a130e93a612b"
+				refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@class='TAdvOfficePage' and @instance='0']/form/container[@name='toolPanelDateSelect']/container[@name='pnlCustomOptions']/element[@name='bValideCustom']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@name='CworkMainForm']//form[@name='StationHistoryForm']/container[@name='toolPanelDateSelect']/?/?/element[@name='bValideCustom']
+				</item>
+				<item
+				addcaps="unknown,nativewindow,delphielement"
+				capname="unknown"
+				id="a720646e-88d2-4f89-965d-3ee4a7351bc0"
+				name="BtnCustom"
+				refimgid="5c6128cd-b8a3-4b6c-98aa-105950d603b4"
+				refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@class='TAdvOfficePage' and @instance='0']/form/container[@name='toolPanelDateSelect']/container[@name='pnlPerodSelection']/element[@name='btnCustom']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@name='CworkMainForm']//form[@name='StationHistoryForm']/container[@name='toolPanelDateSelect']/?/?/element[@name='btnCustom']
+				</item>
+				<basepath>
+					/form[@name='CworkMainForm']//form[@name='StationHistoryForm']/container[@name='toolPanelDateSelect']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,delphielement"
+			capname="unknown"
+			id="95414605-f45d-479b-ac15-7d38bba84707"
+			name="SomeElement2"
+			refimgid="491dcffb-3059-44c0-b864-2b5f3a2fe784"
+			robustPath=""
+			searchtimeout="30000ms">
+				<image
+				guid="50def256-55e8-41ec-a8ca-254cd3fb2d13"
+				name="Verify_D_60cf3d4b_rxlog1">
+					iVBORw0KGgoAAAANSUhEUgAAADIAAAAgCAYAAABQISshAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAR1JREFUWEftlj0OgzAMRnu43IMrcAOWrswVx2BnZmZmRerGyprqi5zK
+RXT7nCZVnuSBJDJ5ivNzc8755/1RdMAhiPxDBJHSqSK5UUVyo4rkBl1knmff971vmiYkj4G2dV1l
+FB+6iJ78VUDUAuROKoLY911G80BeqkjXdX5ZFvnyYdJt236ITNMkvTzoIldgb2iRcRylh0cSEayQ
+FrHYJ+YikNClhdPsOA7p5WEiEid9Dght2yajuCB/EpHzIcAG/0i2IgisSjGlpUEp4VbXMsMwSC8P
+c5HI+S5hU0WuQMng1tYnE252XIBaAlJsqCI4mfSEv4XF6YW8SUUsnicAuWkieFOhvM77Ad9ot3j1
+Rqgiv6SK5EYVyY23SPnh/As9nHrifH7ztgAAAABJRU5ErkJggg==
+				</image>
+				/form[@name='CworkMainForm']//form[@name='StationHistoryForm']/container[@name='pnlMainView']/form[@name='HistoryTimelineView']/?/?/container[@name='scrollBox']/element[3]
+			</item>
+			<basepath>
+				/form[@name='CworkMainForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH6SURBVDhPjVJNSFRRGL0TKKLVJtGVuzbuok1E
+e0FatBOsZW6cRc594x9ETEEhpgS1MXCRC3UhKYgQVMi4mHufjT/9jGFONjpGOTE2UuNoiM7pu/e+
+N4zjMzpwOMz3fee879477Bj84dPMkv2Mi03SA8blMmkLY/A5E/+AJUZoGN4UedIbzqQHuFw9bvIg
+l32OowhcDHsOn8SAvOI4CR2RM6ro4wKhFwk8X0yh8ekH9SVvs2HWcRPUSmT+mtmFQvzHjtbmoY8U
+IgyVqVRv2bVOgNg8d3tWm8bfpsDaBDZ+5jD5PoVfu/v4tr2Ha4Mx3S9vF1orOiggIJtMAD1Vfc+8
+bvS+XjfpFMICAj2v1nR9+lNaa2gqjnT2jzkeF34TQO9c2SX1gPiSIXME+fwhZhMZuJspzK9va+2e
+XDUfCUQa3ICbKnE4+l0PuDh/f05vsbd/gEQ6B//Yiq6f7bZNQFBcNQEK+nIkau+8waVHiygL0m9V
+I6paNW1S1i5Rdy9aqOtjWLZlAri8XmicwIt9C0hu5XDh4QL4eJyO8tn0CuCit9RUzLq7UbSMLoNP
+xNE48A4PXq6Z3hG0RS5TMVtsdPk4nEQy/RvNz2J4MpNEeGULFZ2lAS6Coka/s2W36tumC1PDlV02
+yuk/UEWq6OMy5jj+A0HJS7ZaYiGc+guXhPdABr8C5AAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="77f0ec7e-a78d-45f2-9a27-fefc9a571ab2"
+		isrooted="True"
+		name="AddConnectionWizard"
+		refpath="/form[@title='Add Connection Wizard']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="7a934e0d-7650-4c9a-b011-b68f6610d64f"
+			name="Terminer"
+			refimgid="17692367-e995-4845-964d-1e138106fa86"
+			refpath="/form[@title='Add Connection Wizard']/button[@text='Terminer']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title='Add Connection Wizard']/button[@text='Terminer']
+			</item>
+			<basepath>
+				/form[@title='Add Connection Wizard']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKvSURBVDhPhVJdSFNhGD7pNH+K7EKIBKkooi4K
+uiuqi4K6qQsJobooCu+62NmZutR0qUQQQlFkVBLswqBZCaUkeGHYOWc//uvmVubWptNpy5lrTjfy
+6f3OOZA/QQ88fOds3/Oc933el1sDve0AJ8gNRC9xiROkJGeQgnRaOF48wRVb07Wb62BGGgmK6eIo
+cYWesYEGaZozyGXEbE21Cqo4skG0ngZpmQxqOHOXTlMSjPaD9IebiGyTDbnETYZ/iP8ySh87q6kJ
+1LPOKK1caf6Mj2NRSL55GFrHkVVmA6eX6KskYuS1Z3YKspUzuzJVA73oOf5wCHPxJLq/RtEyMIvY
+UgrXX3px/rkb++704tC9fpx8NIwdNU6cbhxBTrktwPGf9mgGUqKyzQ+GixYPCsxOlL/z4ZJlFL7I
+Ip5KIbwZnIVrKoaK9+Nod0eYQYzaOKYa8GKytiNA8hUUNbmRVSrjSMMACm478ap/BlPzCfgjcUSp
+Qu80M/FTG2JcGasCvRQoejGK5dRvWJxh1HV8w9yvZVyg365SLgydngiGQzEsJFI4+mCIGYSVnVHA
+S5Zckx13O4MI/EhgMpqgsqeQV+nAXuq/L/gTN1rGcL9rAm2uCLZV2FmYMcpOoJN2gpXCy6EMKn1X
+fa8i2swmQImnG2XspEzYaAtre3CYwtTRvcK6HuTfcsTpTpm6hcqGKUuijmr13OmdmfNvx/B6YAaX
+KdzG7gk0ySFsr3L41TZYKYJUTSbza8Qa06iSc89GYO2bxqnHQ6hu81FLQeSY5KRqwMDWkxfPkMBK
+DBDZqOLEcI7JtvBEnETrYBjXmj1od31H/Qcf8ipsXk29CmzDjPbdypxZPnpxv67UJuRVORbzq53Y
+ctOOrRQkcS5DkEs01X/AWuSlUjoDxBS1+oWCL+HMrsw/AeQPo6zAMfsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="8b466d92-92a8-4825-8cc6-a167c62a4ada"
+		isrooted="True"
+		name="VersionsDeDocument"
+		refpath="/form[@name='DBVersion']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,nativewindow,delphielement"
+			capname="unknown"
+			id="cd46e450-780c-4528-8634-2ede48457933"
+			name="BOpenVersion"
+			refimgid="3ed1341d-4105-4464-a0d6-01105c21d9cb"
+			refpath="/form[@name='DBVersion']/element[@name='paMain']/element[@name='paVersion']/element[@name='pamonoversion']/container[@name='Panel1']/element[@name='bOpenVersion']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='DBVersion']/element[@name='paMain']//container[@name='Panel1']/element[@name='bOpenVersion']
+			</item>
+			<basepath>
+				/form[@name='DBVersion']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH6SURBVDhPjVJNSFRRGL0TKKLVJtGVuzbuok1E
+e0FatBOsZW6cRc594x9ETEEhpgS1MXCRC3UhKYgQVMi4mHufjT/9jGFONjpGOTE2UuNoiM7pu/e+
+N4zjMzpwOMz3fee879477Bj84dPMkv2Mi03SA8blMmkLY/A5E/+AJUZoGN4UedIbzqQHuFw9bvIg
+l32OowhcDHsOn8SAvOI4CR2RM6ro4wKhFwk8X0yh8ekH9SVvs2HWcRPUSmT+mtmFQvzHjtbmoY8U
+IgyVqVRv2bVOgNg8d3tWm8bfpsDaBDZ+5jD5PoVfu/v4tr2Ha4Mx3S9vF1orOiggIJtMAD1Vfc+8
+bvS+XjfpFMICAj2v1nR9+lNaa2gqjnT2jzkeF34TQO9c2SX1gPiSIXME+fwhZhMZuJspzK9va+2e
+XDUfCUQa3ICbKnE4+l0PuDh/f05vsbd/gEQ6B//Yiq6f7bZNQFBcNQEK+nIkau+8waVHiygL0m9V
+I6paNW1S1i5Rdy9aqOtjWLZlAri8XmicwIt9C0hu5XDh4QL4eJyO8tn0CuCit9RUzLq7UbSMLoNP
+xNE48A4PXq6Z3hG0RS5TMVtsdPk4nEQy/RvNz2J4MpNEeGULFZ2lAS6Coka/s2W36tumC1PDlV02
+yuk/UEWq6OMy5jj+A0HJS7ZaYiGc+guXhPdABr8C5AAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="d3d10f68-357c-4d25-a423-36293e79effe"
+		isrooted="True"
+		name="EnregistrerSous"
+		refpath="/form[@title='Enregistrer sous']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="ff63424d-3dae-4480-96a4-b77c1ab0a71d"
+			name="Text1001"
+			refimgid="6e98f896-1e8c-4418-9e8e-1ae760a75992"
+			refpath="/form[@title='Enregistrer sous']/element[@class='DUIViewWndClassName']/container/element[@class='FloatNotifySink' and @instance='0']/combobox/text[@controlid='1001']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title='Enregistrer sous']/element[@class='DUIViewWndClassName']//combobox[@class='ComboBox']/text[@controlid='1001']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="a43ea824-9961-45cf-850f-874e48a16693"
+			name="ButtonEnregistrer"
+			refimgid="906b28be-f1e0-4a45-adc4-badf27056ba0"
+			refpath="/form[@title='Enregistrer sous']/button[@text='&amp;Enregistrer']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title='Enregistrer sous']/button[@text='&amp;Enregistrer']
+			</item>
+			<basepath>
+				/form[@title='Enregistrer sous']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKpSURBVDhPhVJbSFNxHD55ywukgQ+REBVF1ENB
+b11finqpBwujXgrCt6CdbW6mpsuighC6QdKFYg9FTkwoA8kHI8//nG15d9OV6Zw5nbLccs2pI79+
+/3MO5CXog4/fufy/7/+7CctgUHYKJrmG6CPOCSa2IBjZKEW7IEqHhCJHqn5yBWxIIUERHewnLtIz
+VtHIJgSjbCFm6aol0MThVaKVNLJ5MqgSbK1pupJgdu6iH14iskoV5BDXGP8h/ssIXXZcVxOo5jQz
+Wzz/8gs+DkbAhqMwNg4h06JAMDC6lUScov7Mo0l2CDZPhmZgkAYOPujBdHwBn75FUN81hdhcEhdf
++XDyqRfbb7Zj951OHH7Yiw1Vbhx51IdsqxIQxLatugFLlDf5wXHWPoACmxvWt8M4Z+/HcHgWj1kQ
+Dd1T8IzHUPZuCO+9YW4QozL2awaitFDdHCD5IgqfeZFZImNvTRcKrrlR1zmJ8WgC/nAcEcrQN8FN
+/FSGFFfHqsLAAoXP+zGf/A27O4TrzSOY/jWP0/TtAvWFo2UgjN5gDDOJJPbd6+EGIXVnVIjMnlPq
+xO2WUQR+JDAWSVDa48grd2Eb1d8x+hOX6gdxt/U7mjxh5JY5eTOpBMVEkXaCpyLKwXRKffONdlW0
+lk+AOp5qlrGResJHu6n6M/ZQM1Po2/oKF3KsSpzOWLQtVDdMXRJtVEvnTu/cXHwziIauSZx54cXr
+jhCO0jSEy5JfK4OnYmKVZBJdJtbJbz3xpA+OjgkcuN+N2rYxnKIe8QFoBhx8PUXpGAkcxACRjypO
+DGWXKjO10hgau3kGHtRRBrc+jGDdFcWnq5eAb5jZuUWdM++PQdqRVqKY8ipcs/mVbuSWO8Fj/lXX
+dLpFLtZV/wEvUWQlFAPEJJX6lRpfLNg8GX8A2ckOfl3okjIAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="contextmenu,nativewindow"
+		capname="contextmenu"
+		id="67781c30-0dbc-43ff-80d9-2ef825143f19"
+		isrooted="True"
+		name="Cwork"
+		refpath="/contextmenu[@processname='Cwork']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="00416f8d-8067-43c7-8d65-e43cdb9f3c1c"
+			name="MenuItem"
+			refimgid="176e5cb1-7c90-4256-80d7-99cf4ae6fe62"
+			refpath="/contextmenu[@processname='Cwork']/contextmenu/menuitem[11]"
+			robustPath=""
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Cwork']/contextmenu/menuitem[11]
+			</item>
+			<basepath>
+				/contextmenu[@processname='Cwork']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGOfPtRkwAAACBjSFJN
+AACHDwAAjA8AAP1SAACBQAAAfXkAAOmLAAA85QAAGcxzPIV3AAAKOWlDQ1BQaG90b3Nob3AgSUND
+IHByb2ZpbGUAAEjHnZZ3VFTXFofPvXd6oc0wAlKG3rvAANJ7k15FYZgZYCgDDjM0sSGiAhFFRJoi
+SFDEgNFQJFZEsRAUVLAHJAgoMRhFVCxvRtaLrqy89/Ly++Osb+2z97n77L3PWhcAkqcvl5cGSwGQ
+yhPwgzyc6RGRUXTsAIABHmCAKQBMVka6X7B7CBDJy82FniFyAl8EAfB6WLwCcNPQM4BOB/+fpFnp
+fIHomAARm7M5GSwRF4g4JUuQLrbPipgalyxmGCVmvihBEcuJOWGRDT77LLKjmNmpPLaIxTmns1PZ
+Yu4V8bZMIUfEiK+ICzO5nCwR3xKxRoowlSviN+LYVA4zAwAUSWwXcFiJIjYRMYkfEuQi4uUA4EgJ
+X3HcVyzgZAvEl3JJS8/hcxMSBXQdli7d1NqaQffkZKVwBALDACYrmcln013SUtOZvBwAFu/8WTLi
+2tJFRbY0tba0NDQzMv2qUP91829K3NtFehn4uWcQrf+L7a/80hoAYMyJarPziy2uCoDOLQDI3fti
+0zgAgKSobx3Xv7oPTTwviQJBuo2xcVZWlhGXwzISF/QP/U+Hv6GvvmckPu6P8tBdOfFMYYqALq4b
+Ky0lTcinZ6QzWRy64Z+H+B8H/nUeBkGceA6fwxNFhImmjMtLELWbx+YKuGk8Opf3n5r4D8P+pMW5
+FonS+BFQY4yA1HUqQH7tBygKESDR+8Vd/6NvvvgwIH554SqTi3P/7zf9Z8Gl4iWDm/A5ziUohM4S
+8jMX98TPEqABAUgCKpAHykAd6ABDYAasgC1wBG7AG/iDEBAJVgMWSASpgA+yQB7YBApBMdgJ9oBq
+UAcaQTNoBcdBJzgFzoNL4Bq4AW6D+2AUTIBnYBa8BgsQBGEhMkSB5CEVSBPSh8wgBmQPuUG+UBAU
+CcVCCRAPEkJ50GaoGCqDqqF6qBn6HjoJnYeuQIPQXWgMmoZ+h97BCEyCqbASrAUbwwzYCfaBQ+BV
+cAK8Bs6FC+AdcCXcAB+FO+Dz8DX4NjwKP4PnEIAQERqiihgiDMQF8UeikHiEj6xHipAKpAFpRbqR
+PuQmMorMIG9RGBQFRUcZomxRnqhQFAu1BrUeVYKqRh1GdaB6UTdRY6hZ1Ec0Ga2I1kfboL3QEegE
+dBa6EF2BbkK3oy+ib6Mn0K8xGAwNo42xwnhiIjFJmLWYEsw+TBvmHGYQM46Zw2Kx8lh9rB3WH8vE
+CrCF2CrsUexZ7BB2AvsGR8Sp4Mxw7rgoHA+Xj6vAHcGdwQ3hJnELeCm8Jt4G749n43PwpfhGfDf+
+On4Cv0CQJmgT7AghhCTCJkIloZVwkfCA8JJIJKoRrYmBRC5xI7GSeIx4mThGfEuSIemRXEjRJCFp
+B+kQ6RzpLuklmUzWIjuSo8gC8g5yM/kC+RH5jQRFwkjCS4ItsUGiRqJDYkjiuSReUlPSSXK1ZK5k
+heQJyeuSM1J4KS0pFymm1HqpGqmTUiNSc9IUaVNpf+lU6RLpI9JXpKdksDJaMm4ybJkCmYMyF2TG
+KQhFneJCYVE2UxopFykTVAxVm+pFTaIWU7+jDlBnZWVkl8mGyWbL1sielh2lITQtmhcthVZKO04b
+pr1borTEaQlnyfYlrUuGlszLLZVzlOPIFcm1yd2WeydPl3eTT5bfJd8p/1ABpaCnEKiQpbBf4aLC
+zFLqUtulrKVFS48vvacIK+opBimuVTyo2K84p6Ss5KGUrlSldEFpRpmm7KicpFyufEZ5WoWiYq/C
+VSlXOavylC5Ld6Kn0CvpvfRZVUVVT1Whar3qgOqCmrZaqFq+WpvaQ3WCOkM9Xr1cvUd9VkNFw08j
+T6NF454mXpOhmai5V7NPc15LWytca6tWp9aUtpy2l3audov2Ax2yjoPOGp0GnVu6GF2GbrLuPt0b
+erCehV6iXo3edX1Y31Kfq79Pf9AAbWBtwDNoMBgxJBk6GWYathiOGdGMfI3yjTqNnhtrGEcZ7zLu
+M/5oYmGSYtJoct9UxtTbNN+02/R3Mz0zllmN2S1zsrm7+QbzLvMXy/SXcZbtX3bHgmLhZ7HVosfi
+g6WVJd+y1XLaSsMq1qrWaoRBZQQwShiXrdHWztYbrE9Zv7WxtBHYHLf5zdbQNtn2iO3Ucu3lnOWN
+y8ft1OyYdvV2o/Z0+1j7A/ajDqoOTIcGh8eO6o5sxybHSSddpySno07PnU2c+c7tzvMuNi7rXM65
+Iq4erkWuA24ybqFu1W6P3NXcE9xb3Gc9LDzWepzzRHv6eO7yHPFS8mJ5NXvNelt5r/Pu9SH5BPtU
++zz21fPl+3b7wX7efrv9HqzQXMFb0ekP/L38d/s/DNAOWBPwYyAmMCCwJvBJkGlQXlBfMCU4JvhI
+8OsQ55DSkPuhOqHC0J4wybDosOaw+XDX8LLw0QjjiHUR1yIVIrmRXVHYqLCopqi5lW4r96yciLaI
+LoweXqW9KnvVldUKq1NWn46RjGHGnIhFx4bHHol9z/RnNjDn4rziauNmWS6svaxnbEd2OXuaY8cp
+40zG28WXxU8l2CXsTphOdEisSJzhunCruS+SPJPqkuaT/ZMPJX9KCU9pS8Wlxqae5Mnwknm9acpp
+2WmD6frphemja2zW7Fkzy/fhN2VAGasyugRU0c9Uv1BHuEU4lmmfWZP5Jiss60S2dDYvuz9HL2d7
+zmSue+63a1FrWWt78lTzNuWNrXNaV78eWh+3vmeD+oaCDRMbPTYe3kTYlLzpp3yT/LL8V5vDN3cX
+KBVsLBjf4rGlpVCikF84stV2a9021DbutoHt5turtn8sYhddLTYprih+X8IqufqN6TeV33zaEb9j
+oNSydP9OzE7ezuFdDrsOl0mX5ZaN7/bb3VFOLy8qf7UnZs+VimUVdXsJe4V7Ryt9K7uqNKp2Vr2v
+Tqy+XeNc01arWLu9dn4fe9/Qfsf9rXVKdcV17w5wD9yp96jvaNBqqDiIOZh58EljWGPft4xvm5sU
+moqbPhziHRo9HHS4t9mqufmI4pHSFrhF2DJ9NProje9cv+tqNWytb6O1FR8Dx4THnn4f+/3wcZ/j
+PScYJ1p/0Pyhtp3SXtQBdeR0zHYmdo52RXYNnvQ+2dNt293+o9GPh06pnqo5LXu69AzhTMGZT2dz
+z86dSz83cz7h/HhPTM/9CxEXbvUG9g5c9Ll4+ZL7pQt9Tn1nL9tdPnXF5srJq4yrndcsr3X0W/S3
+/2TxU/uA5UDHdavrXTesb3QPLh88M+QwdP6m681Lt7xuXbu94vbgcOjwnZHokdE77DtTd1PuvriX
+eW/h/sYH6AdFD6UeVjxSfNTws+7PbaOWo6fHXMf6Hwc/vj/OGn/2S8Yv7ycKnpCfVEyqTDZPmU2d
+mnafvvF05dOJZ+nPFmYKf5X+tfa5zvMffnP8rX82YnbiBf/Fp99LXsq/PPRq2aueuYC5R69TXy/M
+F72Rf3P4LeNt37vwd5MLWe+x7ys/6H7o/ujz8cGn1E+f/gUDmPP8usTo0wAAAAlwSFlzAAAOxAAA
+DsQBlSsOGwAAAKtJREFUOE9j+P//P0UYzrAJyP6/ZsVMojFWAxjAXMIApwEgADJkx8Hz/8va5/7P
+qJr4PzK75b9XbNl/mDwI4DUABAi5hKABIAAyZNnGff8jc5r/e8aWk+YCGMDlEqJdAMNTF64nzgUw
+DSAAos+dOwfG6ACnATANyIY0dE4iLgy6OqpBgmCA7gp0gNUAqCAYbD8IcQVJLkA2AARg3iHJBaRg
+DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="54cc6448-5100-4dab-b399-fef986057902"
+		isrooted="True"
+		name="TestPdfTravailMicrosoftEdge"
+		refimgid="47b6e255-d80c-4262-b8c2-9d85773b8db2"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/form[@title&gt;'Test.pdf']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMbSURBVDhPXdJ5SJNhHAfw11Q8ptssKiFKgv7q
+nFNa6UhJ7LDNLc0saUVJJ10QplKmYV5lpitX2QoqIuzA/iiCrG3vXC7zqN3Z5gWp3au0QUj79l5W
++oXff8/38z7Pj5eYnHj9d2288aM3zjgIcasL8WYHlnd0IclC+lLsjwxpvfdiuKMTE6f3SeN0o754
+wzfEkoOIbenFYpMTolYrNa+Q0NmCZOsTyN7e9G8c0Gi5Ghu6LH72wy/WexFreI8l5AAWGd0MsMjE
+AktftmKV8y7WdjdCNVSJ3A95/xDR058+sW4EIv1niAzDWEz2YwHpwnyjlRoLYs3tWNahQ4r9DuTu
+BmwdOoGdHw/g4NftUmJJs08rejaCOVoXplW0YWrVa0w/Y0F0jRlzb3cyAD1iMwlp50OstjdA6a7G
+7k97sf9LjodY2PTht7D0OSLLHRBUuxF1rgfT1L2YoelD9MUezKpvYwCRSY/E9jtIc9Qg01MC1cAe
+7BzaBGK2tg9hxRbwKroRWeWmEA+LlHUhpsZ6fabGQ8679wIS8y0kt9chzVYBhf0QVP07sOudDAT9
+1ZASJ8JOvUF4eTciqt6Cn2cAb91pM7ciQvLgec8y00UktZ1FalcZA2Q7s7CthwKCihwILnYh5KQL
+oTRS6gRPeR6RGZeOcH1CrL+ilZBqSFvPYs3L3VBYcrHZlYEtrmQvMeWYA0FFzr9I2MFmRCgv0ICR
+6xNiXcOwRF+JRGMJVrbsgrJTiY2vU/05toRsIqDA4aWRQA4Jz72PiPUaRGRo/LwN17JpQKIvlUp0
+5U0ryD3DqS3Z3nVmeVNWR5KU0Yl8uzag0AEGOe5EyN7HLEDfYsMVPz/z8sS/jkuUrJrB2RTYfQGF
+dgYJPmyiyvUMQEP8zAbwMy6NCRT1Hn76eYNQXucVys6NCdOqfVybSr5dShTY/ONIuOo2CyjU4K+v
+pwEIlBoIFBcgTK+DUFbjp27APWE8DMLeJLDASiGN7DPktYhMr4UgXc2OrNYXJaudVP4/1E6CCm2j
+gYU2BB/tQOi+ZvCoxU5V3fjFl6uvcqe4EMQfv8LzPDRJTo4AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="c78b5bd5-bad5-46ca-b813-c49e6b90339f"
+		isrooted="True"
+		name="Cwork2024983DEV"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="menuitem,uiautomation"
+			capname="menuitem"
+			id="03b640d0-aa1a-48e6-b4b0-97ac7b849d83"
+			name="MenuItemFichier"
+			refimgid="1a3d1f4a-128d-41af-9910-ec97a9f6f2fc"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title&gt;'Cwork']/menubar[@automationid='MenuBar']/menuitem[1]
+			</item>
+			<basepath>
+				/form[@title&gt;'Cwork']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAsdJREFUOE+FU11IU2EY/jRz+QddREg3Jf0IBUEQUmEXQVQ3XQhB2EVB
+FxGGsJ2dNhVzopRhP1oJWZFhFJFSoYkFFWbtnLOzTXPmhkPUJW42nRP3Z5rz6T3bkFKhB144P9/z
+vO/7vO/HlmEwJDPuyy6mFcqZRjQzTggytTjHOKODcV/v0Lc8dsG6PnF6BZQfnPE0Uwt2pjZGGSfi
+3zAukYCbaQQ9K+rKTLASiGVWyKJ3NXFlCGESqmDFnaoEm6CUTZmTtCIySkzIokim57UFlDBOk9Dx
+BJuglcpTtUL03HMnPjr96B6aAfdmGOl60xrk5Whhhq4NcQEy7PC9fngD8/hM5Je9XsyEF3D22SBO
+PrJj59Ue7K3thXImu8KMIw39SNNJLsYbt8cFODFY1jGKhcUoCp8OYlu1BSVvR1DY7IDTG8YDwY3X
+tknYxoPQtQ2j/fsUMvTiLLVxKC6gEeeq3rsw/zuKgscOZJWasP92H7ZWWaiaSYz5I3D5wvBTVXZP
+ICaepBEDjJPy4wI054ImB0K/FtEsT6DynQvumTmceuLA+RfOWGWfBqcx4AliOrSAA/U20KgnmNa0
+Oy6gFeuzSqSlmg9jGJoMY8QXQaPgwaZyGbnXeiC7ZlHUOoS73eNo65/CxjKZBJQKBJ4ZrOlKC3n0
+wZ16WUJOtRU7yLQ0vRRzex0vYkulBZk02tyaXuTV2ZDCS0in92yDHKLkF2mRulLosC62JKvHFQuF
+oO/4gceyF3tq+3Dp1QhudrmVfRmIt6GsJydcIT98awkkayXsu2VDXbcHJx460NrnQ5PZC5XOFIkL
+KFDWkzcdI0ILCY1SzMZ6JcNUOilwgzI2GCdw9L4dfLsLjeJPZJbK1gT7LygbVkxLwssH6RbmK26n
+8iY+p9oSyr3+jcYsK5mxucLsJ//OJFj/geK2mgzjqGfOGKG7Y42RiztVfwDIEQ7IQflVlwAAAABJ
+RU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="83b97544-5af4-4f01-8e6e-619ff2ed8969"
+		name="day">
+			3
+		</var>
+	</variables>
+</repository>

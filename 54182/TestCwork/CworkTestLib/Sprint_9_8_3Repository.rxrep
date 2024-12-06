@@ -1,0 +1,20 @@
+﻿<repository
+id="0f898321-16b0-4630-94ee-57c34cea2dc5"
+name="Sprint_9_8_3Repository">
+	<codegen
+	classname="Sprint_9_8_3Repository"
+	namespace="CworkTestLib">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="b914f465-ad5f-4358-be76-f40543b9462e"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

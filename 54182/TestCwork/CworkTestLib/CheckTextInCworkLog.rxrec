@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="de05138e-28c0-4ec1-a745-417c12e217e3"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CheckTextInCworkLog"
+	namespace="CworkTestLib">
+	</codegen>
+	<variables>
+		<var
+		id="fe18b448-3455-4475-90d2-314ec43c811d"
+		name="varText">
+		</var>
+		<var
+		id="22a40be0-730d-4d0c-856d-aaae0e4a2487"
+		name="varColumn">
+			4
+		</var>
+		<var
+		id="7ef62aae-2363-4621-989b-d369f530fb98"
+		name="varRow">
+			3
+		</var>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="24fabcab-092a-42fe-b2af-acc637d4abfb"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="varColumn">
+				</binding>
+			</bindings>
+			<info
+			id="2a5bf304-1431-42b1-887d-f769aa79b8cd"
+			sourcename="ElementTree">
+				<element
+				capabilities="rawtext"
+				dontcache="False"
+				enabled="True"
+				flavor="rawtext"
+				hasfocus="False"
+				index="22"
+				prefcap="rawtext"
+				rect="415,839,1282,21"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="column"
+					type="System.Int32">
+						4
+					</attribute>
+					<attribute
+					name="fontname"
+					type="System.String">
+						Tahoma
+					</attribute>
+					<attribute
+					name="fontsize"
+					type="System.Int32">
+						13
+					</attribute>
+					<attribute
+					name="fontstyle"
+					type="System.String">
+						Normal
+					</attribute>
+					<attribute
+					name="origin"
+					type="System.String">
+						GdiWide
+					</attribute>
+					<attribute
+					name="rawtext"
+					type="System.String">
+						Préparation de  prg1
+					</attribute>
+					<attribute
+					name="row"
+					type="System.Int32">
+						3
+					</attribute>
+					<attribute
+					name="textcolor"
+					type="System.String">
+						#000000
+					</attribute>
+				</element>
+				<path>
+					/form[@name='CworkMainForm']/?/?/table[@name='HistoryView']/rawtext[@rawtext='Préparation de  prg1']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="74537f2d-5963-4e50-8048-5a8bbf85d91d">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAEPAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDfoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+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
+nm36f406igBu4/8APNv0/wAaNx/55t+n+NOooAbuP/PNv0/xo3H/AJ5t+n+NOooAbuP/ADzb9P8A
+Gjcf+ebfp/jTqKAG7j/zzb9P8aNx/wCebfp/jTqKAG7j/wA82/T/ABo3H/nm36f406igBu4/882/
+T/Gjcf8Anm36f406igBu4/8APNv0/wAaNx/55t+n+NOooAbuP/PNv0/xo3H/AJ5t+n+NOooAbuP/
+ADzb9P8AGjcf+ebfp/jTqKAG7j/zzb9P8aNx/wCebfp/jTqKAG7j/wA82/T/ABo3H/nm36f406ig
+Bu4/882/T/Gjcf8Anm36f406igBu4/8APNv0/wAaNx/55t+n+NOooAbuP/PNv0/xo3H/AJ5t+n+N
+OooAbuP/ADzb9P8AGjcf+ebfp/jTqKAG7j/zzb9P8aNx/wCebfp/jTqKAG7j/wA82/T/ABo3H/nm
+36f406igBu4/882/T/Gjcf8Anm36f406igBu4/8APNv0/wAaNx/55t+n+NOooAbuP/PNv0/xo3H/
+AJ5t+n+NOooAbuP/ADzb9P8AGjcf+ebfp/jTqKAG7j/zzb9P8aNx/wCebfp/jTqKAG7j/wA82/T/
+ABo3H/nm36f406igBu4/882/T/Gjcf8Anm36f406igBu4/8APNv0/wAaNx/55t+n+NOooAbuP/PN
+v0/xo3H/AJ5t+n+NOooAbuP/ADzb9P8AGinUUAFFYBhve17J/wB9t7//AFqDDe9r2T/vtvf/AOtS
+97sZ877G/RWAYb3teyf99t7/AP1qDDe9r2T/AL7b3/8ArUe92DnfY36KwDDe9r2T/vtvf/61Bhve
+17J/323v/wDWo97sHO+xv0VgGG97Xsn/AH23v/8AWoMN72vZP++29/8A61Hvdg532N+isAw3va9k
+/wC+29//AK1Bhve17J/323v/APWo97sHO+xv0VgGG97Xsn/fbe//ANagw3va9k/77b3/APrUe92D
+nfY36KwDDe9r2T/vtvf/AOtQYb3teyf99t7/AP1qPe7Bzvsb9FYBhve17J/323v/APWoMN72vZP+
++29//rUe92DnfY36KwDDe9r2T/vtvf8A+tQYb3teyf8Afbe//wBaj3uwc77G/RWAYb3teyf99t7/
+AP1qDDe9r2T/AL7b3/8ArUe92DnfY36KwDDe9r2T/vtvf/61Bhve17J/323v/wDWo97sHO+xv0Vg
+GG97Xsn/AH23v/8AWoMN72vZP++29/8A61Hvdg532N+isAw3va9k/wC+29//AK1Bhve17J/323v/
+APWo97sHO+xv0VgGG97Xsn/fbe//ANagw3va9k/77b3/APrUe92DnfY36KwDDe9r2T/vtvf/AOtQ
+Yb3teyf99t7/AP1qPe7Bzvsb9FYBhve17J/323v/APWoMN72vZP++29//rUe92DnfY36KwDDe9r2
+T/vtvf8A+tQYb3teyf8Afbe//wBaj3uwc77G/RWAYb3teyf99t7/AP1qDDe9r2T/AL7b3/8ArUe9
+2DnfY36KwDDe9r2T/vtvf/61Bhve17J/323v/wDWo97sHO+xv0VgGG97Xsn/AH23v/8AWoMN72vZ
+P++29/8A61Hvdg532N+isAw3va9k/wC+29//AK1Bhve17J/323v/APWo97sHO+xv0VgGG97Xsn/f
+be//ANagw3va9k/77b3/APrUe92DnfY36KwDDe9r2T/vtvf/AOtQYb3teyf99t7/AP1qPe7Bzvsb
+9FYBhve17J/323v/APWoMN72vZP++29//rUe92DnfY36KwDDe9r2T/vtvf8A+tQYb3teyf8Afbe/
+/wBaj3uwc77G/RWAYb3teyf99t7/AP1qDDe9r2T/AL7b3/8ArUe92DnfY36KwDDe9r2T/vtvf/61
+Bhve17J/323v/wDWo97sHO+xv0VgGG97Xsn/AH23v/8AWoMN72vZP++29/8A61Hvdg532N+isAw3
+va9k/wC+29//AK1Bhve17J/323v/APWo97sHO+xv0VgGG97Xsn/fbe//ANagw3va9k/77b3/APrU
+e92DnfY36KwDDe9r2T/vtvf/AOtQYb3teyf99t7/AP1qPe7Bzvsb9Fc+0N/n5bxyPeRhRR73YfM+
+xdooorcQUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAQGK/PXT7fn3+v8Ate5/OgxX566fb8+/1/2vc/nW1RXPy+Y+XzMUxX56
+6fb8+/1/2vc/nQYr89dPt+ff6/7Xufzraoo5fMOXzMUxX566fb8+/wBf9r3P50GK/PXT7fn3+v8A
+te5/Otqijl8w5fMxTFfnrp9vz7/X/a9z+dBivz10+359/r/te5/Otqijl8w5fMxTFfnrp9vz7/X/
+AGvc/nQYr89dPt+ff6/7Xufzraoo5fMOXzMUxX566fb8+/1/2vc/nQYr89dPt+ff6/7Xufzraoo5
+fMOXzMUxX566fb8+/wBf9r3P50GK/PXT7fn3+v8Ate5/Otqijl8w5fMxTFfnrp9vz7/X/a9z+dBi
+vz10+359/r/te5/Otqijl8w5fMxTFfnrp9vz7/X/AGvc/nQYr89dPt+ff6/7Xufzraoo5fMOXzMU
+xX566fb8+/1/2vc/nQYr89dPt+ff6/7Xufzraoo5fMOXzMUxX566fb8+/wBf9r3P50GK/PXT7fn3
++v8Ate5/Otqijl8w5fMxTFfnrp9vz7/X/a9z+dBivz10+359/r/te5/Otqijl8w5fMxTFfnrp9vz
+7/X/AGvc/nQYr89dPt+ff6/7Xufzraoo5fMOXzMUxX566fb8+/1/2vc/nQYr89dPt+ff6/7Xufzr
+aoo5fMOXzMUxX566fb8+/wBf9r3P50GK/PXT7fn3+v8Ate5/Otqijl8w5fMxTFfnrp9vz7/X/a9z
++dBivz10+359/r/te5/Otqijl8w5fMxTFfnrp9vz7/X/AGvc/nQYr89dPt+ff6/7Xufzraoo5fMO
+XzMUxX566fb8+/1/2vc/nQYr89dPt+ff6/7Xufzraoo5fMOXzMUxX566fb8+/wBf9r3P50GK/PXT
+7fn3+v8Ate5/Otqijl8w5fMxTFfnrp9vz7/X/a9z+dBivz10+359/r/te5/Otqijl8w5fMxTFfnr
+p9vz7/X/AGvc/nQYr89dPt+ff6/7Xufzraoo5fMOXzMUxX566fb8+/1/2vc/nQYr89dPt+ff6/7X
+ufzraoo5fMOXzMUxX566fb8+/wBf9r3P50GK/PXT7fn3+v8Ate5/Otqijl8w5fMxTFfnrp9vz7/X
+/a9z+dBivz10+359/r/te5/Otqijl8w5fMxTFfnrp9vz7/X/AGvc/nQYr89dPt+ff6/7Xufzraoo
+5fMOXzMUxX566fb8+/1/2vc/nQYr89dPt+ff6/7Xufzraoo5fMOXzMUxX566fb8+/wBf9r3P50GK
+/PXT7fn3+v8Ate5/Otqijl8w5fMxTFfnrp9vz7/X/a9z+dBivz10+359/r/te5/Otqijl8w5fMxT
+Ffnrp9vz7/X/AGvc/nQYr89dPt+ff6/7Xufzraoo5fMOXzMUxX566fb8+/1/2vc/nQYr89dPt+ff
+6/7Xufzraoo5fMOXzMUxX566fb8+/wBf9r3P50GK/PXT7fn3+v8Ate5/Otqijl8w5fMxGgvmOW06
+2J98f/FUVt0UcvmHK+7CiiiqLCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/
+2Q==
+			</helperscreenshot>
+			<matchname>
+				Column
+			</matchname>
+			<matchvalue>
+				4
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="18bf2d68-04e6-4df2-853c-b532fafe3dd8"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="varText">
+				</binding>
+			</bindings>
+			<info
+			id="2a5bf304-1431-42b1-887d-f769aa79b8cd"
+			sourcename="ElementTree">
+				<element
+				capabilities="rawtext"
+				dontcache="False"
+				enabled="True"
+				flavor="rawtext"
+				hasfocus="False"
+				index="22"
+				prefcap="rawtext"
+				rect="415,839,1282,21"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="column"
+					type="System.Int32">
+						4
+					</attribute>
+					<attribute
+					name="fontname"
+					type="System.String">
+						Tahoma
+					</attribute>
+					<attribute
+					name="fontsize"
+					type="System.Int32">
+						13
+					</attribute>
+					<attribute
+					name="fontstyle"
+					type="System.String">
+						Normal
+					</attribute>
+					<attribute
+					name="origin"
+					type="System.String">
+						GdiWide
+					</attribute>
+					<attribute
+					name="rawtext"
+					type="System.String">
+						Préparation de  prg1
+					</attribute>
+					<attribute
+					name="row"
+					type="System.Int32">
+						3
+					</attribute>
+					<attribute
+					name="textcolor"
+					type="System.String">
+						#000000
+					</attribute>
+				</element>
+				<path>
+					/form[@name='CworkMainForm']/?/?/table[@name='HistoryView']/rawtext[@rawtext='Préparation de  prg1']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				RawText
+			</matchname>
+			<matchvalue>
+				Préparation de  prg1
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="8d7fc2f9-2ab1-4dbb-ab8f-bc10e94d029c"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="varRow">
+				</binding>
+			</bindings>
+			<info
+			id="2a5bf304-1431-42b1-887d-f769aa79b8cd"
+			sourcename="ElementTree">
+				<element
+				capabilities="rawtext"
+				dontcache="False"
+				enabled="True"
+				flavor="rawtext"
+				hasfocus="False"
+				index="22"
+				prefcap="rawtext"
+				rect="415,839,1282,21"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="column"
+					type="System.Int32">
+						4
+					</attribute>
+					<attribute
+					name="fontname"
+					type="System.String">
+						Tahoma
+					</attribute>
+					<attribute
+					name="fontsize"
+					type="System.Int32">
+						13
+					</attribute>
+					<attribute
+					name="fontstyle"
+					type="System.String">
+						Normal
+					</attribute>
+					<attribute
+					name="origin"
+					type="System.String">
+						GdiWide
+					</attribute>
+					<attribute
+					name="rawtext"
+					type="System.String">
+						Préparation de  prg1
+					</attribute>
+					<attribute
+					name="row"
+					type="System.Int32">
+						3
+					</attribute>
+					<attribute
+					name="textcolor"
+					type="System.String">
+						#000000
+					</attribute>
+				</element>
+				<path>
+					/form[@name='CworkMainForm']/?/?/table[@name='HistoryView']/rawtext[@rawtext='Préparation de  prg1']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				Row
+			</matchname>
+			<matchvalue>
+				3
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="4defa8f8-b87a-4da4-8b47-42d9f5012dc5"
+	name="CworkTestLibRepository"
+	relativepath="CworkTestLibRepository.rxrep">
+		<codegen
+		classname="CworkTestLibRepository"
+		namespace="CworkTestLib">
+		</codegen>
+		<rootfolder
+		id="6ae78c2c-f64a-4086-b13e-6bdb1dd6c92e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CheckTextInCworkLog.UserCode.cs
+	</usercodefile>
+	<references>
+		<reference>
+			..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll
+		</reference>
+		<reference>
+			..\packages\RestSharp.106.15.0\lib\net452\RestSharp.dll
+		</reference>
+		<reference>
+			..\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.dll
+		</reference>
+		<reference>
+			C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll
+		</reference>
+	</references>
+</recordtable>

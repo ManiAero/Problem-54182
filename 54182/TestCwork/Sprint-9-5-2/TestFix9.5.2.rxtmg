@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="TestFix9.5.2"
+      id="550db616-b7c3-46cc-bb0a-208c2a054768"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="TestFix9.5.2"
+      id="550db616-b7c3-46cc-bb0a-208c2a054768"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

@@ -1,0 +1,22 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_7_4_For_10142_Trace_err_var_inexistant",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_7_4_For_10936_Navigation_dans_rep_machine_via_arbo",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_7_4_For_10764_Concerver_selection_apres_certif_multiple",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_7_4_For_10855_Message_donnee_histo_corrompues",
+    "RunConfig": "TestRun"
+  }
+]

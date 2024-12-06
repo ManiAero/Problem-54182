@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c1ed0f53-1828-4920-b8fc-95453646fa91"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="createCNCProgram"
+	namespace="Sprint9_6_1">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="be49b059-a4d6-497c-ae2c-81de81bd8d3d"
+	name="Sprint9_6_1Repository"
+	relativepath="Sprint9_6_1Repository.rxrep">
+		<codegen
+		classname="Sprint9_6_1Repository"
+		namespace="Sprint9_6_1">
+		</codegen>
+		<rootfolder
+		id="b3c4c1d1-e37f-4c03-bc32-d53dce96a77e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		createCNCProgram.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

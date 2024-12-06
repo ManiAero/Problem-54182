@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="TestDNCProject"
+      id="8efed967-8280-41b2-a2e6-cb9afef434de"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="TestDNCProject"
+      id="8efed967-8280-41b2-a2e6-cb9afef434de"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{A2A71582-4A42-4B9C-A14D-278B165D9EC0}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Sprint_9_7_2</RootNamespace>
+    <AssemblyName>Sprint-9_7_2</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>62dd0f96-6f31-429a-9b4a-0833db550cb0</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>0ba009a6-6713-4932-8c7f-0ef87ea2d020</id>
+    </Compile>
+    <Compile Include="AutorizeAdministratorToResetPart.cs">
+      <BoundTo>13d5dee7-69c2-4373-a228-5aa7eb980fe7</BoundTo>
+      <DependentUpon>AutorizeAdministratorToResetPart.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>858618a0-a333-46b8-9d52-68d1c1d36ef0</id>
+    </Compile>
+    <Compile Include="AutorizeAdministratorToResetPart.UserCode.cs">
+      <BoundTo>13d5dee7-69c2-4373-a228-5aa7eb980fe7</BoundTo>
+      <DependentUpon>AutorizeAdministratorToResetPart.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cd7683ea-d7bc-4fcd-b079-fa9bc3d1c6a8</id>
+    </Compile>
+    <Compile Include="CreateStatesForDayStateDisplay.cs">
+      <BoundTo>bc8ea2cd-1047-4941-931c-5c519b7a6b9a</BoundTo>
+      <DependentUpon>CreateStatesForDayStateDisplay.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6b43bf93-d01e-4f37-8ef9-90538be3bb8e</id>
+    </Compile>
+    <Compile Include="CreateStatesForDayStateDisplay.UserCode.cs">
+      <BoundTo>bc8ea2cd-1047-4941-931c-5c519b7a6b9a</BoundTo>
+      <DependentUpon>CreateStatesForDayStateDisplay.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e7a4bb80-973e-4f11-a5ff-8ca77bb411cc</id>
+    </Compile>
+    <Compile Include="CreateStatesForWeekStateDisplay.cs">
+      <BoundTo>831d443e-e524-4cef-8bda-9bb24254223c</BoundTo>
+      <DependentUpon>CreateStatesForWeekStateDisplay.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>aa53a32c-d887-4472-b34b-2b47163ae65a</id>
+    </Compile>
+    <Compile Include="CreateStatesForWeekStateDisplay.UserCode.cs">
+      <BoundTo>831d443e-e524-4cef-8bda-9bb24254223c</BoundTo>
+      <DependentUpon>CreateStatesForWeekStateDisplay.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a010c28f-94ef-4f90-8885-a04b83543d29</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>d176130e-8b1b-4c9a-8f48-bdea2b8e9ff0</id>
+    </Compile>
+    <Compile Include="SendRequestResetPartNotAutorized.cs">
+      <BoundTo>08865444-b2c5-43da-a9a2-72d815f1dfa9</BoundTo>
+      <DependentUpon>SendRequestResetPartNotAutorized.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b37a0c72-f39d-4f25-b969-285c44eafa0c</id>
+    </Compile>
+    <Compile Include="SendRequestResetPartNotAutorized.UserCode.cs">
+      <BoundTo>08865444-b2c5-43da-a9a2-72d815f1dfa9</BoundTo>
+      <DependentUpon>SendRequestResetPartNotAutorized.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1f8be1c9-d2cc-4490-a42d-d0146f81e1c4</id>
+    </Compile>
+    <Compile Include="SendResetPart.cs">
+      <BoundTo>6c9b27ea-1bc9-4aae-98b9-a452fe369991</BoundTo>
+      <DependentUpon>SendResetPart.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9ee5d593-36cb-4aad-a19e-1f066ac4e599</id>
+    </Compile>
+    <Compile Include="SendResetPart.UserCode.cs">
+      <BoundTo>6c9b27ea-1bc9-4aae-98b9-a452fe369991</BoundTo>
+      <DependentUpon>SendResetPart.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>57667aef-155f-4124-822c-38bfdb01c040</id>
+    </Compile>
+    <Compile Include="Sprint_9_7_2Repository.cs">
+      <BoundTo>62dd0f96-6f31-429a-9b4a-0833db550cb0</BoundTo>
+      <DependentUpon>Sprint_9_7_2Repository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>3b3f39b6-9481-4dcf-8380-b335699db3d7</id>
+    </Compile>
+    <Compile Include="testDisplayCurentDayState.cs">
+      <BoundTo>56495f72-4a98-44c5-ae18-06aad45f62dd</BoundTo>
+      <DependentUpon>testDisplayCurentDayState.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ae9c0bd7-2a67-4ddc-881d-3ddd8b4ad6f8</id>
+    </Compile>
+    <Compile Include="testDisplayCurentDayState.UserCode.cs">
+      <BoundTo>56495f72-4a98-44c5-ae18-06aad45f62dd</BoundTo>
+      <DependentUpon>testDisplayCurentDayState.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2b62e195-6c63-4944-9483-2b1077c59bd7</id>
+    </Compile>
+    <Compile Include="TestDisplayCurentWeekState.cs">
+      <BoundTo>443c519a-c79c-4cc8-92fc-160f34b21400</BoundTo>
+      <DependentUpon>TestDisplayCurentWeekState.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>27217e41-94d6-4e1c-b0df-601dd62255e8</id>
+    </Compile>
+    <Compile Include="TestDisplayCurentWeekState.UserCode.cs">
+      <BoundTo>443c519a-c79c-4cc8-92fc-160f34b21400</BoundTo>
+      <DependentUpon>TestDisplayCurentWeekState.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e9c7c994-f9ed-4dab-a670-f6c9aff8324f</id>
+    </Compile>
+    <Compile Include="VerifyPartReseted.cs">
+      <BoundTo>57d0f69a-c058-4734-ad3d-8577fde1f73d</BoundTo>
+      <DependentUpon>VerifyPartReseted.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>98243afc-49af-4041-bf35-469c0c5baef4</id>
+    </Compile>
+    <Compile Include="VerifyPartReseted.UserCode.cs">
+      <BoundTo>57d0f69a-c058-4734-ad3d-8577fde1f73d</BoundTo>
+      <DependentUpon>VerifyPartReseted.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9e8aff5a-44b2-4750-8873-e53b7155061a</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Sprint9_7_2_For_10130_CompteurdecyclesReinitialisationviaAPI.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>8def4297-8864-4f6b-b40b-2e9074451894</id>
+    </Content>
+    <Content Include="Sprint9_7_2_For_9026_Probleme_de_visualisation_etat.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>82b3a238-15b9-4a31-b7c7-ccae559e1b88</id>
+    </Content>
+    <None Include="app.config">
+      <id>8edd54bb-7658-440a-a9a4-cfe721d7b815</id>
+    </None>
+    <Content Include="Sprint-9_7_2.rxsqc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>9b3393a1-b4fc-465e-a5e1-8a07e807789c</id>
+    </Content>
+    <None Include="AutorizeAdministratorToResetPart.rxrec">
+      <BoundTo>62dd0f96-6f31-429a-9b4a-0833db550cb0</BoundTo>
+      <id>13d5dee7-69c2-4373-a228-5aa7eb980fe7</id>
+      <recordtableid>9974d5dc-f810-426c-acc4-0e88e30d5854</recordtableid>
+    </None>
+    <None Include="CreateStatesForDayStateDisplay.rxrec">
+      <BoundTo>62dd0f96-6f31-429a-9b4a-0833db550cb0</BoundTo>
+      <id>bc8ea2cd-1047-4941-931c-5c519b7a6b9a</id>
+      <recordtableid>b27b5228-e1bd-412b-ad86-20dda151e5f5</recordtableid>
+    </None>
+    <None Include="CreateStatesForWeekStateDisplay.rxrec">
+      <BoundTo>62dd0f96-6f31-429a-9b4a-0833db550cb0</BoundTo>
+      <id>831d443e-e524-4cef-8bda-9bb24254223c</id>
+      <recordtableid>a5c758ca-860a-47dc-905c-6c75e21729ca</recordtableid>
+    </None>
+    <None Include="SendRequestResetPartNotAutorized.rxrec">
+      <BoundTo>62dd0f96-6f31-429a-9b4a-0833db550cb0</BoundTo>
+      <id>08865444-b2c5-43da-a9a2-72d815f1dfa9</id>
+      <recordtableid>59588810-2361-4df7-8c6c-d16df097d10a</recordtableid>
+    </None>
+    <None Include="SendResetPart.rxrec">
+      <BoundTo>62dd0f96-6f31-429a-9b4a-0833db550cb0</BoundTo>
+      <id>6c9b27ea-1bc9-4aae-98b9-a452fe369991</id>
+      <recordtableid>bfb4389c-47a2-4cea-badd-6d3eb05f3827</recordtableid>
+    </None>
+    <None Include="Sprint_9_7_2Repository.rximg">
+      <BoundTo>62dd0f96-6f31-429a-9b4a-0833db550cb0</BoundTo>
+      <DependentUpon>Sprint_9_7_2Repository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>ad0eece8-2cbc-44a0-a8c6-959beb092589</id>
+    </None>
+    <None Include="Sprint_9_7_2Repository.rxrep">
+      <id>62dd0f96-6f31-429a-9b4a-0833db550cb0</id>
+      <repoid>1210891f-795f-49df-975a-b09f69167f05</repoid>
+      <reporootid>652b32e5-8a8e-4597-937e-2fc217123020</reporootid>
+    </None>
+    <None Include="testDisplayCurentDayState.rxrec">
+      <BoundTo>62dd0f96-6f31-429a-9b4a-0833db550cb0</BoundTo>
+      <id>56495f72-4a98-44c5-ae18-06aad45f62dd</id>
+      <recordtableid>07353c44-99e5-438d-82d5-006b081f0484</recordtableid>
+    </None>
+    <None Include="TestDisplayCurentWeekState.rxrec">
+      <BoundTo>62dd0f96-6f31-429a-9b4a-0833db550cb0</BoundTo>
+      <id>443c519a-c79c-4cc8-92fc-160f34b21400</id>
+      <recordtableid>8a685fca-2316-452b-b00a-fc195558554f</recordtableid>
+    </None>
+    <None Include="VerifyPartReseted.rxrec">
+      <BoundTo>62dd0f96-6f31-429a-9b4a-0833db550cb0</BoundTo>
+      <id>57d0f69a-c058-4734-ad3d-8577fde1f73d</id>
+      <recordtableid>ef0beff0-030e-4be6-81f2-cf8cc3ec3df6</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Sprint_9_7_2.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>ec5a53d5-8640-490c-9d16-8d9d12d4e8c3</id>
+    </Content>
+    <Content Include="Sprint_9_7_2_StartCwork.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>143d949f-22a5-4147-af3e-0ee3f165ec83</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CworkTestLib\CworkTestLib.csproj">
+      <Project>{93D91CDA-52E2-48B8-AAD9-2F8D8C06E6C9}</Project>
+      <Name>CworkTestLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

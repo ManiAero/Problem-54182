@@ -1,0 +1,12 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint9_6_For_8676_AppelPrg",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint9_6_For_8332_missing_Value",
+    "RunConfig": "TestRun"
+  }
+]

@@ -1,0 +1,1343 @@
+﻿<repository
+id="62898c3e-09c8-4b7f-8db1-4eb3f1e2cc5d"
+name="Sprint_9_7Repository">
+	<codegen
+	classname="Sprint_9_7Repository"
+	namespace="Sprint_9_7">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="e3df5413-01bf-4ab2-9e44-2f66dc278740"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="b93485fe-70a3-4232-9dbf-69332da3aa67"
+		isrooted="True"
+		name="CWork2022963DEV"
+		refimgid="73bcdce1-a5c3-4209-aedd-381d280893dc"
+		refpath="/form[@name='CworkMainForm']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="text,rawtextblock"
+			capname="unknown"
+			id="39670b6a-5638-4915-a4b2-306a58c5952e"
+			name="Cnc1DO0PercentDNCPROD"
+			refimgid="b2f4e13e-88e8-4274-8369-031072248454"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/form[@name='CworkMainForm']//form[@name='CncViewForm']/element[@name='StationsTiles']
+			</item>
+			<item
+			addcaps="cell,delphielement"
+			capname="cell"
+			id="cf9ba48e-548e-4497-8472-e20c7b3f1a35"
+			name="Cell23122022154412"
+			refimgid="20fd3dfd-2f4b-4a49-ac91-3e28b45b9707"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@automationid='199924']/form/container[@name='PartsViewFrame']/list/row[@name='png7']/cell[@name='23/12/2022 15:44:12' and @text='23/12/2022 15:44:12' and @columnindex='21']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']//form[@name='DBViewForm']/?/?/list[@name='PartsView']/row[@name='png7']/cell[@text='23/12/2022 15:44:12' and @columnindex='21']
+			</item>
+			<item
+			addcaps="unknown,nativewindow,delphielement"
+			capname="unknown"
+			id="8a114767-2f75-4f55-9b5c-bd44d2e4cfcd"
+			name="ColorMemo"
+			refimgid="e52f0a9d-7f96-4814-8233-3d327b3bd614"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@automationid='986264']/form/element[@name='BarPanel']/element/element[@name='AdvToolBarContainer1']/element[@name='ColorMemo']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='ContentSearchEngine']//element[@name='AdvToolBarContainer1']/element[@name='ColorMemo']
+			</item>
+			<item
+			addcaps="unknown,delphielement"
+			capname="unknown"
+			id="5c671c96-ae3e-4bd4-a7e1-b17c3c5510f0"
+			name="BtnFind"
+			refimgid="b1a389a1-c505-4e4f-84a6-cd0d0694bea7"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@automationid='986264']/form/element[@name='BarPanel']/element/element[@name='btnFind']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='ContentSearchEngine']//element[@name='btnFind']
+			</item>
+			<item
+			addcaps="cell,delphielement"
+			capname="cell"
+			id="cd15b934-14ab-4573-a5cd-3b27f6bc9931"
+			name="Png1"
+			refimgid="2656c769-6c95-4f2f-8fcd-970f5c33fead"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@automationid='986264']/form/container/container/list/row[@name='png1']/cell[@name='png1']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']//form[@name='ContentSearchEngine']//list[@name='PartsView']/row[@name='png1']/cell[@name='png1']
+			</item>
+			<item
+			addcaps="unknown,nativewindow,delphielement"
+			capname="unknown"
+			id="9ef9b6ba-9a60-411c-b3e1-719dc5d2a398"
+			name="StationsTiles"
+			refimgid="ad9b28ce-9ed5-4853-a91b-2ca9ba12bfb8"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@automationid='396252']/form/element[@name='StationsTiles']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']//form[@name='CncViewForm']/element[@name='StationsTiles']
+			</item>
+			<item
+			addcaps="unknown,nativewindow,delphielement"
+			capname="unknown"
+			id="2f54e90d-a085-459c-9d05-b40c2f7a2bf1"
+			name="Element462050"
+			refimgid="292421d5-004c-498a-b0d2-7a359095307b"
+			refpath="/form[@name='CworkMainForm']/container[@name='PaButtonBar']/element[@automationid='462050']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/?/?/element[@automationid='462050']
+			</item>
+			<item
+			addcaps="list,nativewindow,delphielement"
+			capname="list"
+			id="933ed7c1-9335-477b-864f-936caa2fd8a1"
+			name="PartsView"
+			refimgid="8df9cef7-e176-419d-be14-48ed8b197bce"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@automationid='3541844']/form/container[@name='PartsViewFrame']/list[@name='PartsView']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']//form[@name='DBViewForm']/container[@name='PartsViewFrame']/list[@name='PartsView']
+			</item>
+			<item
+			addcaps="container,nativewindow,delphielement"
+			capname="unknown"
+			id="d8609720-f41c-4642-8885-75ea1fa5c1da"
+			name="PaButtonBar"
+			refimgid="e9824ad3-774f-4838-8b1f-080c4fad9000"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/container[@name='PaButtonBar']/element[@automationid='461890']
+			</item>
+			<item
+			addcaps="unknown,nativewindow,delphielement"
+			capname="unknown"
+			id="22143d6f-74d0-4385-a145-e6ce247c8f6a"
+			name="Element461890"
+			refimgid="d6d2e31c-2822-4f64-979f-9daec88f477e"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/container[@name='PaButtonBar']/element[@automationid='591290']
+			</item>
+			<item
+			addcaps="unknown,delphielement"
+			capname="unknown"
+			id="e72848d2-ccfd-4afa-b5f9-5bf7624fb4b3"
+			name="BtContentSearchEngine"
+			refimgid="08c6b510-5861-4022-b88c-7e4f43111684"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@automationid='3541844']/form/element[@name='BarPanel']/element[@name='SearchToolBar']/element[@name='btContentSearchEngine']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='DBViewForm']//element[@name='btContentSearchEngine']
+			</item>
+			<item
+			addcaps="unknown,nativewindow,delphielement"
+			capname="unknown"
+			id="d06d1e71-7cfc-4af7-a69c-cf45ca2d065c"
+			name="ColorMemo1"
+			refimgid="d0a6a269-a9f3-4157-b36b-531f9669e04f"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='ContentSearchEngine']//element[@name='AdvToolBarContainer1']/element[@name='ColorMemo']
+			</item>
+			<item
+			addcaps="unknown,delphielement"
+			capname="unknown"
+			id="120a8f4c-3424-4f12-8d11-2aa6208b5977"
+			name="BtnFind1"
+			refimgid="1f0ab1a9-9397-49e5-88b7-099933093b69"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@automationid='2754504']/form/element[@name='BarPanel']/element/element[@name='btnFind']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='ContentSearchEngine_2']//element[@name='btnFind']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="3e2d7031-c248-45e5-80ea-04bedd04f3d8"
+			name="Systeme"
+			refimgid="1b15d014-f6d1-40d4-9a8d-9d744ff6470e"
+			refpath="/form[@name='CworkMainForm']/menubar[@accessiblename='Système']/menuitem[@accessiblename='Système']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/?/?/menuitem[@accessiblename='Système']
+			</item>
+			<item
+			addcaps="column,delphielement"
+			capname="column"
+			id="09d7ddb6-1dd9-47c0-99dd-cf4bd3a049b4"
+			name="Indice"
+			refimgid="93169fca-47d2-4ab8-ad7e-7964273fa480"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@automationid='2754504']/form/container/container/list/column[@name='Indice']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']//form[@name='ContentSearchEngine_2']/container[@name='paContainer']/?/?/list[@name='PartsView']/column[@name='Indice']
+			</item>
+			<item
+			addcaps="titlebar,accessible"
+			capname="titlebar"
+			id="b7f4d9dc-fa02-4e73-a0ab-98f105adcb40"
+			name="CWork2022963DEV"
+			refimgid="1e28336a-c37c-4b38-8e2e-35863d0acae2"
+			refpath="/form[@name='CworkMainForm']/titlebar[@accessiblerole='TitleBar']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/titlebar[@accessiblerole='TitleBar']
+			</item>
+			<item
+			addcaps="unknown,nativewindow,delphielement"
+			capname="unknown"
+			id="25d363b5-f9eb-41be-816c-18a7651db376"
+			name="ColorMemo2"
+			refimgid="7b85d906-cd9a-467d-8166-80f676340697"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@automationid='986748']/form/element[@name='BarPanel']/element/element[@name='AdvToolBarContainer1']/element[@name='ColorMemo']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='ContentSearchEngine_1']//element[@name='AdvToolBarContainer1']/element[@name='ColorMemo']
+			</item>
+			<item
+			addcaps="unknown,delphielement"
+			capname="unknown"
+			id="da11ddea-d814-4b8d-8361-03f86e2d3ab5"
+			name="BtnFind2"
+			refimgid="ab2b155f-42ee-45b1-9d45-121e07cc5ea8"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@automationid='986748']/form/element[@name='BarPanel']/element/element[@name='btnFind']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='ContentSearchEngine_1']//element[@name='btnFind']
+			</item>
+			<item
+			addcaps="text,rawtextblock"
+			capname="rawtext"
+			id="55bcd5d0-beab-4e59-ab1f-d8fab2686106"
+			name="Cnc1DO0PercentDNCPROD1"
+			refimgid="d7c732c2-f9f5-4390-8c50-e926ee143fba"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='CncViewForm']/?/?/rawtext[@rawtext='DO :0%']
+			</item>
+			<item
+			addcaps="unknown,nativewindow,delphielement"
+			capname="unknown"
+			id="e496a1a2-0343-4639-8975-68276f5639a8"
+			name="Element1050922"
+			refimgid="bebb4d89-9db9-41ef-b498-1730c50a3725"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/container[@name='PaButtonBar']/element[@automationid='396884']
+			</item>
+			<item
+			addcaps="unknown,nativewindow,delphielement"
+			capname="unknown"
+			id="a6bb351a-a6d0-4235-92e7-23847da3a889"
+			name="Element1641430"
+			refimgid="b4e3a63f-4a2a-429a-8c9e-3a102e4f61ce"
+			refpath="/form[@name='CworkMainForm']/container[@name='PaButtonBar']/element[@automationid='1641430']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/?/?/element[@automationid='1641430']
+			</item>
+			<item
+			addcaps="unknown,nativewindow,delphielement"
+			capname="unknown"
+			id="911ccd7e-c1dd-4644-a206-a3b556e53cc0"
+			name="Element592218"
+			refimgid="cbc00777-9ee4-48bd-9a35-daeaf1ecee12"
+			refpath="/form[@name='CworkMainForm']/container[@name='PaButtonBar']/element[@automationid='592218']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/?/?/element[@automationid='592218']
+			</item>
+			<item
+			addcaps="unknown,nativewindow,delphielement"
+			capname="unknown"
+			id="a912c806-b9f9-4c15-953e-99aec0819b24"
+			name="Element3476010"
+			refimgid="7ded14a2-3110-4fba-9dd1-6f826935e695"
+			refpath="/form[@name='CworkMainForm']/container[@name='PaButtonBar']/element[@automationid='3476010']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/?/?/element[@automationid='3476010']
+			</item>
+			<item
+			addcaps="unknown,delphielement"
+			capname="unknown"
+			id="9e567c6e-605d-4bb1-a85b-98475770c649"
+			name="BShowProgram"
+			refimgid="8d244a3f-8d5e-4fe9-ac16-294281b5bc44"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@automationid='2229984']/form/element[@name='AdvDockPanel1']/element/element[@name='bShowProgram']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='CncViewForm']//element[@name='bShowProgram']
+			</item>
+			<item
+			addcaps="cell,delphielement"
+			capname="cell"
+			id="42a92c7d-8293-4ab4-b340-4799fcef5b8c"
+			name="Png11"
+			refimgid="ca7034e8-5246-4118-9173-910a54cd2a7c"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='DBViewForm']/?/?/list[@name='PartsView']/?/?/cell[@name='png1']
+			</item>
+			<item
+			addcaps="unknown,nativewindow,delphielement"
+			capname="unknown"
+			id="5897d14d-8869-4bd2-9e70-e6a9670eee99"
+			name="ColorMemo3"
+			refimgid="48c290e9-e6c3-42d1-81bf-b1b773b5f9cf"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@automationid='3542920']/form/container[@name='PanelMemo']/element[@name='ColorMemo']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']//form[@name='DocumentViewForm']/container[@name='PanelMemo']/element[@name='ColorMemo']
+			</item>
+			<item
+			addcaps="unknown,delphielement"
+			capname="unknown"
+			id="4055fc3e-3776-4c8f-9688-8bae87cdb6d8"
+			name="BSave"
+			refimgid="22ea9b35-f015-4a07-8c4f-717c26a8827c"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@automationid='3542920']/form/element[@name='BarPanel']/element[@name='RecordToolBar']/element[@name='bSave']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='DocumentViewForm']//element[@name='bSave']
+			</item>
+			<item
+			addcaps="unknown,delphielement"
+			capname="unknown"
+			id="1fdbe675-eaa1-4d27-a077-24ca811e6129"
+			name="BClose"
+			refimgid="563eada7-e924-4c7d-9194-039c37ab2284"
+			refpath="/form[@name='CworkMainForm']/element[@name='pages']/element[@automationid='3542920']/form/element[@name='BarPanel']/element[@name='RecordToolBar']/element[@name='bClose']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='DocumentViewForm']//element[@name='bClose']
+			</item>
+			<item
+			addcaps="unknown,nativewindow,delphielement"
+			capname="unknown"
+			id="4c4e8c94-95c6-440b-9c69-ab76c44cbdd6"
+			name="Element1903120"
+			refimgid="bbaf1d44-dc75-4002-aa28-201ee2c700bd"
+			refpath="/form[@name='CworkMainForm']/container[@name='PaButtonBar']/element[@automationid='1903120']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/?/?/element[@automationid='1903120']
+			</item>
+			<item
+			addcaps="cell,delphielement"
+			capname="cell"
+			id="3cb73529-7c66-41fc-bf68-e45c99a61d34"
+			name="Png12"
+			refimgid="9604ea98-14c7-4e39-a43d-5b56352042e2"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CworkMainForm']/element[@name='pages']/?/?/form[@name='ContentSearchEngine']//list[@name='PartsView']/row[@name='png1']/cell[@name='png1']
+			</item>
+			<basepath>
+				/form[@name='CworkMainForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH9SURBVDhPjVJBSFRRFH0qioi1MZQW7tq4CtxE
+tBeiRTujWuamWeS8P5pC6BQEokbQLmhRC2sRFUjUIgk3896Mkxo1iTrY5BTl2K+RnEZlGOd0331/
+JMeveOBw/7/vnvPuu++JPQhMNgpH3xFSrVAsCqnnKXYJgSqv4gA46jEVw5+qRPGyV+kDqZf2inwo
+9ain+A9SjfkW78egPuMpCb2RIyZZJRXCr1N4NpvB2fsfzU7+YsucpyaYlkj8LbsBg+TqX44XH82R
+ibI0osp4LdriGaiVphsxFj1/n4HoVvj6O4/xDxn82Sjg+9omzj9I8Hpdj+JY30sGQd1pDeiq2oam
+eWF4Ytm6k4kIKgy9+cL5twsux/DLJNzclj2eVAFrQPfc0Ke5QH3OkjiCUmkbsVQW5c4MppfXOPaP
+L9lNgpGOssEV4zgW/8EFZZy4/Y672CwUkXLzCDxd5PzR/qg1CKlz1sCAh6PRMjCFU3dnURuif5Mj
+mtwx6qS2R6P1Vnwnz8dwoo41kPrSzsI+bB+dQfpXHidHZvAq8ZO/6XXCGhhINewnLLP1ZhxdT+Yh
+XyRxfDAGd30LNabTXeiOnKbiXKXY8N5kGml3HRceJlAobmNibhWNfTQPX4RUM9+zE73K06aB1V/X
+aCBBHb2BatrZkI6e8BSHQEjLiq4+iTCq/wGOVfl92f+PpgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="contextmenu,nativewindow"
+		capname="contextmenu"
+		id="6056734c-3791-4365-ab60-141db4a01148"
+		isrooted="True"
+		name="Cwork"
+		refpath="/contextmenu[@processname='Cwork']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="00f0c263-a88e-44b7-9450-cb3722a55f9a"
+			name="Voir"
+			refimgid="c6f86154-6a7d-40ba-b2e9-c0d2e1e5b068"
+			refpath="/contextmenu[@processname='Cwork']/contextmenu/menuitem[@accessiblename='Voir']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Cwork']/?/?/menuitem[@accessiblename='Voir']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="386930ec-8ec9-428a-8c43-a832db79dc2b"
+			name="Proprietes"
+			refimgid="d6fe0d27-a271-4a9f-bb4a-2a466f5e6944"
+			refpath="/contextmenu[@processname='Cwork']/contextmenu/menuitem[@accessiblename='Propriétés']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Cwork']/?/?/menuitem[@accessiblename='Propriétés']
+			</item>
+			<basepath>
+				/contextmenu[@processname='Cwork']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="a3cef947-6e4f-4c1a-93de-e2cba39037a7"
+		isrooted="True"
+		name="VersionsDeDocument"
+		refimgid="600f159b-1fac-4fd2-b8b1-e781f44b9a4b"
+		refpath="/form[@name='DBVersion']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,nativewindow,delphielement"
+			capname="unknown"
+			id="8fcc7975-955c-46c2-b60e-4f5c772d45f2"
+			name="BOpenVersion"
+			refimgid="c688040a-bee6-4bba-b8eb-51167d5f106c"
+			refpath="/form[@name='DBVersion']/element[@name='paMain']/element[@name='paVersion']/element[@name='pamonoversion']/container[@name='Panel1']/element[@name='bOpenVersion']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='DBVersion']/element[@name='paMain']//container[@name='Panel1']/element[@name='bOpenVersion']
+			</item>
+			<item
+			addcaps="unknown,rawtext"
+			capname="rawtext"
+			id="fdf3ab01-314a-40ef-9511-c82170de2311"
+			name="A0VALIDE"
+			refimgid="f16736b1-9693-48e4-94bc-c6aec611fba7"
+			refpath="/form[@name='DBVersion']/element[@name='paMain']/element[@name='paVersion']/element[@name='paVersionInfos']/element[@name='lbVersion']/rawtext[@rawtext='A/0    VALIDÉ']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='DBVersion']/element[@name='paMain']/element[@name='paVersion']//rawtext[@rawtext='A/0    VALIDÉ']
+			</item>
+			<basepath>
+				/form[@name='DBVersion']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH9SURBVDhPjVJBSFRRFH0qioi1MZQW7tq4CtxE
+tBeiRTujWuamWeS8P5pC6BQEokbQLmhRC2sRFUjUIgk3896Mkxo1iTrY5BTl2K+RnEZlGOd0331/
+JMeveOBw/7/vnvPuu++JPQhMNgpH3xFSrVAsCqnnKXYJgSqv4gA46jEVw5+qRPGyV+kDqZf2inwo
+9ain+A9SjfkW78egPuMpCb2RIyZZJRXCr1N4NpvB2fsfzU7+YsucpyaYlkj8LbsBg+TqX44XH82R
+ibI0osp4LdriGaiVphsxFj1/n4HoVvj6O4/xDxn82Sjg+9omzj9I8Hpdj+JY30sGQd1pDeiq2oam
+eWF4Ytm6k4kIKgy9+cL5twsux/DLJNzclj2eVAFrQPfc0Ke5QH3OkjiCUmkbsVQW5c4MppfXOPaP
+L9lNgpGOssEV4zgW/8EFZZy4/Y672CwUkXLzCDxd5PzR/qg1CKlz1sCAh6PRMjCFU3dnURuif5Mj
+mtwx6qS2R6P1Vnwnz8dwoo41kPrSzsI+bB+dQfpXHidHZvAq8ZO/6XXCGhhINewnLLP1ZhxdT+Yh
+XyRxfDAGd30LNabTXeiOnKbiXKXY8N5kGml3HRceJlAobmNibhWNfTQPX4RUM9+zE73K06aB1V/X
+aCBBHb2BatrZkI6e8BSHQEjLiq4+iTCq/wGOVfl92f+PpgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="d973fa8b-0665-47df-abe1-51d7e9cb12a6"
+		isrooted="True"
+		name="CworkMainForm"
+		refpath="/form[@controlname='CworkMainForm']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,rawtext"
+			capname="rawtext"
+			id="9cceda05-81e0-4f72-a6d6-fced17e8d4b6"
+			name="ErreurDansLeMoteurVoirDansLhistori"
+			refimgid="75f57a3c-5ca5-444e-88af-fb98199140fa"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='CworkMainForm']/container[@controlname='paEvent']/?/?/rawtext[@column='4']
+			</item>
+			<basepath>
+				/form[@controlname='CworkMainForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAfpJREFUOE+NUk1IVFEYvRMootUm0ZW7Nu6iTUR7QVq0E6xlbpxFzn3j
+H0RMQSGmBLUxcJELdSEpiBBUyLiYe5+NP/2MYU42OkY5MTZS42iIzum79743jOMzOnA4zPd957zv
+3jvsGPzh08yS/YyLTdIDxuUyaQtj8DkT/4AlRmgY3hR50hvOpAe4XD1u8iCXfY6jCFwMew6fxIC8
+4jgJHZEzqujjAqEXCTxfTKHx6Qf1JW+zYdZxE9RKZP6a2YVC/MeO1uahjxQiDJWpVG/ZtU6A2Dx3
+e1abxt+mwNoENn7mMPk+hV+7+/i2vYdrgzHdL28XWis6KCAgm0wAPVV9z7xu9L5eN+kUwgICPa/W
+dH36U1praCqOdPaPOR4XfhNA71zZJfWA+JIhcwT5/CFmExm4mynMr29r7Z5cNR8JRBrcgJsqcTj6
+XQ+4OH9/Tm+xt3+ARDoH/9iKrp/ttk1AUFw1AQr6ciRq77zBpUeLKAvSb1Ujqlo1bVLWLlF3L1qo
+62NYtmUCuLxeaJzAi30LSG7lcOHhAvh4nI7y2fQK4KK31FTMurtRtIwug0/E0TjwDg9erpneEbRF
+LlMxW2x0+TicRDL9G83PYngyk0R4ZQsVnaUBLoKiRr+zZbfq26YLU8OVXTbK6T9QRaro4zLmOP4D
+QclLtlpiIZz6C5eE90AGvwLkAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="c3957780-0afa-42ce-9f14-c9ff3378871e"
+		isrooted="True"
+		name="ChoixDuneConfiguration"
+		refpath="/form[@name='PresetCNCForm']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="listitem,delphielement"
+			capname="listitem"
+			id="b919b4b3-8e7c-42d7-80b5-4a5d213759fb"
+			name="FanucEthernet"
+			refimgid="67ffb581-8b0f-4c63-8433-bde8d1b027c7"
+			refpath="/form[@name='PresetCNCForm']/tabpagelist/container[@name='PresetSheet']/list/listitem[@name='Fanuc Ethernet']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='PresetCNCForm']//list[@name='lbPreset']/listitem[@name='Fanuc Ethernet']
+			</item>
+			<item
+			addcaps="unknown,nativewindow,delphielement"
+			capname="unknown"
+			id="cc1524f3-f4e8-4460-9809-b2b890e6fc7d"
+			name="ElementBOk"
+			refimgid="da6ac097-da18-4b52-a043-ec0125d83df4"
+			refpath="/form[@name='PresetCNCForm']/container/element[@name='bOk']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='PresetCNCForm']/?/?/element[@name='bOk']
+			</item>
+			<basepath>
+				/form[@name='PresetCNCForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGFSURBVDhPY8AKSo+YMBQd2wDE7xmKjs9gaDsp
+DJUhAIqOVwM1/ceJ669IQFViAcVHH2HVhI7LT/lCdSCB4qM1WBXjwqv+s0F1QgFUomnX4//brr//
+bz/1CqYmdAwHxUdNQQLffv39DwJffkLo4AU3sWuEYTgoPL4JJAACu29+AEuCwJMPP8H0n7///vvN
+vQ5mw+TABmTDYgYYVaJ1p8ESEw49Q9gAxP0Hn4HFLz77CqbTV9/9/+8f1ICy89pQA4DxDBQAgbtv
+voMlQeAx0AVMxRA2CLz8/AtMV259CDGg+zk3xABQIgEKbLn2DqwABoRrT8EN+/777//89ffBbLBm
+FANAACoIslGj4zxCEUF8yhBiACiFYVWAwAotZ8EuUATSh+99+v/g3Q+IHBwUnfRB14SMuSpO/E9Z
+eed/yaYH/w16L/7/DYwdsBwKWLWKjaHo6F90zSC88PQrsK0gQ0AB+uH7HywGIIPCY0IMxSe0wIEF
+wmgGgnHh0atQ1USA0tNGmJoZGACEMPA56qeH7wAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="cea58286-4e8a-4910-8898-caf29d7b7a32"
+		isrooted="True"
+		name="ProprietesPourCnc1"
+		refpath="/form[@name='CncOptionsForm']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="treeitem,delphielement"
+			capname="treeitem"
+			id="a8d8017b-a80d-476a-a4db-a15e94740b5a"
+			name="Commandes"
+			refimgid="014b48e5-2a30-4562-baa7-c468b53aa09a"
+			refpath="/form[@name='CncOptionsForm']/container[@name='LeftPanel']/tree/treeitem[@text='PRODUCTION']/treeitem[@text='Commandes']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CncOptionsForm']/?/?/tree[@name='tvCategory']/?/?/treeitem[@text='Commandes']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow,delphielement"
+			capname="checkbox"
+			id="25ca7fe0-a47b-4f1f-850a-0d6d74f5703a"
+			name="ActiverLesCommandes"
+			refimgid="a6a1df68-9683-4317-ac90-956529a4bfba"
+			refpath="/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/tabpagelist/container[@name='TabSheet11']/container/tabpagelist/container[@name='TabSheet2']/container/checkbox[@name='CbActiveComm']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/?/?/container[@name='TabSheet11']//container[@name='TabSheet2']/?/?/checkbox[@name='CbActiveComm']
+			</item>
+			<item
+			addcaps="unknown,nativewindow,delphielement"
+			capname="unknown"
+			id="c72a74cc-6729-42e8-90fd-5d99055e748b"
+			name="MemVarPascal"
+			refimgid="89cd1cec-252d-407d-8531-926034050500"
+			refpath="/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/tabpagelist/container[@name='TabSheet11']/container/tabpagelist/container[@name='TabSheet2']/element/container[@name='paCommandExpContainer']/container/container/element[@name='memVarPascal']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/?/?/container[@name='TabSheet11']/container[@name&gt;'TFrameStationStatesOption']/?/?/container[@name='TabSheet2']/?/?/container[@name='paCommandExpContainer']//element[@name='memVarPascal']
+			</item>
+			<item
+			addcaps="button,nativewindow,delphielement"
+			capname="button"
+			id="66c5bd27-3273-4ea1-b739-388f49a6fb06"
+			name="Simuler"
+			refimgid="3bdfa1e1-4cbd-46fe-b2f8-7970135f4ab7"
+			refpath="/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/tabpagelist/container[@name='TabSheet11']/container/tabpagelist/container[@name='TabSheet2']/element/container[@name='paCommandExpContainer']/container/container/container[@name='paBottom']/button[@name='btSimul']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CncOptionsForm']/container[@name='ContainerPanel']/?/?/container[@name='TabSheet11']//container[@name='TabSheet2']/?/?/container[@name='paCommandExpContainer']//container[@name='paBottom']/button[@name='btSimul']
+			</item>
+			<item
+			addcaps="button,nativewindow,delphielement"
+			capname="button"
+			id="a47c9390-8159-4d73-a183-3f9494f9490b"
+			name="Annuler"
+			refimgid="475a1219-97a2-46a4-873d-75c30b76a99f"
+			refpath="/form[@name='CncOptionsForm']/container[@name='FooterPanel']/button[@name='bCancel']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='CncOptionsForm']/?/?/button[@name='bCancel']
+			</item>
+			<basepath>
+				/form[@name='CncOptionsForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGFSURBVDhPY8AKSo+YMBQd2wDE7xmKjs9gaDsp
+DJUhAIqOVwM1/ceJ669IQFViAcVHH2HVhI7LT/lCdSCB4qM1WBXjwqv+s0F1QgFUomnX4//brr//
+bz/1CqYmdAwHxUdNQQLffv39DwJffkLo4AU3sWuEYTgoPL4JJAACu29+AEuCwJMPP8H0n7///vvN
+vQ5mw+TABmTDYgYYVaJ1p8ESEw49Q9gAxP0Hn4HFLz77CqbTV9/9/+8f1ICy89pQA4DxDBQAgbtv
+voMlQeAx0AVMxRA2CLz8/AtMV259CDGg+zk3xABQIgEKbLn2DqwABoRrT8EN+/777//89ffBbLBm
+FANAACoIslGj4zxCEUF8yhBiACiFYVWAwAotZ8EuUATSh+99+v/g3Q+IHBwUnfRB14SMuSpO/E9Z
+eed/yaYH/w16L/7/DYwdsBwKWLWKjaHo6F90zSC88PQrsK0gQ0AB+uH7HywGIIPCY0IMxSe0wIEF
+wmgGgnHh0atQ1USA0tNGmJoZGACEMPA56qeH7wAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="083ef1aa-526d-4fb8-b11a-59a4b0f174e0"
+		isrooted="True"
+		name="SimulateurDexpression"
+		refpath="/form[@name='Simulation']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,nativewindow,delphielement"
+			capname="button"
+			id="81f166d1-9f31-4678-a13b-2fc5083677b8"
+			name="Simuler"
+			refimgid="3499ef5d-f09f-4ef7-9436-d5f9f6815a3f"
+			refpath="/form[@name='Simulation']/button[@name='Button1']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='Simulation']/button[@name='Button1']
+			</item>
+			<item
+			addcaps="text,delphielement"
+			capname="text"
+			id="abdc7d78-6811-41a7-87f2-0048874a42fe"
+			name="Text1statinfoEmergency"
+			refimgid="c2356495-c24a-46cc-bf5d-94256bdfc204"
+			refpath="/form[@name='Simulation']/container/container[@automationid='5705710']/text[@caption='1&amp;statinfo_emergency']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='Simulation']/container[@name='ScrollBox1']/container[@automationid='5705710']/text[@caption='1&amp;statinfo_emergency']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="d5914ebe-b50c-475d-a3f8-0fa7157059c0"
+			name="Fermer"
+			refimgid="c42206ad-e541-4449-b8ec-d75bd150a28e"
+			refpath="/form[@name='Simulation']/titlebar/button[@accessiblename='Fermer']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='Simulation']/?/?/button[@accessiblename='Fermer']
+			</item>
+			<item
+			addcaps="text,delphielement"
+			capname="text"
+			id="d1496ca5-81c8-40d3-9980-9acee3799b2b"
+			name="Text1statinfoAut"
+			refimgid="c0bac48e-c2d9-4429-a202-6e014cb02149"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='Simulation']/form[@name='Simulation']/container[@name='ScrollBox1']/?/?/text[@caption='1&amp;tag_connected']
+			</item>
+			<item
+			addcaps="text,delphielement"
+			capname="text"
+			id="659759ec-a538-43f2-ac08-c744dc0be69c"
+			name="Text1tagConnected"
+			refimgid="cf601045-fdc0-4d46-8a31-e59988312cde"
+			refpath="/form[@name='Simulation']/container/container[@automationid='5247220']/text[@caption='1&amp;tag_connected']"
+			robustPath=""
+			searchtimeout="30000ms">
+				<image
+				guid="14a2f25a-1813-4e94-ad10-cf0a16e33731"
+				name="Screenshot1">
+					iVBORw0KGgoAAAANSUhEUgAAAPQAAAANCAYAAACeskMvAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAaxJREFUaEPtmeGthSAMhZ2KediGYdjFWdyASytCwYJ6c18eMefHl0hp
+CyQ90uiybVsAALwDCBqAFwFBP2F1wRgXVm0OgAkQgvbBymJ9e/F+cz4IGkwOC3p1JizLEhYIegwE
+DSan3NBVsa7BmShwEnnEuLWInjHBrSIu2yOXBR87AeFvfbRVOWzw5Jf246ziq9mPmGSr9nha83y+
+bmxlj0DQYGI6glbGEm/DYn183oVSCWpY8LuQsj9T5+AXB+VOQsq+tCbl7tk5T3oZEHkv2ppynsa9
+2KfnA+B/uS9oGsfirm6qq5gWbV5dJ4qrl3tkl/tjlDxt3PF8J7aXC4BJuCdoLvimDaW5fDsqMRra
+fGvjtb4UtLS38yP73dieHwCTMBb00YY2c9wW85haUkXoye/Mw5a73Q+Ne/a2Pc4MWu7jfN3Y+nzl
+3K0fAHPAgq4/eJXC9unDE300Op55bG0RFd3Syc5cFTwLqfjzWpVNf4nkcc9+PIvceS+NXTtfN1ac
+rzo3ABNSbuhfQMXPH8uUOQDAn9MVdL6pEpoPIW/ufLumFlbG78hfSQCA37KFD0XHEUjyh+K9AAAA
+AElFTkSuQmCC
+				</image>
+				/form[@name='Simulation']/container[@name='ScrollBox1']/?/?/text[@caption='1&amp;tag_connected']
+			</item>
+			<item
+			addcaps="container,nativewindow,delphielement"
+			capname="container"
+			id="4bfa7a3d-78a3-4daf-b8f3-50305dc58924"
+			name="ScrollBox1"
+			refimgid="f147ab4d-b4ad-40df-a0fb-e99ea93cdccd"
+			refpath="/form[@name='Simulation']/container[@name='ScrollBox1']"
+			robustPath=""
+			searchtimeout="30000ms">
+				<image
+				guid="368a5ded-2a22-4996-93ae-b23fc5e12733"
+				name="Screenshot1">
+					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
+				</image>
+				/form[@name='Simulation']/container[@name='ScrollBox1']
+			</item>
+			<item
+			addcaps="container,nativewindow,delphielement"
+			capname="container"
+			id="275b1162-e64d-45f7-85e8-8a670f04168f"
+			name="Container1509764"
+			refimgid="e1f0e4c9-9aaa-4d2c-8e6d-1cf7f2762fbb"
+			refpath="/form[@name='Simulation']/container/container[@automationid='1509764']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='Simulation']/?/?/container[@automationid='1509764']
+			</item>
+			<item
+			addcaps="container,nativewindow,delphielement"
+			capname="container"
+			id="5552e9b2-dda4-4906-9e58-92cc173b0504"
+			name="Container1509004"
+			refimgid="6fdfd1e4-407c-4078-97ca-c4fc01914d69"
+			refpath="/form[@name='Simulation']/container/container[@automationid='1509004']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='Simulation']/?/?/container[@automationid='1509004']
+			</item>
+			<item
+			addcaps="container,nativewindow,delphielement"
+			capname="container"
+			id="5941948a-4f2e-4c78-860c-69ce4479f318"
+			name="Container1247534"
+			refimgid="dda0ea08-0f41-4bfe-b9ce-e882a5b79cd8"
+			refpath="/form[@name='Simulation']/container/container[@automationid='1247534']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='Simulation']/?/?/container[@automationid='1247534']
+			</item>
+			<item
+			addcaps="container,nativewindow,delphielement"
+			capname="container"
+			id="ba5addad-4eba-43a6-85e2-9db1c3cf7f45"
+			name="Container2099688"
+			refimgid="c06dd52d-4dea-4c71-9631-b94e15383aba"
+			refpath="/form[@name='Simulation']/container/container[@automationid='2099688']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='Simulation']/?/?/container[@automationid='2099688']
+			</item>
+			<item
+			addcaps="container,nativewindow,delphielement"
+			capname="container"
+			id="42586969-dc39-40fd-a796-708eec3ccb3f"
+			name="Container1771416"
+			refimgid="0f8f74e7-94fe-4519-ba09-a2503d6159d6"
+			refpath="/form[@name='Simulation']/container/container[@automationid='1771416']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@name='Simulation']/?/?/container[@automationid='1771416']
+			</item>
+			<folder
+			capname="container"
+			id="69f3cc67-2309-48d2-9d1c-003dd2064789"
+			isrooted="True"
+			name="ScrollBox11"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,delphielement"
+				capname="text"
+				id="1775bc3f-a50f-4731-a869-df672b3d13bf"
+				name="Text1statinfoAut1"
+				refimgid="e18ff231-1d67-4a41-97ef-1062f8886874"
+				refpath="/form[@name='Simulation']/container/container[@automationid='2099688']/text[@caption='1&amp;statinfo_aut']"
+				robustPath=""
+				searchtimeout="30000ms">
+					<image
+					guid="1e216fe0-7e33-44e3-af34-e24eff4a77be"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAAPQAAAANCAYAAACeskMvAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAZpJREFUaEPtmNGRwyAMRF0V9dANxdALtbgDzsgIZEXE3IdvLmQ/3gxG
+ayHPZCNg2/c9AwDWAIYGYCH+j6Gjz9u2ET4acQDALcLQMXsXchLBF1LI7k5TkLqpd461N5dDsmIP
+MPsdAHwYZOgU3NkdnzD0DEW/+Ryt2BPA0GBReodWP/Jm8mb0lIOrzwcupKumdVil8/7MW/MH32Pn
+1rp05z5Ha5HBee7e6GYd2rTt+fU7dD4APhXb0GSobqR4mJLG2iSScgb28RzrXGVMOcX5uOi1poyr
+wVlHZuW8M3AdularJo4BsAiDDs1dU3VHyyS10xGWYXhsvftOL3V3XZo0qg4rz2gNABZhuOU+UcbW
+ppAXWSPD8FjOzeil7p2hKW7UYeUZrQHAIgy33L6dLcuZU5xLLXMf0NZYGkbrlP7y/iX2yy23ytvq
+KPPij2BYHwALQYamH7vYsvp4vaiSF0exXmqVOR7TM19+aZ26FOP42ND1ueaduRQb1SG/a1gfLsXA
+QvQODQD4eIaG5s4msXR/x3XX0BHnZwC+mj3/ANdyaK5fwfA0AAAAAElFTkSuQmCC
+					</image>
+					/form[@name='Simulation']/container[@name='ScrollBox1']/?/?/text[@caption='1&amp;statinfo_aut']
+				</item>
+				<item
+				addcaps="text,delphielement"
+				capname="text"
+				id="fc2712b7-f07b-478a-93ae-4db2f710a814"
+				name="Text1statinfoEmergency1"
+				refimgid="a585d3f6-626b-47c2-a468-f8329331b415"
+				refpath="/form[@name='Simulation']/container/container[@automationid='1509004']/text[@caption='1&amp;statinfo_emergency']"
+				robustPath=""
+				searchtimeout="30000ms">
+					<image
+					guid="dff99b01-c03f-4062-8d42-76dd2d824c2e"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAAPQAAAANCAYAAACeskMvAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAiBJREFUaEPtmOGNwyAMhTNV5mGbDJNdMks34LDBYAxJ3Jx6OlXvxycZ
+/Ay0wrGT5fV6RQDAd4CEBuCL+D8JvYe4LAsT9okfAHCLSug9hnWLh3IOHFtc7zSE1rli0t7LGrdj
+5gMAeOGEPrY1V8dPJLQH0i8h7jMfAMBNq9AmCWuS10Q/4raWcWLdjl5TK6zRhZDXLetvoflya03V
+uc3xXpzgMudI9E5fzsH7hdR15Pmwt3PVlv40Ts5Z9u50Cf4/PPGZ9grR/1Y5U+9HpwKeM09ovqgt
+kfaUlPVii8ZC78Bhz7Zdi2xeU11e0lsN2eXSi44fGrLuFNKrpO/2K8nB7+fK5r2u4sYkrON6Vmd8
+3c8mr/LL79M2AA84qdD5Eg/VsdOUMesK4tM6sWexV3qts+fQsF+dgUn6u/U9cTb2N/F2vtIeDHuq
+6kPCA/AGpy13xiS21pCt20Prs7ae8+i1TvafYfWz+ZntiSNqhTV+b/ydPpET2VR8AB5w2nKH9I6c
+fdQqqvfDWXInuDVW8YPO6Lv4zpcfIlKpfC33pLKdrV9tRxxDutmDyxlfxyctt2jSWvRdYvAB8Aac
+0P3HLbp0+bLKWF80qiYyJzaP5eOX1ZmPYuNFN7aMy7pD2z+j0yfsflf2VZxAVdrqvPEX+7XkVg9N
+iQPgAa1CAx+f+HBl23oAHnKa0LXqKGa6v6PvGhqfr2y6E3F1DG+S36HnPgD8vOIPBJZm15qoUNQA
+AAAASUVORK5CYII=
+					</image>
+					/form[@name='Simulation']/container[@name='ScrollBox1']/?/?/text[@caption='1&amp;statinfo_emergency']
+				</item>
+				<item
+				addcaps="text,delphielement"
+				capname="text"
+				id="89b3e628-7460-4366-b9a6-3bc17f9e1ad5"
+				name="Text1statinfoMotion"
+				refimgid="b40af5ba-4f25-4d12-ac2b-cc097e8e4242"
+				refpath="/form[@name='Simulation']/container/container[@automationid='1247534']/text[@caption='1&amp;statinfo_motion']"
+				robustPath=""
+				searchtimeout="30000ms">
+					<image
+					guid="76f66de9-e17a-4b80-b4a2-b1163177d842"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAAPQAAAANCAYAAACeskMvAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAb1JREFUaEPtmOuNxCAMhKkq9dANxdALtaQDLhgIjmMgu9KeuL358Uk8
+BoeVmLXB7PseAQDfAQwNwBexjqG9jcYYwnplHgAwhRnaR7u5GNjkjeDiNtMkuO7RmuPbZosuaHMf
+5OV9ArA2ZOjgtpwdZwf6HUM/IemNjV6b+yQwMfgyWoYWh/s0+Wn0EN1W+gebC1fNmWGFztoct8R3
+ts3l0jpl5zZG3yKD17GJ0SmuPaqLrLe+ff8s3dV4nX329N39A7AOuqHpQDcj+eOw80OtZrR0B7Y+
+t2Ws1KaYzARJLzWpXQxedfSnUeNqUNzyZ0L3cNammIN42j57+tH+AViEToauWVNkx4um9ElXuJmD
+tbW1Iz3XjbL0LM4o3it6bZz3AViAbsmdEcbmGjro7CFLzsk2H3ui5zoYGoBHdEtue9yR81y6axbj
+1sMt9QdUmrL1N53QX9Zf5t4oubU4Z3tSct9+z6DkPvfI9aUPwAKQoenQUibOWF8zcyY9gNUFvjwK
+pbHapj5/VOI68SimGkKbK3GfPYopcWS7E++2z56ex9P6ACxAy9AAgD9P19A5O13RdL/HtWposHs8
+AP+aPf4AlzT6m4662usAAAAASUVORK5CYII=
+					</image>
+					/form[@name='Simulation']/container[@name='ScrollBox1']/?/?/text[@caption='1&amp;statinfo_motion']
+				</item>
+				<item
+				addcaps="text,delphielement"
+				capname="text"
+				id="4c86faf8-aef1-4d28-a938-c8a96391d9af"
+				name="Text1statinfoRun"
+				refimgid="98ac1109-2f61-444b-aea5-2ba2748a0ee6"
+				refpath="/form[@name='Simulation']/container/container[@automationid='1509764']/text[@caption='1&amp;statinfo_run']"
+				robustPath=""
+				searchtimeout="30000ms">
+					<image
+					guid="2e217e2a-c48d-4946-8948-aa26625486f8"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAAPQAAAANCAYAAACeskMvAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAYRJREFUaEPtmtGNxCAMRKmKeuiGYuiFWtIBhwEnxusk6KQ73aH5eBLg
+wWw+JibWuuM4CgBgD2BoADbi7xg6heKca4RkxAEArwhDpxJ8LFkEP8ix+DcNIXVLe+rZzpeYrRgA
+YJVm6Bx9r44/YegVSO9CSVYMALDMVaGVCU+Tn0bPJfoxr/iYZ81ZYZUuhJ535I/hivWrNVXna62d
+1QzOay9Gn/JWrXqO87luzwdgH2xD01gYKVVTtrE2i4S+gUPqY52LDSVNRHqtofEwOOvaS4PzWui8
+Uy4xfzofgE24qdBcNVV1tMzSdAOOSR2Prb1Peql7qtJPeeX8TQfABtxeuTvK2FJDY9nI0jE9lmsr
+eqmDoQFY4vbKHeo3co/RN/EwLmksc1fa1Vjs/9Ap/bR/in3jyq3zihfA+buezgdgE5qh5+YWmWlu
+VFEDjDek0VSiNR63OTe/tE41xUxDWbGRd7UpJo0pn2fpfAA24arQAIB/z62hucJJLN3vMd8aLvCH
+FAA6R/kCCJR7ALC/bUYAAAAASUVORK5CYII=
+					</image>
+					/form[@name='Simulation']/container[@name='ScrollBox1']/?/?/text[@caption='1&amp;statinfo_run']
+				</item>
+				<item
+				addcaps="text,nativewindow,delphielement"
+				capname="text"
+				id="807b5559-708e-4543-8903-216549721009"
+				name="Text0"
+				refimgid="db0f045c-3d25-4c8b-9b8f-40e0309d740e"
+				refpath="/form[@name='Simulation']/container/container[@automationid='2230684']/text[@automationid='2295580']"
+				robustPath=""
+				searchtimeout="30000ms">
+					<image
+					guid="524e8394-352f-4de5-8f5f-288433d5bdb6"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAAG4AAAAWCAYAAAAhKqlXAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAPFJREFUaEPtlssNhDAMBV0XBaWIVJFGuNJMTlTixQtZWdmQgMQnlt5I
+cwi/AyMHyHvP0J7fcMAWCGcUhHuJcRxPq0G4l5AQ8zwfFuE6YS8cERWPHwg3sVtulgcQuWUF7qAU
+bn3nq/m5ZrjJEbutVgwDU1qAS8nD6WileI1wMm1qymLgYQgctyW4DgmRLEVL6us09XB/a9ALCPcS
+epKOqqmHw1Z5GxJCf8NaNsIt6fBz8giXh1unLn0csU3ehQ6X/5BoT4QDT5BPXC2aiHCdkIcT96KJ
+CNcJpXBiKZqIcJ0gIc6qQTijIJxREM4ov3DQmp4/CbQnphSrK5IAAAAASUVORK5CYII=
+					</image>
+					/form[@name='Simulation']/container[@name='ScrollBox1']/?/?/text[@automationid='2295580']
+				</item>
+				<item
+				addcaps="text,nativewindow,delphielement"
+				capname="text"
+				id="bc7bdd27-35da-4c95-83e8-0806ec247980"
+				name="Text01"
+				refimgid="00ef5350-14a1-457d-8b4f-366849dbbd42"
+				refpath="/form[@name='Simulation']/container/container[@automationid='2361210']/text[@automationid='3213472']"
+				robustPath=""
+				searchtimeout="30000ms">
+					<image
+					guid="0534f225-60c2-4a97-9a11-1f88fbcf0946"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAAG4AAAAWCAYAAAAhKqlXAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAPFJREFUaEPtlssNhDAMBV0XBaWIVJFGuNJMTlTixQtZWdmQgMQnlt5I
+cwi/AyMHyHvP0J7fcMAWCGcUhHuJcRxPq0G4l5AQ8zwfFuE6YS8cERWPHwg3sVtulgcQuWUF7qAU
+bn3nq/m5ZrjJEbutVgwDU1qAS8nD6WileI1wMm1qymLgYQgctyW4DgmRLEVL6us09XB/a9ALCPcS
+epKOqqmHw1Z5GxJCf8NaNsIt6fBz8giXh1unLn0csU3ehQ6X/5BoT4QDT5BPXC2aiHCdkIcT96KJ
+CNcJpXBiKZqIcJ0gIc6qQTijIJxREM4ov3DQmp4/CbQnphSrK5IAAAAASUVORK5CYII=
+					</image>
+					/form[@name='Simulation']/container[@name='ScrollBox1']/?/?/text[@automationid='3213472']
+				</item>
+				<item
+				addcaps="text,nativewindow,delphielement"
+				capname="text"
+				id="80211759-7f3e-4ebc-9aa3-33dc90486cdd"
+				name="Text02"
+				refimgid="196652ea-f075-4039-a93b-a86c562f2f2f"
+				refpath="/form[@name='Simulation']/container/container[@automationid='2558094']/text[@automationid='1706330']"
+				robustPath=""
+				searchtimeout="30000ms">
+					<image
+					guid="f154715a-0031-42fc-ba50-c1a095605da8"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAAG4AAAAWCAYAAAAhKqlXAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAPFJREFUaEPtlssNhDAMBV0XBaWIVJFGuNJMTlTixQtZWdmQgMQnlt5I
+cwi/AyMHyHvP0J7fcMAWCGcUhHuJcRxPq0G4l5AQ8zwfFuE6YS8cERWPHwg3sVtulgcQuWUF7qAU
+bn3nq/m5ZrjJEbutVgwDU1qAS8nD6WileI1wMm1qymLgYQgctyW4DgmRLEVL6us09XB/a9ALCPcS
+epKOqqmHw1Z5GxJCf8NaNsIt6fBz8giXh1unLn0csU3ehQ6X/5BoT4QDT5BPXC2aiHCdkIcT96KJ
+CNcJpXBiKZqIcJ0gIc6qQTijIJxREM4ov3DQmp4/CbQnphSrK5IAAAAASUVORK5CYII=
+					</image>
+					/form[@name='Simulation']/container[@name='ScrollBox1']/?/?/text[@automationid='1706330']
+				</item>
+				<item
+				addcaps="text,nativewindow,delphielement"
+				capname="text"
+				id="0ab62630-6944-4c7a-b1c2-e4c7408bb38d"
+				name="Text03"
+				refimgid="20d01894-6d96-40fa-b0fd-fc0162cc7232"
+				refpath="/form[@name='Simulation']/container/container[@automationid='1903042']/text[@automationid='2164480']"
+				robustPath=""
+				searchtimeout="30000ms">
+					<image
+					guid="eddcc384-d559-47e8-b96d-080cf06ece2d"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAAG4AAAAWCAYAAAAhKqlXAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAPFJREFUaEPtlssNhDAMBV0XBaWIVJFGuNJMTlTixQtZWdmQgMQnlt5I
+cwi/AyMHyHvP0J7fcMAWCGcUhHuJcRxPq0G4l5AQ8zwfFuE6YS8cERWPHwg3sVtulgcQuWUF7qAU
+bn3nq/m5ZrjJEbutVgwDU1qAS8nD6WileI1wMm1qymLgYQgctyW4DgmRLEVL6us09XB/a9ALCPcS
+epKOqqmHw1Z5GxJCf8NaNsIt6fBz8giXh1unLn0csU3ehQ6X/5BoT4QDT5BPXC2aiHCdkIcT96KJ
+CNcJpXBiKZqIcJ0gIc6qQTijIJxREM4ov3DQmp4/CbQnphSrK5IAAAAASUVORK5CYII=
+					</image>
+					/form[@name='Simulation']/container[@name='ScrollBox1']/?/?/text[@automationid='2164480']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow,delphielement"
+				capname="checkbox"
+				id="87f1b61f-0b6b-4912-b23d-98792034e879"
+				name="CheckBox459898"
+				refimgid="58ae5e2a-7b26-4b60-aaa7-2a5779229e38"
+				refpath="/form[@name='Simulation']/container/container[@automationid='1640942']/checkbox[@automationid='459898']"
+				robustPath=""
+				searchtimeout="30000ms">
+					<image
+					guid="185d5e7a-6a04-460b-96fc-3770de47ecdb"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAAEgAAAAUCAYAAAAuoXvLAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAATlJREFUWEftloFtwzAMBD2V5vE2Gsa7aBZvoL5kvykrTBHQagineeBQ
+yir4+UeaZoLyJ7Cu65+A3brh3dDCjQC7N4O76q0FcbbgJfpr4UaA3RKQswUv0V8LNwLsloCcLXiJ
+/lq4l1jmY8e8nM/lHj8lIGcLXqL/Q/CdFMPpdYaYmvslz1PIMT07f3hBtZwQczqelQKaklLMYZrz
+wvv+DLBbAnK24CX6M1BL/26olBJqaVtZR4YQUE57jvX3MW8PWjMLXqL/qYSdrYj+eSlmf5ccZe13
+/RlgtwTkbMFL9JcChG9BEP2lAOH3P7Fu1s4AuyUgZwteov9RQMNLH9L/uaBC/2++ftfh/beg62C3
+BORswUv018KNALslIGcLXqK/Fm4E2O0b8KreVtDd0cKNALt1w7uhhbvOmn8Aos8UGtCFm8wAAAAA
+SUVORK5CYII=
+					</image>
+					/form[@name='Simulation']/container[@name='ScrollBox1']/?/?/checkbox[@automationid='459898']
+				</item>
+				<basepath>
+					/form[@name='Simulation']/container[@name='ScrollBox1']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@name='Simulation']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGFSURBVDhPY8AKSo+YMBQd2wDE7xmKjs9gaDsp
+DJUhAIqOVwM1/ceJ669IQFViAcVHH2HVhI7LT/lCdSCB4qM1WBXjwqv+s0F1QgFUomnX4//brr//
+bz/1CqYmdAwHxUdNQQLffv39DwJffkLo4AU3sWuEYTgoPL4JJAACu29+AEuCwJMPP8H0n7///vvN
+vQ5mw+TABmTDYgYYVaJ1p8ESEw49Q9gAxP0Hn4HFLz77CqbTV9/9/+8f1ICy89pQA4DxDBQAgbtv
+voMlQeAx0AVMxRA2CLz8/AtMV259CDGg+zk3xABQIgEKbLn2DqwABoRrT8EN+/777//89ffBbLBm
+FANAACoIslGj4zxCEUF8yhBiACiFYVWAwAotZ8EuUATSh+99+v/g3Q+IHBwUnfRB14SMuSpO/E9Z
+eed/yaYH/w16L/7/DYwdsBwKWLWKjaHo6F90zSC88PQrsK0gQ0AB+uH7HywGIIPCY0IMxSe0wIEF
+wmgGgnHh0atQ1USA0tNGmJoZGACEMPA56qeH7wAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="5acd18cc-7fc7-43d6-825f-b30ad1cecaf5"
+		isrooted="True"
+		name="Erreur"
+		refpath="/form[@title='Erreur']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="eb5d27db-0ad8-407e-8a95-0edb89592351"
+			name="ButtonOK"
+			refimgid="5cd09935-a6f6-4ca8-aed6-5fe2a9dd2c96"
+			refpath="/form[@title='Erreur']/container/element/button[@text='OK']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title='Erreur']/container[@automationid='Window']/?/?/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='Erreur']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKmSURBVDhPhVNbSJNhGP5SMw+QBV5EQlQUURcF
+3XW8KeqmLiyKuimI7rpw+7d/ni2LCkLoBEkHil0UOTGhDCQvjGr//n95mIfpynTOPExZzlxz6sin
+9/33CzOMHnj4to/vefc87/tOLIHNtV1Y1SohKT7iLHFeWJQhIWl2IbccEA6kGi//ApBCj08JSe2h
+c4GIZTgmZEUWNUqmoUqCLlZCSY//xTlyVCGakWYoCRZ1h7AqXmF2IrPQhWziCvOy4kWGhU07aqgJ
+lDnNoiyce/4F7/vCcA5MwVzfjwzZBVHghOBiTJPxmU9JcVA/0hMFTErv/nsdmIzO48O3MGrbJxCZ
+jePCCx+OP/Zi6/UW7LzVhoP3O7Guwo1DD7qQJbsCoqhzs1HAGStp8INxxt6LvMtu2F4P4Ky9BwOh
+GTx0jqDOM4Hu0QiK3/TjrTfEMSNCcu9dLDBf2Rgg+QLyn3iRYVWwu6odeVfcqGkbx+hUDP5QFGFy
+6BvjIn6OEdXHqqPAGch/2oO5+G/Y3UFcbRzE5K85nKS789QXRlNvCJ0jEUzH4thzp4MLBPWd0UFL
+kl2o4mbTEAI/YhgOx8j2KNaUaNhC+VuHfuJSbR9uN39HQ3cIOcUqN5MiuKTETrAVszKykqxvvNai
+i1bxBKjjqRYF66knPNoNlZ+xi5qZQndrSzW6U6P0Rk5sIW8YL8niyJLnTt+5uOlVH+rax3H6mRcv
+W4M4TNOgKP5EDLYiaeUkmFoiNsi/euxRFxytY9h314Pqj8M4QT3iASQKMHg9i9QjJHAQA0TKqUTp
+/xGkCNPVn4ZR72EH3aghBzfeDWJ1seoz1EngDSv1bNLnzP0p69iWZnVJlHsmt9yNnBIVfOaWaZNZ
+snbRUP0HZo6oWulkZ3FhVr8KE4kdSP8DMUkT1LGQMWwAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="175d9745-dbd9-4fc3-bb3c-f6d2b7cd621b"
+		isrooted="True"
+		name="SimulateurDexpression1"
+		refpath="/form[@name='Simulation_1']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			capname="container"
+			id="140a178a-e34c-4195-82fc-aff96179d777"
+			isrooted="True"
+			name="ScrollBox1"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="checkbox,nativewindow,delphielement"
+				capname="checkbox"
+				id="acd69327-d324-456d-8a8a-f5ed5a3379e4"
+				name="CheckBox3607080"
+				refimgid="9fce2144-0223-416f-90fa-19d03deb55a2"
+				refpath="/form[@name='Simulation_1']/container/container[@automationid='2033942']/checkbox[@automationid='3607080']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@name='Simulation_1']/container[@name='ScrollBox1']/?/?/checkbox[@automationid='3607080']
+				</item>
+				<item
+				addcaps="text,nativewindow,delphielement"
+				capname="text"
+				id="3b235847-6d40-473b-95b2-5a68b26394d3"
+				name="Text0"
+				refimgid="92713e78-46fa-4aaa-8ac9-02ea05817f27"
+				refpath="/form[@name='Simulation_1']/container/container[@automationid='920112']/text[@automationid='1444142']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@name='Simulation_1']/container[@name='ScrollBox1']/?/?/text[@automationid='1444142']
+				</item>
+				<item
+				addcaps="text,nativewindow,delphielement"
+				capname="text"
+				id="217b740f-31f0-4ee7-a25e-8e6490c889a2"
+				name="Text01"
+				refimgid="a6f8a9c3-5001-42a2-a6f8-36d3d58ca311"
+				refpath="/form[@name='Simulation_1']/container/container[@automationid='1706464']/text[@automationid='2294808']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@name='Simulation_1']/container[@name='ScrollBox1']/?/?/text[@automationid='2294808']
+				</item>
+				<item
+				addcaps="text,nativewindow,delphielement"
+				capname="text"
+				id="8269ccc6-0997-4870-b2d6-f1b2139c7f9b"
+				name="Text02"
+				refimgid="dd3f60e3-68c0-4021-bd89-e98baa2c1c11"
+				refpath="/form[@name='Simulation_1']/container/container[@automationid='1378756']/text[@automationid='2426090']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@name='Simulation_1']/container[@name='ScrollBox1']/?/?/text[@automationid='2426090']
+				</item>
+				<item
+				addcaps="text,nativewindow,delphielement"
+				capname="text"
+				id="b358811e-ffe6-4a38-ba9a-35d5ebc09cbb"
+				name="Text03"
+				refimgid="05177156-31be-4b8f-9968-a9fec0f507f5"
+				refpath="/form[@name='Simulation_1']/container/container[@automationid='1836196']/text[@automationid='4131360']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@name='Simulation_1']/container[@name='ScrollBox1']/?/?/text[@automationid='4131360']
+				</item>
+				<basepath>
+					/form[@name='Simulation_1']/container[@name='ScrollBox1']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@name='Simulation_1']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGFSURBVDhPY8AKSo+YMBQd2wDE7xmKjs9gaDsp
+DJUhAIqOVwM1/ceJ669IQFViAcVHH2HVhI7LT/lCdSCB4qM1WBXjwqv+s0F1QgFUomnX4//brr//
+bz/1CqYmdAwHxUdNQQLffv39DwJffkLo4AU3sWuEYTgoPL4JJAACu29+AEuCwJMPP8H0n7///vvN
+vQ5mw+TABmTDYgYYVaJ1p8ESEw49Q9gAxP0Hn4HFLz77CqbTV9/9/+8f1ICy89pQA4DxDBQAgbtv
+voMlQeAx0AVMxRA2CLz8/AtMV259CDGg+zk3xABQIgEKbLn2DqwABoRrT8EN+/777//89ffBbLBm
+FANAACoIslGj4zxCEUF8yhBiACiFYVWAwAotZ8EuUATSh+99+v/g3Q+IHBwUnfRB14SMuSpO/E9Z
+eed/yaYH/w16L/7/DYwdsBwKWLWKjaHo6F90zSC88PQrsK0gQ0AB+uH7HywGIIPCY0IMxSe0wIEF
+wmgGgnHh0atQ1USA0tNGmJoZGACEMPA56qeH7wAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="d3a33ce7-d2f4-44db-bb4a-5763a15016db"
+		isrooted="True"
+		name="SimulateurDexpression2"
+		refpath="/form[@name='Simulation_2']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			capname="container"
+			id="21e309bf-a1ba-4b9a-b067-a044caf782c0"
+			isrooted="True"
+			name="ScrollBox1"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,delphielement"
+				capname="text"
+				id="9a0c65b1-93cc-4ebf-94ee-a016f0d139fa"
+				name="Text1statinfoAut"
+				refimgid="b32cc490-dc1b-4006-9170-667636b0e1bc"
+				refpath="/form[@name='Simulation_2']/container/container[@automationid='4327774']/text[@caption='1&amp;statinfo_aut']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@name='Simulation_2']/container[@name='ScrollBox1']/?/?/text[@caption='1&amp;statinfo_aut']
+				</item>
+				<item
+				addcaps="text,delphielement"
+				capname="text"
+				id="50ec76e6-ac8f-434b-91f6-9fe2b251ceae"
+				name="Text1statinfoEmergency"
+				refimgid="4ca084ff-cdb1-4a98-a4b1-64a7407be4cf"
+				refpath="/form[@name='Simulation_2']/container/container[@automationid='4589562']/text[@caption='1&amp;statinfo_emergency']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@name='Simulation_2']/container[@name='ScrollBox1']/?/?/text[@caption='1&amp;statinfo_emergency']
+				</item>
+				<item
+				addcaps="text,delphielement"
+				capname="text"
+				id="a1da7fff-348c-4a56-a75c-243b4dee8ca9"
+				name="Text1statinfoMotion"
+				refimgid="91e7e680-473d-465a-9f06-080e7e677eab"
+				refpath="/form[@name='Simulation_2']/container/container[@automationid='4655536']/text[@caption='1&amp;statinfo_motion']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@name='Simulation_2']/container[@name='ScrollBox1']/?/?/text[@caption='1&amp;statinfo_motion']
+				</item>
+				<item
+				addcaps="text,delphielement"
+				capname="text"
+				id="9f09a0c8-2107-4f26-89ec-6f18372d3900"
+				name="Text1statinfoRun"
+				refimgid="6d095d31-ef75-44b7-a874-5c472cadc197"
+				refpath="/form[@name='Simulation_2']/container/container[@automationid='1967446']/text[@caption='1&amp;statinfo_run']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@name='Simulation_2']/container[@name='ScrollBox1']/?/?/text[@caption='1&amp;statinfo_run']
+				</item>
+				<item
+				addcaps="text,delphielement"
+				capname="text"
+				id="cb8299eb-ec84-48e5-b004-9455014863fa"
+				name="Text1tagConnected"
+				refimgid="f1719aa0-269e-440f-bff1-e4b46f353e01"
+				refpath="/form[@name='Simulation_2']/container/container[@automationid='3540082']/text[@caption='1&amp;tag_connected']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@name='Simulation_2']/container[@name='ScrollBox1']/?/?/text[@caption='1&amp;tag_connected']
+				</item>
+				<basepath>
+					/form[@name='Simulation_2']/container[@name='ScrollBox1']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@name='Simulation_2']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGFSURBVDhPY8AKSo+YMBQd2wDE7xmKjs9gaDsp
+DJUhAIqOVwM1/ceJ669IQFViAcVHH2HVhI7LT/lCdSCB4qM1WBXjwqv+s0F1QgFUomnX4//brr//
+bz/1CqYmdAwHxUdNQQLffv39DwJffkLo4AU3sWuEYTgoPL4JJAACu29+AEuCwJMPP8H0n7///vvN
+vQ5mw+TABmTDYgYYVaJ1p8ESEw49Q9gAxP0Hn4HFLz77CqbTV9/9/+8f1ICy89pQA4DxDBQAgbtv
+voMlQeAx0AVMxRA2CLz8/AtMV259CDGg+zk3xABQIgEKbLn2DqwABoRrT8EN+/777//89ffBbLBm
+FANAACoIslGj4zxCEUF8yhBiACiFYVWAwAotZ8EuUATSh+99+v/g3Q+IHBwUnfRB14SMuSpO/E9Z
+eed/yaYH/w16L/7/DYwdsBwKWLWKjaHo6F90zSC88PQrsK0gQ0AB+uH7HywGIIPCY0IMxSe0wIEF
+wmgGgnHh0atQ1USA0tNGmJoZGACEMPA56qeH7wAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

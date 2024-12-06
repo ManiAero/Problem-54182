@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a95d7c1f-ca27-4840-90ab-b06913d5f10f"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="Sprint_9_6_2">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="1c73903b-207b-4831-bd24-24bd3b912ca2"
+	name="Sprint_9_6_2Repository"
+	relativepath="Sprint_9_6_2Repository.rxrep">
+		<codegen
+		classname="Sprint_9_6_2Repository"
+		namespace="Sprint_9_6_2">
+		</codegen>
+		<rootfolder
+		id="8bb1cff7-ca59-402e-b87f-2e8ff8cc9ced"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+		<reference>
+			..\CworkTestLib\bin\Debug\CworkTestLib.exe
+		</reference>
+	</references>
+</recordtable>

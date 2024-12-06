@@ -1,0 +1,37 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_6_3_StartCwork",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_6_3_For_9497_etat_desengagement",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_6_3_For_5989_Fusion_Etat",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_6_3_For_9560_regression_on_multiline_expression",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_6_3_For_9492_CNET_Recherche_dossier",
+    "RunConfig": "TestRun"
+  },  
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_6_3_For_9312_API_TopsOnAcces",
+    "RunConfig": "TestRun"
+  },  
+  {
+    "Enabled": "True",
+    "TestSuite": "Sprint_9_6_3_For_9312_API_TopsOnSqlServer",
+    "RunConfig": "TestRun"
+  }
+]
